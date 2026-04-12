@@ -23,7 +23,7 @@ Desarrollo de Aplicaciones Open Source <br>
 | **Member**                           | **Code**     |
 |--------------------------------------|--------------|
 |Eslander Celis Berrospi      |  U201911249  |
-|         |  U |
+|Rodrigo Oblitas Alcalde      |  U20221G185  |
 |         |  U |
 |        |  U |
 |        |  U  |

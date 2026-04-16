@@ -530,6 +530,7 @@ Este segmento está compuesto por las personas encargadas de trasladar los alime
 ## 2.1. Competidores
 
 ### 2.1.1. Analisis competitivo
+Para este análisis, compararemos ColdTrack con soluciones que operan en Perú, evaluando características clave de IoT y Software.
 
 ### 2.1.2. Estrategias y tacticas frente a competidores
 

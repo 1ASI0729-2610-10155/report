@@ -608,31 +608,31 @@ Muy utilizado en laboratorios y grandes centros de almacenamiento.
 
 ### 2.1.2. Estrategias y tacticas frente a competidores
 
-Estrategia de Especialización en Inocuidad Alimentaria:
+**Estrategia de Especialización en Inocuidad Alimentaria:**
 
 Táctica: A diferencia de Hunter (enfocado en seguridad/robos), ColdTrack se posicionará como una herramienta de cumplimiento sanitario.
 
 Táctica: Generación automatizada de reportes de cumplimiento térmico diseñados específicamente para auditorías de DIGESA y controles de calidad internos.
 
-Estrategia de Experiencia de Usuario (UX) Simplificada:
+**Estrategia de Experiencia de Usuario (UX) Simplificada:**
 
 Táctica: Implementar una interfaz "Zero-Training" con alertas visuales (código de colores) y sonoras críticas, permitiendo que el conductor actúe sin distracciones tecnológicas.
 
 Táctica: Dashboard ejecutivo para gerentes de logística que consolida el estado de toda la flota en una sola vista, superando la complejidad de las plataformas tradicionales.
 
-Estrategia de Resiliencia Técnica (Modo Offline):
+**Estrategia de Resiliencia Técnica (Modo Offline):**
 
 Táctica: Desarrollo de un sistema de caché local en el dispositivo IoT que garantice la trazabilidad del 100% de la ruta, incluso en zonas de la geografía peruana con nula cobertura celular, superando la debilidad de competidores puramente SaaS.
 
 Táctica: Sincronización automática de datos masivos una vez que el vehículo recupera la conexión a internet.
 
-Estrategia de Costo Escalable y Acceso Flexible:
+**Estrategia de Costo Escalable y Acceso Flexible:**
 
 Táctica: Adopción de un modelo SaaS (Software as a Service) mensual por unidad, eliminando las barreras de entrada de contratos forzosos a largo plazo.
 
 Táctica: Oferta de un kit de sensores de bajo costo inicial para facilitar la digitalización de pequeñas y medianas empresas (PYMES) que actualmente usan termógrafos manuales.
 
-Estrategia de Trazabilidad por Lote y Carga:
+**Estrategia de Trazabilidad por Lote y Carga:**
 
 Táctica: Permitir la vinculación de sensores móviles directamente a los lotes de mercancía y no solo al vehículo, ofreciendo una granularidad de datos que Beetrack o Hunter no cubren actualmente.
 

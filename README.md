@@ -664,7 +664,12 @@ Táctica: Permitir la vinculación de sensores móviles directamente a los lotes
 # Capitulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-
+1. Segmento 1: Personal de Logística y Operaciones.
+ <img src="./images/tobepersonaldelogisticayoperaciones.jpg" alt="tobepersonal" width="100%">
+ 
+2. Segmento 2: Personal de Transporte.
+ <img src="./images/tobetransportistas.png" alt="tobetransportistas" width="100%">
+ 
 ## 3.2. User Stories
 ### Epics
 

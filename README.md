@@ -593,6 +593,8 @@ Muy utilizado en laboratorios y grandes centros de almacenamiento.
 
 ### 2.1.1. Analisis competitivo
 | ¿Por qué llevar a cabo este análisis? | Pregunta: ¿Deberíamos llevar a cabo este análisis para conocer el entorno, la competencia, tomar decisiones de desarrollo y construir nuestra propuesta de valor? |
+| :--- | :--- |
+
 | Productos | ColdTrack | Hunter Monitoreo | Beetrack | Termógrafos USB |
 | :--- | :--- | :--- | :--- | :--- |
 | **Perfil** | **Overview** | App + IoT especializada en monitoreo de temperatura y humedad en tiempo real para la cadena de frío alimentaria. | Empresa de seguridad y rastreo GPS con módulos de control de temperatura para flotas logísticas. | Plataforma SaaS de última milla centrada en optimización de rutas y trazabilidad de entrega al cliente. | Dispositivos físicos que registran datos térmicos localmente para descarga manual post-viaje. |

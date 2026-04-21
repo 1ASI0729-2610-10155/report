@@ -641,7 +641,73 @@ Táctica: Permitir la vinculación de sensores móviles directamente a los lotes
 
 ## 2.2. Entrevistas
 
-### 2.2.1. Diseno de entrevistas
+### 2.2.1. Diseño de entrevistas
+
+<h4 id="Segment">Segmento objetivo: Personal de Logística y Operaciones</h4> 
+
+<h4 id="PreguntPersonal">Preguntas Personales:</h4> 
+
+¿Cuál es su nombre?
+
+¿Cuál es su edad?
+
+¿Cuál es su cargo o rol exacto dentro de la empresa?
+
+¿Cuántos años de experiencia tiene en el sector logístico o control de calidad de alimentos?
+
+---
+
+<h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+¿Cómo gestionan actualmente el monitoreo de temperatura y humedad en sus unidades de transporte?
+
+¿Qué tipo de herramientas o sistemas utilizan en su día a día para este control (termómetros manuales, dataloggers, hojas de Excel, software)?
+
+¿Cuáles son los principales problemas o frustraciones que enfrenta para garantizar que no se rompa la cadena de frío?
+
+¿Ha tenido problemas recientes de pérdida de productos por fallas en la refrigeración que no se detectaron a tiempo?
+
+¿Qué tan rápido pueden reaccionar actualmente frente a una emergencia de temperatura en medio de una ruta?
+
+¿Qué información o métricas le resultaría más urgente visualizar en una plataforma en tiempo real?
+
+¿Estaría dispuesto a implementar una nueva solución tecnológica si esta no requiere una instalación compleja de hardware?
+
+¿Qué funcionalidades considera indispensables para que su equipo confíe en esta nueva plataforma?
+
+---
+
+<h4 id="Segment">Segmento objetivo: Personal de Transporte (Conductores)</h4> 
+
+<h4 id="PreguntPersonal">Preguntas Personales:</h4> 
+
+¿Cuál es su nombre?
+
+¿Cuál es su edad?
+
+¿Cuántos años de experiencia tiene manejando vehículos de transporte de carga refrigerada?
+
+¿Qué tipo de alimentos perecibles suele transportar con mayor frecuencia?
+
+---
+
+<h4 id="PreguntEspe">Preguntas específicas:</h4> 
+
+Durante un viaje, ¿cómo verifica actualmente que la temperatura de la cámara frigorífica se mantenga en los niveles correctos?
+
+¿Qué tipo de aplicaciones móviles utiliza en su celular para facilitar su trabajo diario (GPS, WhatsApp, apps de la empresa)?
+
+¿Cuáles son los principales problemas que enfrenta en la ruta respecto al cuidado de la carga?
+
+¿Alguna vez se le ha dañado la mercadería por un cambio de temperatura que no notó a tiempo? ¿Cómo ocurrió?
+
+Cuando ocurre una falla técnica con la refrigeración lejos de la base, ¿cuál es el protocolo que debe seguir?
+
+¿Suele transitar por zonas donde la señal de internet o celular es inestable? ¿Cómo maneja la comunicación en esos casos?
+
+Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gustaría que sea la alarma para que no lo distraiga mientras maneja?
+
+¿Qué tendría que tener esta aplicación para que sienta que le ayuda en su trabajo y no que lo está complicando?
 
 ### 2.2.2. Registro de entrevistas
 

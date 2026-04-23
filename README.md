@@ -280,19 +280,17 @@ Responsabilidad, innovación y confiabilidad.
        
   </tr>
 
-  <tr>
+ <tr>
     <td style="text-align: center" align="center">
         <p align="center">
-        aaaaaaaaaaaa - Uaaaaaaaa  
+        Aarón Avila Palacios - U201823654
          <br>
-         <img src="images/Paulofoto.PNG" alt="Foto" width="50%">
+         <img src="images/foto_Aaron.png" alt="Foto Aaron" width="50%">
          </p>
         </td>
         <td style="text-align: center" align="center">
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.
+        Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne. 
         </td>
-
-  </tr>
   
 
 </table>

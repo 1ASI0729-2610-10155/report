@@ -41,11 +41,24 @@ Desarrollo de Aplicaciones Open Source <br>
 |---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
 | 0.2     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                             |
+| 0.3     | 22/04/2026  | Eslander Celis Berrospi        | Completar el documento con Student Outcome,                                                                                                             |
 
 
 
 # Project Report Collaboration Insights
-Link del repositorio: 
+
+#### Repositorio del informe del proyecto
+El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
+
+- 🔗 Enlace de la organización: https://github.com/1ASI0729-2610-10155
+- 🔗 Enlace de repositorios: https://github.com/orgs/1ASI0729-2610-10155/repositories
+
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+
+## TB1
+Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+
+![reporteTB1.png](./images/reporteTB1.png)
 
 
 Insights TB1 (Todos participaron):
@@ -191,10 +204,57 @@ Insights TB1 (Todos participaron):
 
 # Student Outcome
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|-------------------------|--------------------------|------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Nombre del integrande 2  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Eslander Celis Berrospi (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.<br><br>**Nombre del integrande 2  (TB1):**<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
+ABET – EAC - Student Outcome 3
+
+Capacidad de comunicarse efectivamente con un rango de audiencias.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+<table>
+   <tr>
+        <th>CRITERIO ESPECIFICO</th>
+        <th>ACCIONES REALIZADAS</th>
+        <th>CONCLUSIONES</th>
+    </tr>
+    <tr>
+        <th> Comunica oralmente con efectividad a diferentes rangos de audiencia.</th>
+        <td>
+         <b>Aarón Avila: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>Eslander Celis: AV1</b><br>
+         Durante el desarrollo del proyecto, fortalecí mi comunicación oral al presentar y explicar temas como la descripción de la startup, los antecedentes y la problemática, así como la definición de los segmentos objetivos. También participé en exposiciones sobre los User Stories, el Product Backlog y el Impact Map, procurando transmitir las ideas de forma clara y ordenada. Me enfoqué en adaptar mi discurso según el tipo de audiencia, ya sea técnica o no técnica, para asegurar que la información sea entendida y aporte al trabajo en equipo.<br>
+         <b>ntegrante3: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante4: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante5: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+        </td>
+        <td>
+          <b>AV1</b><br>
+          Durante el desarrollo del proyecto, el equipo evidenció una comunicación oral sólida al intervenir de manera constante en exposiciones, reuniones y actividades colaborativas. Cada miembro supo ajustar su forma de expresarse según el tipo de audiencia, tanto en entornos técnicos con sus compañeros como en contextos académicos frente a docentes. Esta capacidad se reflejó en la explicación ordenada y fundamentada de temas como el perfil de solución, la segmentación de usuarios, las arquitecturas planteadas y el diseño de la experiencia de usuario. Asimismo, el equipo sobresalió al compartir los resultados de entrevistas e investigaciones de forma clara, facilitando un intercambio de ideas fluido y productivo. En general, la comunicación oral fue fundamental para mantener la coherencia del trabajo, validar decisiones y transmitir propuestas de manera profesional. <br><br>
+        </td>
+    </tr>
+    <tr>
+        <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
+        <td>
+          <b>Aarón Avila: AV1</b><br>
+          aaaaaaaaaaaaaa<br>
+          <b>Eslander Celis: AV1</b><br>
+         Por otro lado, desarrollé mi comunicación escrita al redactar secciones como la descripción de la startup, el análisis de la problemática, los segmentos objetivos y la elaboración de los User Stories, Product Backlog e Impact Map. Mantuve un estilo claro, coherente y bien estructurado, lo que permitió que la información sea comprensible para distintos lectores. Esto contribuyó a una documentación consistente y alineada con los objetivos del proyecto.<br>
+         <b>integrante3: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante4: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+         <b>ntegrante5: AV1</b><br>
+         aaaaaaaaaaaaaaaaaaa<br>
+        </td>
+        <td>
+          <b>AV1:</b><br>
+          El equipo evidenció una buena capacidad de comunicación escrita al desarrollar distintos componentes del proyecto, como entrevistas, User Stories, backlog, documentación técnica, diseño de interfaces y secciones del informe final. Cada integrante utilizó un lenguaje claro, ordenado y adecuado según el tipo de público, permitiendo que la información sea entendida tanto por especialistas como por personas con menor conocimiento técnico. La claridad en la explicación de conceptos, junto con una correcta estructuración del contenido, hizo que los documentos cumplieran adecuadamente su propósito informativo y de apoyo en la toma de decisiones. En conjunto, esta habilidad fue clave para asegurar la coherencia del proyecto y lograr una documentación completa y profesional, alineada con los objetivos del equipo. <br><br>
+        </td>
+    </tr>
+</table>
 
 
 # Project: 

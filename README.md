@@ -1323,8 +1323,8 @@ La landing page fue preparada para su publicación mediante **GitHub Pages**, ut
 - Plataforma de despliegue: **GitHub Pages**
 - Rama de publicación: **main**
 - Tipo de aplicación: **sitio web estático**
-- Repositorio fuente: https://github.com/1ASI0730-2610-10215/Landing-Page
-- desplegue de la landing page: https://1asi0730-2610-10215.github.io/Landing-Page/
+- Repositorio fuente: https://github.com/1ASI0729-2610-10155/Landing-Page
+- desplegue de la landing page: https://1asi0729-2610-10155.github.io/Landing-Page/
 
 pasos para el despliegue:
 

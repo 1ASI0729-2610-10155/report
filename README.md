@@ -836,6 +836,23 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Resumen** | El entrevistado Fernando Perez, un transportista de 50 años que trabaja en la ruta Lima, explica que controla la temperatura de la carga revisando el termómetro y haciendo paradas para verificar su estado. Usa principalmente Google Maps y WhatsApp para su trabajo. Señala que los principales problemas son los cambios bruscos de temperatura, el tráfico y la falta de información inmediata ante fallas.|
 
 ### 2.2.3. Analisis de entrevistas
+**Análisis Segmento 1: Personal de Logística y Operaciones**
+
+Las entrevistas realizadas al personal de logística y operaciones evidenciaron problemáticas recurrentes relacionadas con la falta de monitoreo en tiempo real y la limitada visibilidad durante el transporte de productos, especialmente en la cadena de frío. En primer lugar, se identificó que la mayoría de los entrevistados dependen de métodos manuales o sistemas poco integrados, como registros en Excel, comunicación directa con conductores o herramientas desarrolladas internamente, lo que incrementa el riesgo de errores humanos y retrasa la detección de incidentes.
+
+Asimismo, se observó que uno de los principales problemas es la detección tardía de fallas en la temperatura o condiciones del transporte, lo que genera pérdidas de productos y dificulta la toma de decisiones oportunas. Además, factores como la pérdida de conectividad y la falta de trazabilidad continua afectan directamente la eficiencia operativa y el control logístico.
+
+Por otro lado, los entrevistados coinciden en la necesidad de implementar soluciones tecnológicas que permitan un monitoreo en tiempo real, con funcionalidades como geolocalización de unidades, alertas automáticas ante variaciones o incidentes, acceso a información desde dispositivos móviles y almacenamiento de historial de datos. También destacan la importancia de contar con plataformas fáciles de usar y que no requieran una alta complejidad técnica.
+
+**Análisis Segmento 2: Personal de Transporte**
+
+Las entrevistas realizadas al personal de transporte revelaron diversas dificultades operativas relacionadas con el monitoreo de la carga durante el traslado, especialmente en lo que respecta al control de temperatura en productos perecibles. En primer lugar, se identificó que los conductores dependen en gran medida de la observación manual o de sistemas básicos instalados en la cabina, los cuales no brindan información precisa ni alertas preventivas, lo que limita la detección temprana de fallas.
+
+Asimismo, se evidenció que problemas como la inestabilidad de la temperatura, los cambios bruscos por factores externos, el tráfico y las paradas prolongadas afectan directamente la calidad de los productos transportados. A esto se suma la falta de conectividad en ciertas zonas, lo que dificulta la comunicación continua con la central y reduce la capacidad de reacción ante incidentes.
+
+Por otro lado, los entrevistados resaltaron la necesidad de contar con herramientas más avanzadas que incluyan monitoreo en tiempo real, alertas automáticas (visuales y sonoras), interfaces intuitivas y fácil acceso a la información sin generar distracciones durante la conducción. También valoran la posibilidad de integrar aplicaciones de uso cotidiano como sistemas de mensajería para recibir notificaciones.
+
+
 
 ## 2.3. Needfinding
 

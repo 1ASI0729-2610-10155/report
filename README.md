@@ -1,23 +1,19 @@
-<p align="center">
-  <img src="images/logo_UPC.png" alt="Logo de la UPC" />
-</p>
+<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
 
-<p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
+<h2 align="center"> INGENIERIA DE SOFTWARE</h2>
+<h2 align="center"> CICLO 2026-1</h2>
 
-<p align="center"><strong>Ingeniería de Software</strong><br>
-Desarrollo de Aplicaciones Open Source <br>
-<strong>Profesor:</strong> Mori Paiva, Hugo Allan </p>
+<div align="center">
+   <img src="images/logo_UPC.png" alt="Logo de la UPC" />
+</div>
 
-<h2 align="center">INFORME</h2>
-<h2 align="center">2026 - 10</h2>
-
-<h3 align="center">Startup: FreshGuard</h3>
-<h3 align="center">1ASI0729-2610-10155</h3>
-
-<p align="center"><strong>Producto: ColdTrack </strong></p>
-
-<h3 align="center">Team Members:</h3>
-
+<br>
+<h3 align="center"> Desarrollo de Aplicaciones Open Source </h3>
+<h3 align="center"> 1ASI0729-2610-10155 </h3>
+<h3 align="center"> Profesor del Curso: Mori Paiva, Hugo Allan </h3>
+<h3 align="center"> "INFORME DE TRABAJO FINAL"</h3>
+<h3 align="center"> Nombre de Startup: FreshGuard  </h3>
+<h3 align="center"> Nombre del Producto: ColdTrack  </h3>
 <div align="center">
 
 | **Member**              | **Code**   |
@@ -25,13 +21,13 @@ Desarrollo de Aplicaciones Open Source <br>
 | Eslander Celis Berrospi | U201911249 |
 | Rodrigo Oblitas Alcalde | U20221G185 |
 | Mariano Vilela Menendez | U201918216 |
-|                         | U          |
-|                         | U          |
+| Aarón Avila Palacios    | U201823654 |
+|  | U |
 
 
 </div>
 
-<p align="center"><strong>Abril 2026</strong></p>
+<h3 align="center"> ABRIL - 2026   </h3>
 
 <div style="page-break-before: always;"></div>
 
@@ -39,9 +35,12 @@ Desarrollo de Aplicaciones Open Source <br>
 # Registro de Versiones del Informe
 | Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
 |---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
-| 0.2     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                             |
-| 0.3     | 22/04/2026  | Eslander Celis Berrospi        | Completar el documento con Student Outcome,                                                                                                             |
+| 1.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
+| 1.2     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                             |
+| 1.3     | 22/04/2026  | Eslander Celis Berrospi        | Completar el documento con Student Outcome                                                                                                            |
+| 1.4     | 22/04/2026  | Aarón Avila Palacios          | Desarrollo del capítulo V                                                                                                         |
+| 1.5    | 22/04/2026  | Aarón Avila Palacios          | Desarollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language                                                                             |
+
 
 
 
@@ -55,20 +54,10 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
-## TB1
-Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+## AV1
+Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
 
 ![reporteTB1.png](./images/reporteTB1.png)
-
-
-Insights TB1 (Todos participaron):
-<p align="left">
-  <img src="images/estad1.PNG" alt="tb1avance" width="500">
-</p>
-
-<p align="left">
-  <img src="images/estad2.PNG" alt="tb1avance" width="500">
-</p>
 
 
 ## Contenido
@@ -170,22 +159,7 @@ Insights TB1 (Todos participaron):
     * [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     * [5.1.2. Source Code Management](#512-source-code-management)
     * [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-
-      * [HTML](#html)
-      * [CSS](#css)
-      * [JavaScript](#javascript)
-      * [TypeScript](#typescript)
-      * [Java](#java)
-      * [Gherkin Conventions for Readable Specifications](#gherkin-conventions-for-readable-specifications)
-      * [Angular Coding Style Guide](#angular-coding-style-guide)
-      * [Spring Boot Features](#spring-boot-features)
     * [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-
-      * [Despliegue de la Landing Page en GitHub Pages](#despliegue-de-la-landing-page-en-github-pages)
-      * [Consideraciones previas al despliegue](#consideraciones-previas-al-despliegue)
-      * [Pasos de despliegue](#pasos-de-despliegue)
-      * [Despliegue de la Frontend Web Application en Vercel](#despliegue-de-la-frontend-web-application-en-vercel)
-      * [Despliegue de los Web Services (Backend) en Azure](#despliegue-de-los-web-services-backend-en-azure)
 
   * [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
 

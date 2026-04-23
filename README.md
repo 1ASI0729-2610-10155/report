@@ -16,13 +16,13 @@
 <h3 align="center"> Nombre del Producto: ColdTrack  </h3>
 <div align="center">
 
-| **Member**              | **Code**   |
-|-------------------------|------------|
-| Eslander Celis Berrospi | U201911249 |
-| Rodrigo Oblitas Alcalde | U20221G185 |
-| Mariano Vilela Menendez | U201918216 |
-| Aarón Avila Palacios    | U201823654 |
-|  | U |
+| **Member**                | **Code**   |
+|---------------------------|------------|
+| Eslander Celis Berrospi   | U201911249 |
+| Rodrigo Oblitas Alcalde   | U20221G185 |
+| Mariano Vilela Menendez   | U201918216 |
+| Aarón Avila Palacios      | U201823654 |
+| Mathias Arechaga Saavedra | U202320699 |
 
 
 </div>
@@ -194,15 +194,15 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <th> Comunica oralmente con efectividad a diferentes rangos de audiencia.</th>
         <td>
          <b>Aarón Avila: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
+         Durante el desarrollo del proyecto, participé activamente en la explicación de herramientas como el Empathy Mapping, As-is Scenario Mapping y el Ubiquitous Language, así como en la presentación del proceso de implementación y validación del producto. Me enfoqué en transmitir las ideas de forma clara y comprensible, adaptando el lenguaje según el público, para facilitar la comprensión tanto de aspectos técnicos como de experiencia de usuario.<br>
          <b>Eslander Celis: AV1</b><br>
          Durante el desarrollo del proyecto, fortalecí mi comunicación oral al presentar y explicar temas como la descripción de la startup, los antecedentes y la problemática, así como la definición de los segmentos objetivos. También participé en exposiciones sobre los User Stories, el Product Backlog y el Impact Map, procurando transmitir las ideas de forma clara y ordenada. Me enfoqué en adaptar mi discurso según el tipo de audiencia, ya sea técnica o no técnica, para asegurar que la información sea entendida y aporte al trabajo en equipo.<br>
-         <b>ntegrante3: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante4: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante5: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
+         <b>Rodrigo Oblitas: AV1</b><br>
+         Durante el proyecto, desarrollé mi comunicación oral al explicar conceptos del Lean UX Process, como el Problem Statement, Assumptions e Hypothesis, además de participar en la presentación de la Landing Page. Procuré expresar las ideas de manera clara y estructurada, facilitando la comprensión de los enfoques planteados y adaptando el contenido según la audiencia.<br>
+         <b>Mathias Arechaga: AV1</b><br>
+         Durante el desarrollo del proyecto, participé en la exposición de herramientas de diseño centrado en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación web. Me enfoqué en explicar de forma clara los flujos, interfaces y funcionalidades, adaptando mi lenguaje para que tanto aspectos técnicos como visuales sean entendidos por todos.<br>
+         <b>Mariano Vilela: AV1</b><br>
+         Durante el proyecto, fortalecí mi comunicación oral al presentar el análisis de competidores, el diseño y resultados de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré transmitir la información de forma ordenada y clara, facilitando la comprensión de los hallazgos y su impacto en la propuesta de solución.<br>
         </td>
         <td>
           <b>AV1</b><br>
@@ -213,15 +213,15 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
         <td>
           <b>Aarón Avila: AV1</b><br>
-          aaaaaaaaaaaaaa<br>
+          Desarrollé mi comunicación escrita al elaborar secciones como Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language, así como el capítulo de implementación y validación del producto. Procuré mantener una redacción clara, ordenada y coherente, facilitando la comprensión de los conceptos tanto técnicos como funcionales dentro del proyecto.<br>
           <b>Eslander Celis: AV1</b><br>
          Por otro lado, desarrollé mi comunicación escrita al redactar secciones como la descripción de la startup, el análisis de la problemática, los segmentos objetivos y la elaboración de los User Stories, Product Backlog e Impact Map. Mantuve un estilo claro, coherente y bien estructurado, lo que permitió que la información sea comprensible para distintos lectores. Esto contribuyó a una documentación consistente y alineada con los objetivos del proyecto.<br>
-         <b>integrante3: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante4: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
-         <b>ntegrante5: AV1</b><br>
-         aaaaaaaaaaaaaaaaaaa<br>
+         <b>Rodrigo Oblitas: AV1</b><br>
+         Fortalecí mi comunicación escrita al redactar apartados del Lean UX Process, como Problem Statement, Assumptions e Hypothesis, además del contenido relacionado a la Landing Page. Me enfoqué en estructurar la información de manera clara y precisa, asegurando que sea entendida por distintos tipos de audiencia.<br>
+         <b>Mathias Arechaga: AV1</b><br>
+         Desarrollé mi comunicación escrita al documentar herramientas de diseño como User Personas, User Journey Mapping y los prototipos de la aplicación web. Mantuve un enfoque claro y organizado, permitiendo que la información visual y funcional sea fácilmente comprendida por el lector.<br>
+         <b>Mariano Vilela: AV1</b><br>
+         Fortalecí mi comunicación escrita al desarrollar el análisis de competidores, el diseño y análisis de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré presentar la información de forma clara, estructurada y coherente, facilitando la comprensión de los resultados y su aplicación en el proyecto.<br>
         </td>
         <td>
           <b>AV1:</b><br>

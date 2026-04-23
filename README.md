@@ -33,13 +33,15 @@
 
 
 # Registro de Versiones del Informe
-| Versión | Fecha       | Autor(es)                                                              | Descripción                                                                                                                                         |
-|---------|-------------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.1     | 12/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo I: Introducción                                                                                                             |
-| 1.2     | 18/04/2026  | Eslander Celis Berrospi        | Desarrollo del capítulo III: Requirements specification                                                                                                             |
-| 1.3     | 22/04/2026  | Eslander Celis Berrospi        | Completar el documento con Student Outcome                                                                                                            |
-| 1.4     | 22/04/2026  | Aarón Avila Palacios          | Desarrollo del capítulo V                                                                                                         |
-| 1.5    | 22/04/2026  | Aarón Avila Palacios          | Desarollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language                                                                             |
+| Versión | Fecha      | Autor(es)                 | Descripción                                                                              |
+|---------|------------|---------------------------|------------------------------------------------------------------------------------------|
+| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                                                  |
+| 1.2     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification                                  |
+| 1.3     | 22/04/2026 | Eslander Celis Berrospi   | Completar el documento con Student Outcome                                               |
+| 1.4     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                                                                |
+| 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language |
+| 1.6     | 23/04/2026 | Mathias Arechaga Savedra  | Desarollo del capítulo IV: Web app wireframes, Mock-ups, Wireflows                       |
+| 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarollo del capítulo II: User personas, user task matrix, journey map                    |
 
 
 
@@ -291,7 +293,7 @@ Responsabilidad, innovación y confiabilidad.
         <td style="text-align: center" align="center">
         Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne. 
         </td>
- </td>
+ </tr>
         <tr>
     <td style="text-align: center" align="center">
         <p align="center">
@@ -303,7 +305,20 @@ Responsabilidad, innovación y confiabilidad.
         <td style="text-align: center" align="center">
         Soy Mariano Vilela Menéndez, estudiante de Ingeniería de Software. Me considero una persona responsable, proactiva y comprometida con mi formación académica y profesional. Tengo un gran interés por la tecnología y el desarrollo de software, lo que me motiva a aprender constantemente nuevas herramientas y lenguajes de programación. Disfruto resolver problemas, trabajar en equipo y aportar ideas que generen soluciones eficientes y de calidad. Busco seguir fortaleciendo mis habilidades técnicas y personales, asumiendo nuevos retos que me permitan crecer y contribuir de manera positiva en cada proyecto en el que participe.
         </td>
-  
+
+ <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Rodrigo Oblitas Alcalde - U20221G185 
+         <br>
+         <img src="./images/foto_Mathias.jpg" alt="Foto Rodrigo" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+         Soy Mathias Arechaga, estudiante de Ingeniería de Software y actualmente cursando el quinto ciclo. Me considero una persona dedicada y orientada a crecer tanto en el ámbito académico como profesional. Me interesa el mundo de la programación porque me permite diseñar soluciones, afrontar retos y adquirir constantemente nuevos conocimientos tecnológicos. Cuento con manejo de HTML y conocimientos básicos de Python, lo que me facilita desarrollar proyectos simples mientras sigo perfeccionando mis competencias.
+        </td>
+
+  </tr>
 
 </table>
 

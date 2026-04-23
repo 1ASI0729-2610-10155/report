@@ -291,6 +291,18 @@ Responsabilidad, innovación y confiabilidad.
         <td style="text-align: center" align="center">
         Soy estudiante de Ingeniería de software y estoy cursando el quinto ciclo de la carrera. Tengo 23 años. Tengo conocimientos en programación orientada a objetos en lenguaje de programación C++, también en diseño de prototipos de aplicaciones, diseño gráfico, diseño e implementación de páginas web. Todas estas habilidades ayudan al desarrollo del proyecto, dado que son de vital importancia en este curso y en nuestra carrera. Soy capaz de desarrollar de manera eficaz cualquier tarea que se me asigne. 
         </td>
+ </td>
+        <tr>
+    <td style="text-align: center" align="center">
+        <p align="center">
+        Mariano Vilela Menendez - U201918216
+         <br>
+         <img src="images/foto_mariano.png" alt="Foto Mariano" width="50%">
+         </p>
+        </td>
+        <td style="text-align: center" align="center">
+        Soy Mariano Vilela Menéndez, estudiante de Ingeniería de Software. Me considero una persona responsable, proactiva y comprometida con mi formación académica y profesional. Tengo un gran interés por la tecnología y el desarrollo de software, lo que me motiva a aprender constantemente nuevas herramientas y lenguajes de programación. Disfruto resolver problemas, trabajar en equipo y aportar ideas que generen soluciones eficientes y de calidad. Busco seguir fortaleciendo mis habilidades técnicas y personales, asumiendo nuevos retos que me permitan crecer y contribuir de manera positiva en cada proyecto en el que participe.
+        </td>
   
 
 </table>

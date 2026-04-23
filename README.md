@@ -744,8 +744,8 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 ¿Qué tendría que tener esta aplicación para que sienta que le ayuda en su trabajo y no que lo está complicando?
 
 ### 2.2.2. Registro de entrevistas
-#### **Primer Segmento - Personas del Hogar:** <br>
 
+#### **Primer Segmento - Personal de Logística y Operaciones:** <br>
 | **ENTREVISTA 1** | |
 |------------------|----------------------------|
 | **Nombre entrevistado** | Gianelly Vásquez |
@@ -770,9 +770,21 @@ Si tuviera una app que le avise de problemas con la temperatura, ¿cómo le gust
 | **Foto entrevista** | <img src="images/entrevista-segmento1-carlos.png" alt=""  width="250" /> |
 | **Resumen** | Carlos Ramírez, jefe de operaciones de logística en la empresa Transportes Valle S.A.C., de 26 años y con base en Lima, actualmente enfrenta dificultades en la gestión de sus operaciones debido a la falta de monitoreo en tiempo real durante el transporte; esta limitación le impide tener visibilidad inmediata sobre el estado de las unidades y la trazabilidad de los procesos logísticos, generando dependencia de reportes manuales o comunicación directa con los conductores, lo que incrementa el riesgo de retrasos, errores y una toma de decisiones tardía ante incidencias en ruta; su principal problema radica en la ausencia de un sistema que le permita supervisar de manera continua y centralizada las operaciones, lo cual afecta la eficiencia y el control operativo; por ello, considera que una solución ideal debería incluir monitoreo en tiempo real, geolocalización de vehículos, alertas automáticas ante desviaciones o incidentes, y acceso a información desde dispositivos móviles, ya que una herramienta como ColdTrack podría optimizar la gestión logística, mejorar la capacidad de respuesta y fortalecer el control de las operaciones. |
 
+#### **Segundo Segmento - Personal de Transporte:** <br>
+
+| **ENTREVISTA 1** |                            |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Edery Abanto |
+| **Edad** | 30 |
+| **Profesión** | personal de transporte |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00 |
+| **Fin del video** | 05:28 |
+| **Link del video** | ---- |
+| **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
+| **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
+
 ### 2.2.3. Analisis de entrevistas
-
-
 
 ## 2.3. Needfinding
 

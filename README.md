@@ -1770,3 +1770,6 @@ Repositorios:
 
 ![contribution-sprint-1](./images/contribution2-sprint-1.png)
 
+# Anexo A
+## Videos de Exposiciones
+AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQC4PqVlXUjJQp1k8TrbMwfbAS5yMPU0e0j6mhr6BoPtMRI?e=tn50ik&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D

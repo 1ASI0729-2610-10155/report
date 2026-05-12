@@ -1811,8 +1811,149 @@ Repositorios:
 #### 5.2.2.3. Sprint Backlog 2. 
 #### 5.2.2.4. Development Evidence for Sprint Review. 
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
+
+La aplicación resultante permite recorrer los principales flujos operativos de ColdTrack. Para la revisión del sprint se validaron las siguientes funcionalidades:
+
+**Levantamiento del proyecto:** 
+
+![activar-app-local](./images/activar-app-local.png)
+
+**Levantamiento del db.js:** 
+
+![activar-fakeapi-local](./images/activar-fakeapi-local.png)
+
+![users-local](./images/users-local.png)
+
+![shipments-local](./images/shipments-local.png)
+
+![sensors-local](./images/sensors-local.png)
+
+![alerts-local](./images/alerts-local.png)
+
+1. **Autenticación de usuario:** el usuario puede iniciar sesión con la cuenta demo `test@test.com / password`, registrar una nueva cuenta y cerrar sesión.
+   ![Autenticación-de-usuario](./images/parte1.png)
+2. **Dashboard operativo:** se visualizan métricas de envíos registrados, envíos activos, envíos completados y alertas activas.
+   ![Dashboard](./images/parte3.png)
+3. **Registro de envíos:** el usuario puede crear un nuevo envío indicando destino, conductor, descripción de carga, fecha de salida y fecha estimada de llegada.
+    ![Registro-de-envíos](./images/parte4.png)
+4. **Listado de envíos:** se muestra una tabla con ID, destino, estado, conductor, temperatura, humedad y fecha estimada.
+   ![Listado-de-envíos](./images/envios.png)
+5. **Gestión de sensores:** se visualizan sensores asignados y disponibles, además de permitir registrar nuevos sensores.
+    ![Gestión-de-sensores](./images/parte5.png)
+6. **Gestión de alertas:** se listan alertas activas y resueltas, con filtros por severidad, estado y búsqueda textual.
+    ![Gestión-de-alertas](./images/parte6.png)
+7. **Historial de envíos:** se muestran envíos completados y datos de temperatura promedio.
+     ![Historial-de-envíos](./images/parte7.png)
+8. **Internacionalización:** la interfaz permite alternar entre inglés y español desde la barra superior.
+    ![Internacionalización](./images/internacionalizacion.png)
+
+Desde el punto de vista técnico, la ejecución se validó mediante:
+
+- Compilación de producción con `npx ng build`.
+- Prueba de consumo de MockAPI.io para el usuario demo.
+- Verificación del sitio desplegado en Firebase Hosting con respuesta HTTP `200 OK`.
+- Revisión del bundle generado para confirmar que el endpoint productivo apunta a MockAPI.io.
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+La Web Application fue desplegada mediante **Firebase Hosting**, ya que el proyecto Angular genera archivos estáticos optimizados para producción y Firebase permite publicarlos con reglas de navegación compatibles con Single Page Applications.
+
+| Item | Description |
+|------|-------------|
+| Plataforma de despliegue | Firebase Hosting |
+| Proyecto Firebase | `coldtrack-front-open` |
+| Carpeta publicada | `dist/coldtrack-front/browser` |
+| Comando de build | `npx ng build` |
+| Comando de deploy | `npx firebase deploy --only hosting --project coldtrack-front-open` |
+| URL desplegada principal | https://coldtrack-front-open.web.app |
+| URL desplegada secundaria | https://coldtrack-front-open.firebaseapp.com |
+| API productiva | https://6a028d0d0d92f63dd253bedc.mockapi.io/api/v1 |
+
+**Configuración seguida para Firebase Hosting:**
+
+1. Se instaló y verificó Firebase CLI.
+2. Se identificó el proyecto Firebase `coldtrack-front-open`.
+3. Se configuró `.firebaserc` con el proyecto por defecto.
+4. Se configuró `firebase.json` para publicar `dist/coldtrack-front/browser`.
+5. Se agregó una regla de `rewrites` para redirigir todas las rutas a `index.html`.
+6. Se ejecutó `npx ng build` para generar la versión productiva.
+7. Se ejecutó el despliegue mediante Firebase Hosting.
+8. Se verificó que la URL pública responda correctamente.
+
+Archivo `.firebaserc`:
+
+```json
+{
+  "projects": {
+    "default": "coldtrack-front-open"
+  }
+}
+```
+
+Archivo `firebase.json`:
+
+```json
+{
+  "hosting": {
+    "public": "dist/coldtrack-front/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+```
+
+Comandos utilizados:
+
+```bash
+npx ng build
+npx firebase deploy --only hosting --project coldtrack-front-open
+```
+
+La regla de `rewrites` fue necesaria porque ColdTrack es una Single Page Application construida con Angular. De esta forma, Firebase entrega `index.html` cuando el usuario actualiza la página o ingresa directamente a una ruta interna de la aplicación.
+
+ ![firebase](./images/firebase.png)
+
+**Autenticación de usuario:** el usuario puede iniciar sesión con la cuenta demo `test@test.com / password`, registrar una nueva cuenta y cerrar sesión.
+
+   ![Autenticación-de-usuario](./images/ingresar.png)
+   
+**Dashboard operativo:** se visualizan métricas de envíos registrados, envíos activos, envíos completados y alertas activas.
+
+   ![Dashboard](./images/dashboard.png)
+   
+**Registro de envíos:** el usuario puede crear un nuevo envío indicando destino, conductor, descripción de carga, fecha de salida y fecha estimada de llegada.
+
+  ![Registro-de-envíos](./images/new-shipment.png)
+    
+**Listado de envíos:** se muestra una tabla con ID, destino, estado, conductor, temperatura, humedad y fecha estimada.
+
+   ![Listado-de-envíos](./images/envios.png)
+   
+**Gestión de sensores:** se visualizan sensores asignados y disponibles, además de permitir registrar nuevos sensores.
+
+   ![Gestión-de-sensores](./images/sensors.png)
+   
+**Gestión de alertas:** se listan alertas activas y resueltas, con filtros por severidad, estado y búsqueda textual.
+
+ ![Gestión-de-alertas](./images/alerts.png)
+ 
+**Historial de envíos:** se muestran envíos completados y datos de temperatura promedio.
+
+   ![Historial-de-envíos](./images/history.png)
+   
+**Internacionalización:** la interfaz permite alternar entre inglés y español desde la barra superior.
+
+ ![Internacionalización](./images/internacionalizacion.png)
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 ## Conclusiones

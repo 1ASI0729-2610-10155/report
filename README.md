@@ -224,22 +224,25 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
          <b>Mariano Vilela: AV1</b><br>
          Durante el proyecto, fortalecí mi comunicación oral al presentar el análisis de competidores, el diseño y resultados de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré transmitir la información de forma ordenada y clara, facilitando la comprensión de los hallazgos y su impacto en la propuesta de solución.<br><br> 
             <b>Aarón Avila: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Eslander Celis: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Rodrigo Oblitas: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Mathias Arechaga: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Mariano Vilela: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+Durante esta entrega, participé en la presentación del frontend de la aplicación ColdTrack, explicando la estructura de las vistas, la navegación entre módulos y el funcionamiento de los componentes implementados. Procuré comunicar de manera clara el propósito de cada interfaz y cómo estas mejoran la experiencia del usuario, adaptando mi explicación según el nivel técnico de la audiencia.<br><br> 
+
+<b>Eslander Celis: TB1</b><br>
+Durante el desarrollo del frontend de ColdTrack, fortalecí mi comunicación oral al exponer la implementación de las principales funcionalidades de la aplicación, incluyendo las vistas de autenticación, dashboard y gestión de productos. Expliqué de manera ordenada el flujo de navegación y la interacción entre componentes, procurando que tanto aspectos técnicos como funcionales sean comprendidos por todos los integrantes y docentes.<br><br> 
+
+<b>Rodrigo Oblitas: TB1</b><br>
+Durante esta entrega, participé en la explicación del diseño visual y la estructura del frontend, detallando la implementación de componentes reutilizables y estilos responsivos. Me enfoqué en comunicar las decisiones de diseño de manera clara y estructurada, facilitando la comprensión de la propuesta desarrollada.<br><br> 
+
+<b>Mathias Arechaga: TB1</b><br>
+Durante el desarrollo del frontend, participé en la presentación de los prototipos implementados y las funcionalidades visuales de la aplicación. Expliqué el comportamiento de las interfaces y la distribución de los elementos gráficos, utilizando un lenguaje claro para facilitar la comprensión de la experiencia de usuario planteada.<br><br> 
+
+<b>Mariano Vilela: TB1</b><br>
+Durante esta entrega, fortalecí mi comunicación oral al presentar las mejoras visuales y la organización de las vistas del frontend de ColdTrack. Expliqué cómo las interfaces fueron diseñadas para facilitar la interacción del usuario con el sistema, transmitiendo las ideas de manera ordenada y comprensible.<br><br>  
         </td>
         <td>
           <b>AV1</b><br>
           Durante el desarrollo del proyecto, el equipo evidenció una comunicación oral sólida al intervenir de manera constante en exposiciones, reuniones y actividades colaborativas. Cada miembro supo ajustar su forma de expresarse según el tipo de audiencia, tanto en entornos técnicos con sus compañeros como en contextos académicos frente a docentes. Esta capacidad se reflejó en la explicación ordenada y fundamentada de temas como el perfil de solución, la segmentación de usuarios, las arquitecturas planteadas y el diseño de la experiencia de usuario. Asimismo, el equipo sobresalió al compartir los resultados de entrevistas e investigaciones de forma clara, facilitando un intercambio de ideas fluido y productivo. En general, la comunicación oral fue fundamental para mantener la coherencia del trabajo, validar decisiones y transmitir propuestas de manera profesional. <br><br>
-             <b>TB1:</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br>
-        </td>
+          <b>TB1:</b><br>
+Durante el desarrollo del frontend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de manera clara las funcionalidades implementadas, la estructura de navegación y el diseño de las interfaces de usuario. Cada integrante explicó distintos componentes del sistema, adaptando el nivel técnico de sus exposiciones según la audiencia, lo que permitió transmitir tanto aspectos funcionales como decisiones de diseño de forma comprensible. Asimismo, las reuniones y presentaciones realizadas facilitaron la coordinación del equipo y la validación de avances durante la implementación del producto. En conjunto, la comunicación oral contribuyó significativamente a mantener una correcta organización y comprensión del proyecto.<br><br>
     </tr>
     <tr>
         <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
@@ -255,21 +258,25 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
          <b>Mariano Vilela: AV1</b><br>
          Fortalecí mi comunicación escrita al desarrollar el análisis de competidores, el diseño y análisis de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré presentar la información de forma clara, estructurada y coherente, facilitando la comprensión de los resultados y su aplicación en el proyecto.<br><br> 
              <b>Aarón Avila: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Eslander Celis: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Rodrigo Oblitas: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Mathias Arechaga: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
-            <b>Mariano Vilela: TB1</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+Desarrollé mi comunicación escrita al documentar el proceso de implementación del frontend de ColdTrack, describiendo las vistas desarrolladas, la estructura de componentes y las funcionalidades principales de la aplicación. Procuré mantener una redacción clara y organizada para facilitar la comprensión del avance realizado.<br><br> 
+
+<b>Eslander Celis: TB1</b><br>
+Fortalecí mi comunicación escrita al redactar documentación relacionada con el frontend de la aplicación, incluyendo la descripción de las vistas implementadas, la navegación del sistema y las funcionalidades desarrolladas durante el sprint. Mantuve una estructura clara y coherente para asegurar que la información sea entendida tanto por lectores técnicos como no técnicos.<br><br> 
+
+<b>Rodrigo Oblitas: TB1</b><br>
+Durante esta entrega, desarrollé mi comunicación escrita al documentar aspectos relacionados con el diseño visual, estilos responsivos y componentes reutilizables implementados en el frontend. Procuré presentar la información de manera ordenada y comprensible para facilitar la interpretación del trabajo realizado.<br><br> 
+
+<b>Mathias Arechaga: TB1</b><br>
+Fortalecí mi comunicación escrita al documentar los prototipos implementados y la organización visual de las interfaces del frontend. Me enfoqué en redactar de forma clara las funcionalidades y flujos de interacción desarrollados en la aplicación.<br><br> 
+
+<b>Mariano Vilela: TB1</b><br>
+Desarrollé mi comunicación escrita al elaborar documentación relacionada con las mejoras visuales y la experiencia de usuario del frontend de ColdTrack. Procuré estructurar la información de forma clara y coherente para facilitar la comprensión de las decisiones tomadas durante la implementación.<br><br> 
         </td>
         <td>
           <b>AV1:</b><br>
           El equipo evidenció una buena capacidad de comunicación escrita al desarrollar distintos componentes del proyecto, como entrevistas, User Stories, backlog, documentación técnica, diseño de interfaces y secciones del informe final. Cada integrante utilizó un lenguaje claro, ordenado y adecuado según el tipo de público, permitiendo que la información sea entendida tanto por especialistas como por personas con menor conocimiento técnico. La claridad en la explicación de conceptos, junto con una correcta estructuración del contenido, hizo que los documentos cumplieran adecuadamente su propósito informativo y de apoyo en la toma de decisiones. En conjunto, esta habilidad fue clave para asegurar la coherencia del proyecto y lograr una documentación completa y profesional, alineada con los objetivos del equipo. <br><br>
            <b>TB1:</b><br>
-         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br>
+        El equipo evidenció una comunicación escrita efectiva durante el desarrollo del frontend de ColdTrack, elaborando documentación clara y estructurada sobre las vistas, componentes y funcionalidades implementadas en la aplicación. Cada integrante redactó información relacionada con el diseño visual, navegación y experiencia de usuario, utilizando un lenguaje adecuado según el tipo de audiencia. La organización y claridad de los documentos permitieron comprender fácilmente el progreso del proyecto y las decisiones tomadas durante el sprint. En conjunto, la comunicación escrita contribuyó a mantener una documentación consistente, profesional y alineada con los objetivos planteados para la implementación del frontend.<br><br>
         </td>
     </tr>
 </table>
@@ -2027,6 +2034,15 @@ La regla de `rewrites` fue necesaria porque ColdTrack es una Single Page Applica
  ![Internacionalización](./images/internacionalizacion.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
+En este sprint, las tareas se organizaron en torno al modelado de dominio y la configuración inicial de la arquitectura para el sistema de logística de cadena de frío. La responsabilidad del desarrollo y la implementación técnica recayó en Mariano Vilela, Aaron Avila, Eslander Celis Berrospi, Mathias Arechaga y Rodrigo Oblitas.
+
+<p align="center">
+ <img src="images/commits.PNG" alt="commits" width="50%"/>
+</p>
+
+<p align="center">
+<img src="images/networkgraph.PNG" alt="networkgrap" width="50%"/>
+</p>
 
 ## Conclusiones
 

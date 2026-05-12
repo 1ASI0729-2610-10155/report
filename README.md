@@ -1830,13 +1830,13 @@ Cada uno de estos aspectos contará con un líder responsable de su desarrollo y
 
 A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
 
-| Team Member (GitHub Username) | Envío & Sensores BC | Alertas & Notificaciones BC | Tracking en Tiempo Real BC | Reportes & Auditoría BC |
-| :--- | :---: | :---: | :---: | :---: |
-| **vilelamenendez** | **L** | **C** | **C** | **C** |
-| **AaronAvilap** | **C** | **L** | **C** | **C** |
-| **Eslander-Celis** | **C** | **C** | **L** | **C** |
-| **MathZell** | **C** | **C** | **C** | **L** |
-| **Darkdren** | **C** | **C** | **C** | **C** |
+| Team Member (Last Name, First Name) | GitHub Username | Envío & Sensores BC | Alertas & Notificaciones BC | Tracking en Tiempo Real BC | Reportes & Auditoría BC |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Vilela, Mariano** | **vilelamenendez** | **L** | **C** | **C** | **C** |
+| **Avila, Aaron** | **AaronAvilap** | **C** | **C** | **C** | **L** |
+| **Real Celis Berrospi, Eslander** | **Eslander-Celis** | **C** | **L** | **L** | **C** |
+| **Arechaga, Mathias** | **MathZell** | **C** | **C** | **C** | **C** |
+| **Oblitas, Rodrigo** | **Darkdren** | **C** | **C** | **C** | **C** |
 
 #### 5.2.2.3. Sprint Backlog 2. 
 #### 5.2.2.4. Development Evidence for Sprint Review

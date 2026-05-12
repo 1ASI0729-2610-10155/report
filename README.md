@@ -1824,6 +1824,20 @@ El equipo de desarrollo se reunió virtualmente para definir los objetivos, tare
 | Sprint 2 Velocity                  | 12                                                                                                                                                                                                      |
 | Sum of Story Points                | 12                                                                                                                                                                                                      |
 #### 5.2.2.2. Aspect Leaders and Collaborators. 
+En el presente Sprint, el equipo trabajará en el desarrollo de la solución integral de ColdTrack, enfocándose en la implementación de funcionalidades clave para el monitoreo de temperatura en tiempo real y la gestión logística. Los principales aspectos considerados incluyen la integración de sensores IoT, el panel de administración central y la interfaz móvil para transportistas.
+
+Cada uno de estos aspectos contará con un líder responsable de su desarrollo y colaboradores que brindarán soporte en tareas específicas, con el fin de asegurar una comunicación efectiva, una coordinación eficiente y una distribución clara de responsabilidades dentro del equipo.
+
+A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
+
+| Team Member (GitHub Username) | Envío & Sensores BC | Alertas & Notificaciones BC | Tracking en Tiempo Real BC | Reportes & Auditoría BC |
+| :--- | :---: | :---: | :---: | :---: |
+| **vilelamenendez** | **L** | **C** | **C** | **C** |
+| **AaronAvilap** | **C** | **L** | **C** | **C** |
+| **Eslander-Celis** | **C** | **C** | **L** | **C** |
+| **MathZell** | **C** | **C** | **C** | **L** |
+| **Darkdren** | **C** | **C** | **C** | **C** |
+
 #### 5.2.2.3. Sprint Backlog 2. 
 #### 5.2.2.4. Development Evidence for Sprint Review
 

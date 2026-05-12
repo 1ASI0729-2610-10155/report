@@ -1857,6 +1857,8 @@ A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
 | US-002        | Inicio de sesión              | T20     | Diseñar interfaz de inicio de sesión responsive.                      | Done |
 | US-002        | Inicio de sesión              | T21     | Configurar control de acceso y manejo de sesiones activas.            | Done |
 
+Link del Trello: https://trello.com/invite/b/6a03af4a9ce2a6dd40644169/ATTIb195f64c62e71f457ebee58b6d15b259984A2064/sprint-2-coldtrack
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación ColdTrack, implementando las principales vistas, componentes reutilizables y funcionalidades necesarias para la interacción inicial de los usuarios con el sistema. Asimismo, se trabajó en la organización de rutas, consumo de datos simulados y mejoras visuales orientadas a la experiencia del usuario.

@@ -1060,22 +1060,9 @@ Por otro lado, los entrevistados resaltaron la necesidad de contar con herramien
  <img src="./images/tobetransportistas.png" alt="tobetransportistas" width="80%">
  
 ## 3.2. User Stories
-### Epics
+En esta sección, estructuraremos nuestro proceso de desarrollo y aseguraremos de cubrir los os necesarios para satisfacer las necesidades del usuario.
 
-## Epics
-
-| Epic ID | Nombre del Epic | Descripción |
-|--------|----------------|------------|
-| EP-001 | Registro y Gestión de Usuarios | Como usuario (personal de logística o transporte), quiero registrarme, iniciar sesión y gestionar mi cuenta de forma segura, para acceder a ColdTrack y utilizar sus funcionalidades según mi rol. |
-| EP-002 | Gestión de Envíos | Como personal de logística, quiero crear, visualizar y gestionar envíos, para tener control completo sobre el transporte de alimentos desde su origen hasta su destino. |
-| EP-003 | Monitoreo en Tiempo Real | Como usuario, quiero visualizar en tiempo real la temperatura y humedad de los envíos mediante sensores, para asegurar que los productos se mantengan en condiciones óptimas durante el transporte. |
-| EP-004 | Sistema de Alertas | Como usuario, quiero recibir alertas automáticas ante condiciones críticas de temperatura o humedad, para tomar decisiones rápidas y evitar pérdidas de productos. |
-| EP-005 | Historial y Reportes | Como usuario, quiero acceder al historial de envíos y generar reportes, para analizar el desempeño logístico y mejorar la trazabilidad del transporte. |
-| EP-006 | Landing Page y Comunicación | Como visitante o usuario, quiero acceder a información de la aplicación, conocer sus beneficios, ver testimonios, contactar al equipo y revisar quiénes están detrás del proyecto, para evaluar el uso de ColdTrack y resolver dudas. |                                             |
-
-
-
-### User Stories + Technical Stories
+A continuación, estableceremos las épicas, para luego detallarlas en historias de usuario. De este modo estableceremos los objetivos y funcionalidades.                                        
 
 | Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---|---|---|---|---|

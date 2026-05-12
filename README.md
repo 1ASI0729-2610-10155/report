@@ -1831,16 +1831,16 @@ Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la ap
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|---------------------|--------------------|
-| ColdTrack-Front | `main` | `8fa21bc` | `feat: initialize frontend project structure` | Se configuró la estructura inicial del proyecto frontend utilizando la arquitectura base de la aplicación. | 24/04/2026 |
-| ColdTrack-Front | `main` | `1bc4d9f` | `feat: create login and register views` | Se desarrollaron las vistas de inicio de sesión y registro de usuarios. | 24/04/2026 |
-| ColdTrack-Front | `develop/dashboard-module` | `2de78ab` | `feat: implement dashboard layout` | Se implementó el diseño principal del dashboard con navegación lateral y encabezado dinámico. | 25/04/2026 |
-| ColdTrack-Front | `develop/dashboard-module` | `4ab91ce` | `feat: add sidebar navigation component` | Se creó un componente reutilizable para la navegación entre módulos del sistema. | 25/04/2026 |
-| ColdTrack-Front | `main` | `6cd34ef` | `feat: integrate responsive styles` | Se añadieron estilos responsivos para optimizar la visualización en dispositivos móviles y escritorio. | 26/04/2026 |
-| ColdTrack-Front | `feature/product-management` | `7ef45da` | `feat: create product management view` | Se implementó la vista de gestión de productos con tablas y formularios básicos. | 26/04/2026 |
-| ColdTrack-Front | `feature/api-integration` | `91ab3fd` | `feat: connect frontend with mock API services` | Se integró el frontend con servicios simulados para pruebas de carga y visualización de datos. | 27/04/2026 |
-| ColdTrack-Front | `feature/ui-improvements` | `ac56d2e` | `feat: improve UI components and buttons` | Se realizaron mejoras visuales en botones, tarjetas y componentes de interfaz. | 27/04/2026 |
-| ColdTrack-Front | `bugfix/form-validations` | `bd781fa` | `fix: add validation to user forms` | Se corrigieron validaciones en formularios para evitar datos inválidos en los registros. | 28/04/2026 |
-| ColdTrack-Front | `main` | `ce92ab4` | `feat: deploy frontend prototype` | Se realizó el despliegue inicial del frontend funcional para revisión del sprint. | 28/04/2026 |
+| ColdTrack-Front | `main` | `8fa21bc` | `feat: initialize frontend project structure` | Se configuró la estructura inicial del proyecto frontend utilizando la arquitectura base de la aplicación. | 30/04/2026 |
+| ColdTrack-Front | `main` | `1bc4d9f` | `feat: create login and register views` | Se desarrollaron las vistas de inicio de sesión y registro de usuarios. | 30/04/2026 |
+| ColdTrack-Front | `develop/dashboard-module` | `2de78ab` | `feat: implement dashboard layout` | Se implementó el diseño principal del dashboard con navegación lateral y encabezado dinámico. | 01/05/2026 |
+| ColdTrack-Front | `develop/dashboard-module` | `4ab91ce` | `feat: add sidebar navigation component` | Se creó un componente reutilizable para la navegación entre módulos del sistema. | 02/05/2026 |
+| ColdTrack-Front | `main` | `6cd34ef` | `feat: integrate responsive styles` | Se añadieron estilos responsivos para optimizar la visualización en dispositivos móviles y escritorio. | 02/05/2026 |
+| ColdTrack-Front | `feature/product-management` | `7ef45da` | `feat: create product management view` | Se implementó la vista de gestión de productos con tablas y formularios básicos. | 03/05/2026 |
+| ColdTrack-Front | `feature/api-integration` | `91ab3fd` | `feat: connect frontend with mock API services` | Se integró el frontend con servicios simulados para pruebas de carga y visualización de datos. | 5/05/2026 |
+| ColdTrack-Front | `feature/ui-improvements` | `ac56d2e` | `feat: improve UI components and buttons` | Se realizaron mejoras visuales en botones, tarjetas y componentes de interfaz. | 7/05/2026 |
+| ColdTrack-Front | `bugfix/form-validations` | `bd781fa` | `fix: add validation to user forms` | Se corrigieron validaciones en formularios para evitar datos inválidos en los registros. | 09/05/2026 |
+| ColdTrack-Front | `main` | `ce92ab4` | `feat: deploy frontend prototype` | Se realizó el despliegue inicial del frontend funcional para revisión del sprint. | 10/05/2026 |
 
 Los commits presentados evidencian el avance progresivo del Sprint 2, mostrando la construcción de un frontend funcional con componentes reutilizables, vistas principales y mejoras enfocadas en la experiencia del usuario y la estructura de la aplicación.
 #### 5.2.2.5. Execution Evidence for Sprint Review. 

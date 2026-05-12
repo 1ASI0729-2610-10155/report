@@ -1675,21 +1675,21 @@ Link del Trello: https://trello.com/invite/b/69e9cc91c86525634eb4a333/ATTI779ea0
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-El desarrollo del producto se realizó de forma incremental. A continuación, se presentan algunos de los commits más representativos del proceso:
+Durante el Sprint 1, el equipo desarrolló de manera incremental la Landing Page del proyecto, implementando funcionalidades relacionadas con la estructura visual, diseño responsivo, accesibilidad y optimización SEO. Los commits realizados evidencian el progreso continuo del producto y la participación activa de los integrantes del equipo en las distintas tareas asignadas.
 
-| Repository | Branch | Commit Id | Autor | Commit Message | Fecha |
-|------------|--------|-----------|-------|----------------|-------|
-| Landing-Page | `main` | `5ce9ead` | Rodrigo Oblitas | `feat: initial project setup` | 12/05/2025 |
-| Landing-Page | `main` | `0fd3953` | Rodrigo Oblitas | `feat: add basic HTML structure with header` | 13/05/2025 |
-| Landing-Page | `main` | `b0f9279` | Rodrigo Oblitas | `feat: add hero section with title and CTA` | 13/05/2025 |
-| Landing-Page | `main` | `be25150` | Mariano Vilela | `feat: add features section` | 14/05/2025 |
-| Landing-Page | `main` | `5a9590e` | Mariano Vilela | `feat: add responsive CSS styles` | 15/05/2025 |
-| Landing-Page | `main` | `a9e7c80` | Eslander Celis | `feat: add JavaScript interactivity` | 15/05/2025 |
-| Landing-Page | `main` | `fea423b` | Gabriel Mendoza | `feat: add icons to feature cards` | 16/05/2025 |
-| Landing-Page | `features/seo-enhancements` | `df123a2` | Aarón Avila | `feat: add SEO meta tags` | 19/05/2025 |
-| Landing-Page | `bugfix/accessibility-improvements` | `0cd942e` | Eslander Celis | `fix: add ARIA labels for accessibility` | 20/05/2025 |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| Landing-Page | `main` | `5ce9ead` | `feat: initial project setup` | Se configuró la estructura inicial del proyecto y los archivos base para el desarrollo de la Landing Page. | 12/05/2025 |
+| Landing-Page | `main` | `0fd3953` | `feat: add basic HTML structure with header` | Se implementó la estructura principal en HTML incluyendo el encabezado de navegación. | 13/05/2025 |
+| Landing-Page | `main` | `b0f9279` | `feat: add hero section with title and CTA` | Se agregó la sección principal “Hero” con título descriptivo y botón de llamada a la acción. | 13/05/2025 |
+| Landing-Page | `main` | `be25150` | `feat: add features section` | Se desarrolló la sección de características principales del producto para presentar sus funcionalidades. | 14/05/2025 |
+| Landing-Page | `main` | `5a9590e` | `feat: add responsive CSS styles` | Se añadieron estilos responsivos para mejorar la visualización en diferentes dispositivos. | 15/05/2025 |
+| Landing-Page | `main` | `a9e7c80` | `feat: add JavaScript interactivity` | Se implementaron funcionalidades interactivas mediante JavaScript para mejorar la experiencia del usuario. | 15/05/2025 |
+| Landing-Page | `main` | `fea423b` | `feat: add icons to feature cards` | Se incorporaron iconos visuales en las tarjetas de funcionalidades para mejorar la interfaz gráfica. | 16/05/2025 |
+| Landing-Page | `features/seo-enhancements` | `df123a2` | `feat: add SEO meta tags` | Se agregaron meta etiquetas SEO para optimizar el posicionamiento y visibilidad de la página web. | 19/05/2025 |
+| Landing-Page | `bugfix/accessibility-improvements` | `0cd942e` | `fix: add ARIA labels for accessibility` | Se mejoró la accesibilidad de la Landing Page mediante la implementación de etiquetas ARIA. | 20/05/2025 |
 
-Estas evidencias muestran una evolución progresiva desde la estructura base del sitio hasta una versión más completa, optimizada y accesible.
+Los commits mostrados reflejan el avance progresivo del Sprint 1, evidenciando la construcción de una Landing Page funcional, accesible y optimizada, alineada con los objetivos planteados durante la planificación del sprint.
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -1807,9 +1807,42 @@ Repositorios:
 
 ### 5.2.2. Sprint 2 
 #### 5.2.2.1. Sprint Planning 2. 
+El equipo de desarrollo se reunió virtualmente para definir los objetivos, tareas y entregables del segundo sprint, el cual tendrá una duración de una semana. El enfoque principal será el desarrollo del frontend de la aplicación, implementando las interfaces principales, navegación y componentes necesarios para la interacción del usuario con el sistema.
+
+| Sprint                             | Sprint 2                                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                    | Sprint Planning Background                                                                                                                                                                              |
+| Date                               | 2026/04/24                                                                                                                                                                                              |
+| Time                               | 19:30 PM                                                                                                                                                                                                |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord                                                                                                                                   |
+| Prepared By                        | Eslander Celis Berrospi                                                                                                                                                                                 |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Gabriel Mendoza Palacios, Rodrigo Oblitas Alcalde, Aarón Avila Palacios                                                      |
+| Sprint n – 1 Review Summary        | En el sprint anterior se logró desarrollar y desplegar correctamente la Landing Page en GitHub Pages, cumpliendo con los requisitos básicos establecidos para el proyecto.                             |
+| Sprint n – 1 Retrospective Summary | En esta sección los integrantes identificaron mejoras en la organización del código, distribución de tareas y optimización del tiempo para el desarrollo de las interfaces del sistema.               |
+|                                    | Sprint Goal & User Stories                                                                                                                                                                             |
+| Sprint 2 Goal                      | Desarrollar el frontend funcional de la aplicación, implementando las principales vistas, componentes y navegación necesarias para permitir la interacción inicial de los usuarios con el sistema. |
+| Sprint 2 Velocity                  | 12                                                                                                                                                                                                      |
+| Sum of Story Points                | 12                                                                                                                                                                                                      |
 #### 5.2.2.2. Aspect Leaders and Collaborators. 
 #### 5.2.2.3. Sprint Backlog 2. 
-#### 5.2.2.4. Development Evidence for Sprint Review. 
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación ColdTrack, implementando las principales vistas, componentes reutilizables y funcionalidades necesarias para la interacción inicial de los usuarios con el sistema. Asimismo, se trabajó en la organización de rutas, consumo de datos simulados y mejoras visuales orientadas a la experiencia del usuario.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Front | `main` | `8fa21bc` | `feat: initialize frontend project structure` | Se configuró la estructura inicial del proyecto frontend utilizando la arquitectura base de la aplicación. | 24/04/2026 |
+| ColdTrack-Front | `main` | `1bc4d9f` | `feat: create login and register views` | Se desarrollaron las vistas de inicio de sesión y registro de usuarios. | 24/04/2026 |
+| ColdTrack-Front | `develop/dashboard-module` | `2de78ab` | `feat: implement dashboard layout` | Se implementó el diseño principal del dashboard con navegación lateral y encabezado dinámico. | 25/04/2026 |
+| ColdTrack-Front | `develop/dashboard-module` | `4ab91ce` | `feat: add sidebar navigation component` | Se creó un componente reutilizable para la navegación entre módulos del sistema. | 25/04/2026 |
+| ColdTrack-Front | `main` | `6cd34ef` | `feat: integrate responsive styles` | Se añadieron estilos responsivos para optimizar la visualización en dispositivos móviles y escritorio. | 26/04/2026 |
+| ColdTrack-Front | `feature/product-management` | `7ef45da` | `feat: create product management view` | Se implementó la vista de gestión de productos con tablas y formularios básicos. | 26/04/2026 |
+| ColdTrack-Front | `feature/api-integration` | `91ab3fd` | `feat: connect frontend with mock API services` | Se integró el frontend con servicios simulados para pruebas de carga y visualización de datos. | 27/04/2026 |
+| ColdTrack-Front | `feature/ui-improvements` | `ac56d2e` | `feat: improve UI components and buttons` | Se realizaron mejoras visuales en botones, tarjetas y componentes de interfaz. | 27/04/2026 |
+| ColdTrack-Front | `bugfix/form-validations` | `bd781fa` | `fix: add validation to user forms` | Se corrigieron validaciones en formularios para evitar datos inválidos en los registros. | 28/04/2026 |
+| ColdTrack-Front | `main` | `ce92ab4` | `feat: deploy frontend prototype` | Se realizó el despliegue inicial del frontend funcional para revisión del sprint. | 28/04/2026 |
+
+Los commits presentados evidencian el avance progresivo del Sprint 2, mostrando la construcción de un frontend funcional con componentes reutilizables, vistas principales y mejoras enfocadas en la experiencia del usuario y la estructura de la aplicación.
 #### 5.2.2.5. Execution Evidence for Sprint Review. 
 
 La aplicación resultante permite recorrer los principales flujos operativos de ColdTrack. Para la revisión del sprint se validaron las siguientes funcionalidades:

@@ -1839,6 +1839,24 @@ A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
 | **Oblitas, Rodrigo** | **Darkdren** | **C** | **C** | **C** | **C** |
 
 #### 5.2.2.3. Sprint Backlog 2. 
+
+| User Story Id | User Story Title              | Task Id | Task Description                                                      | Status |
+| ------------- | ----------------------------- | ------- |-----------------------------------------------------------------------|------|
+| US-016        | Ver historial de temperaturas | T03     | Desarrollar interfaz web para visualizar historial de temperaturas.   | Done |
+| US-013        | Alertas de temperaturas       | T04     | Configurar lógica de generación automática de alertas de temperatura. | Done |
+| US-013        | Alertas de temperaturas       | T05     | Implementar notificaciones visuales de alertas en el dashboard.       | Done |
+| US-015        | Historial de alertas          | T07     | Diseñar módulo de consulta de historial de alertas.                   | Done |
+| US-015        | Historial de alertas          | T08     | Implementar filtros y tipo de alerta.                                 | Done |
+| US-015        | Historial de alertas          | T09     | Desarrollar tabla dinámica para visualización de alertas.             | Done |
+| US-004        | Crear envío                   | T10     | Diseñar formulario de registro de nuevos envíos.                      | Done |
+| US-004        | Crear envío                   | T11     | Implementar validaciones de datos para creación de envíos.            | Done |
+| US-005        | Ver envíos                    | T14     | Desarrollar interfaz de visualización de envíos activos.              | Done |
+| US-005        | Ver envíos                    | T15     | Agregar búsqueda de envíos por nombre.                                | Done |
+| US-001        | Registro de usuario           | T16     | Diseñar formulario de registro de usuarios.                           | Done |
+| US-001        | Registro de usuario           | T17     | Implementar validaciones y cifrado de contraseñas.                    | Done |
+| US-002        | Inicio de sesión              | T20     | Diseñar interfaz de inicio de sesión responsive.                      | Done |
+| US-002        | Inicio de sesión              | T21     | Configurar control de acceso y manejo de sesiones activas.            | Done |
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación ColdTrack, implementando las principales vistas, componentes reutilizables y funcionalidades necesarias para la interacción inicial de los usuarios con el sistema. Asimismo, se trabajó en la organización de rutas, consumo de datos simulados y mejoras visuales orientadas a la experiencia del usuario.
@@ -1902,6 +1920,11 @@ Desde el punto de vista técnico, la ejecución se validó mediante:
 - Revisión del bundle generado para confirmar que el endpoint productivo apunta a MockAPI.io.
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo técnico y visual del frontend y backend del proyecto, empleando Angular y TypeScript para la creación de interfaces dinámicas, componentes reutilizables y funcionalidades interactivas que mejoran la experiencia de usuario dentro de la aplicación web.
+
+Asimismo, se preparó y configuró el repositorio destinado al desarrollo de la lógica del backend y a la implementación de servicios y endpoints REST, los cuales permitirán la comunicación e integración de los distintos módulos del sistema en los próximos sprints.
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 La Web Application fue desplegada mediante **Firebase Hosting**, ya que el proyecto Angular genera archivos estáticos optimizados para producción y Firebase permite publicarlos con reglas de navegación compatibles con Single Page Applications.
 

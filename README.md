@@ -2035,11 +2035,11 @@ La regla de `rewrites` fue necesaria porque ColdTrack es una Single Page Applica
 En este sprint, las tareas se organizaron en torno al modelado de dominio y la configuración inicial de la arquitectura para el sistema de logística de cadena de frío. La responsabilidad del desarrollo y la implementación técnica recayó en Mariano Vilela, Aaron Avila, Eslander Celis Berrospi, Mathias Arechaga y Rodrigo Oblitas.
 
 <p align="center">
- <img src="images/commits.PNG" alt="commits" width="50%"/>
+ <img src="images/commits.PNG" alt="commits" width="60%"/>
 </p>
 
 <p align="center">
-<img src="images/networkgraph.PNG" alt="networkgrap" width="50%"/>
+<img src="images/networkgraph.PNG" alt="networkgrap" width="60%"/>
 </p>
 
 ## Conclusiones

@@ -27,7 +27,7 @@
 
 </div>
 
-<h3 align="center"> ABRIL - 2026   </h3>
+<h3 align="center"> MAYO - 2026   </h3>
 
 <div style="page-break-before: always;"></div>
 
@@ -42,6 +42,7 @@
 | 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language |
 | 1.6     | 23/04/2026 | Mathias Arechaga Savedra  | Desarollo del capítulo IV: Web app wireframes, Mock-ups, Wireflows                       |
 | 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarollo del capítulo II: User personas, user task matrix, journey map                    |
+| 2.1     | 11/05/2026 | Aarón Avila Palacios      |                                                               |
 
 
 
@@ -61,6 +62,10 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
 
 ![reporteTB1.png](./images/reporteTB1.png)
 
+## TB1
+Para la segunda entrega (TB1) se hicieron las correciones necesarias al proyecto y se agrego todo el Sprint 2
+
+![reporteTP1.png](./images/reporteTP1.png)
 
 ## Contenido
 
@@ -175,7 +180,20 @@ Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, 
       * [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        
+    * [5.2.2. Sprint 2](#522-sprint-2)
 
+      * [5.2.2.1. Sprint Planning 1](#5211-sprint-planning-2)
+      * [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      * [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      * [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      * [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+* [Conclusiones](#conclusiones)
+* [Bibliografía](#bibliografía)
+* [Anexos](#anexos)
 
 
 # Student Outcome
@@ -196,38 +214,62 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
         <th> Comunica oralmente con efectividad a diferentes rangos de audiencia.</th>
         <td>
          <b>Aarón Avila: AV1</b><br>
-         Durante el desarrollo del proyecto, participé activamente en la explicación de herramientas como el Empathy Mapping, As-is Scenario Mapping y el Ubiquitous Language, así como en la presentación del proceso de implementación y validación del producto. Me enfoqué en transmitir las ideas de forma clara y comprensible, adaptando el lenguaje según el público, para facilitar la comprensión tanto de aspectos técnicos como de experiencia de usuario.<br>
+         Durante el desarrollo del proyecto, participé activamente en la explicación de herramientas como el Empathy Mapping, As-is Scenario Mapping y el Ubiquitous Language, así como en la presentación del proceso de implementación y validación del producto. Me enfoqué en transmitir las ideas de forma clara y comprensible, adaptando el lenguaje según el público, para facilitar la comprensión tanto de aspectos técnicos como de experiencia de usuario.<br><br> 
          <b>Eslander Celis: AV1</b><br>
-         Durante el desarrollo del proyecto, fortalecí mi comunicación oral al presentar y explicar temas como la descripción de la startup, los antecedentes y la problemática, así como la definición de los segmentos objetivos. También participé en exposiciones sobre los User Stories, el Product Backlog y el Impact Map, procurando transmitir las ideas de forma clara y ordenada. Me enfoqué en adaptar mi discurso según el tipo de audiencia, ya sea técnica o no técnica, para asegurar que la información sea entendida y aporte al trabajo en equipo.<br>
+         Durante el desarrollo del proyecto, fortalecí mi comunicación oral al presentar y explicar temas como la descripción de la startup, los antecedentes y la problemática, así como la definición de los segmentos objetivos. También participé en exposiciones sobre los User Stories, el Product Backlog y el Impact Map, procurando transmitir las ideas de forma clara y ordenada. Me enfoqué en adaptar mi discurso según el tipo de audiencia, ya sea técnica o no técnica, para asegurar que la información sea entendida y aporte al trabajo en equipo.<br><br> 
          <b>Rodrigo Oblitas: AV1</b><br>
-         Durante el proyecto, desarrollé mi comunicación oral al explicar conceptos del Lean UX Process, como el Problem Statement, Assumptions e Hypothesis, además de participar en la presentación de la Landing Page. Procuré expresar las ideas de manera clara y estructurada, facilitando la comprensión de los enfoques planteados y adaptando el contenido según la audiencia.<br>
+         Durante el proyecto, desarrollé mi comunicación oral al explicar conceptos del Lean UX Process, como el Problem Statement, Assumptions e Hypothesis, además de participar en la presentación de la Landing Page. Procuré expresar las ideas de manera clara y estructurada, facilitando la comprensión de los enfoques planteados y adaptando el contenido según la audiencia.<br><br> 
          <b>Mathias Arechaga: AV1</b><br>
-         Durante el desarrollo del proyecto, participé en la exposición de herramientas de diseño centrado en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación web. Me enfoqué en explicar de forma clara los flujos, interfaces y funcionalidades, adaptando mi lenguaje para que tanto aspectos técnicos como visuales sean entendidos por todos.<br>
+         Durante el desarrollo del proyecto, participé en la exposición de herramientas de diseño centrado en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación web. Me enfoqué en explicar de forma clara los flujos, interfaces y funcionalidades, adaptando mi lenguaje para que tanto aspectos técnicos como visuales sean entendidos por todos.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
-         Durante el proyecto, fortalecí mi comunicación oral al presentar el análisis de competidores, el diseño y resultados de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré transmitir la información de forma ordenada y clara, facilitando la comprensión de los hallazgos y su impacto en la propuesta de solución.<br>
+         Durante el proyecto, fortalecí mi comunicación oral al presentar el análisis de competidores, el diseño y resultados de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré transmitir la información de forma ordenada y clara, facilitando la comprensión de los hallazgos y su impacto en la propuesta de solución.<br><br> 
+            <b>Aarón Avila: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Eslander Celis: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Rodrigo Oblitas: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Mathias Arechaga: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Mariano Vilela: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
         </td>
         <td>
           <b>AV1</b><br>
           Durante el desarrollo del proyecto, el equipo evidenció una comunicación oral sólida al intervenir de manera constante en exposiciones, reuniones y actividades colaborativas. Cada miembro supo ajustar su forma de expresarse según el tipo de audiencia, tanto en entornos técnicos con sus compañeros como en contextos académicos frente a docentes. Esta capacidad se reflejó en la explicación ordenada y fundamentada de temas como el perfil de solución, la segmentación de usuarios, las arquitecturas planteadas y el diseño de la experiencia de usuario. Asimismo, el equipo sobresalió al compartir los resultados de entrevistas e investigaciones de forma clara, facilitando un intercambio de ideas fluido y productivo. En general, la comunicación oral fue fundamental para mantener la coherencia del trabajo, validar decisiones y transmitir propuestas de manera profesional. <br><br>
+             <b>TB1:</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br>
         </td>
     </tr>
     <tr>
         <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
         <td>
           <b>Aarón Avila: AV1</b><br>
-          Desarrollé mi comunicación escrita al elaborar secciones como Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language, así como el capítulo de implementación y validación del producto. Procuré mantener una redacción clara, ordenada y coherente, facilitando la comprensión de los conceptos tanto técnicos como funcionales dentro del proyecto.<br>
+          Desarrollé mi comunicación escrita al elaborar secciones como Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language, así como el capítulo de implementación y validación del producto. Procuré mantener una redacción clara, ordenada y coherente, facilitando la comprensión de los conceptos tanto técnicos como funcionales dentro del proyecto.<br><br> 
           <b>Eslander Celis: AV1</b><br>
-         Por otro lado, desarrollé mi comunicación escrita al redactar secciones como la descripción de la startup, el análisis de la problemática, los segmentos objetivos y la elaboración de los User Stories, Product Backlog e Impact Map. Mantuve un estilo claro, coherente y bien estructurado, lo que permitió que la información sea comprensible para distintos lectores. Esto contribuyó a una documentación consistente y alineada con los objetivos del proyecto.<br>
+         Por otro lado, desarrollé mi comunicación escrita al redactar secciones como la descripción de la startup, el análisis de la problemática, los segmentos objetivos y la elaboración de los User Stories, Product Backlog e Impact Map. Mantuve un estilo claro, coherente y bien estructurado, lo que permitió que la información sea comprensible para distintos lectores. Esto contribuyó a una documentación consistente y alineada con los objetivos del proyecto.<br><br> 
          <b>Rodrigo Oblitas: AV1</b><br>
-         Fortalecí mi comunicación escrita al redactar apartados del Lean UX Process, como Problem Statement, Assumptions e Hypothesis, además del contenido relacionado a la Landing Page. Me enfoqué en estructurar la información de manera clara y precisa, asegurando que sea entendida por distintos tipos de audiencia.<br>
+         Fortalecí mi comunicación escrita al redactar apartados del Lean UX Process, como Problem Statement, Assumptions e Hypothesis, además del contenido relacionado a la Landing Page. Me enfoqué en estructurar la información de manera clara y precisa, asegurando que sea entendida por distintos tipos de audiencia.<br><br> 
          <b>Mathias Arechaga: AV1</b><br>
-         Desarrollé mi comunicación escrita al documentar herramientas de diseño como User Personas, User Journey Mapping y los prototipos de la aplicación web. Mantuve un enfoque claro y organizado, permitiendo que la información visual y funcional sea fácilmente comprendida por el lector.<br>
+         Desarrollé mi comunicación escrita al documentar herramientas de diseño como User Personas, User Journey Mapping y los prototipos de la aplicación web. Mantuve un enfoque claro y organizado, permitiendo que la información visual y funcional sea fácilmente comprendida por el lector.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
-         Fortalecí mi comunicación escrita al desarrollar el análisis de competidores, el diseño y análisis de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré presentar la información de forma clara, estructurada y coherente, facilitando la comprensión de los resultados y su aplicación en el proyecto.<br>
+         Fortalecí mi comunicación escrita al desarrollar el análisis de competidores, el diseño y análisis de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré presentar la información de forma clara, estructurada y coherente, facilitando la comprensión de los resultados y su aplicación en el proyecto.<br><br> 
+             <b>Aarón Avila: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Eslander Celis: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Rodrigo Oblitas: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Mathias Arechaga: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
+            <b>Mariano Vilela: TB1</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br> 
         </td>
         <td>
           <b>AV1:</b><br>
           El equipo evidenció una buena capacidad de comunicación escrita al desarrollar distintos componentes del proyecto, como entrevistas, User Stories, backlog, documentación técnica, diseño de interfaces y secciones del informe final. Cada integrante utilizó un lenguaje claro, ordenado y adecuado según el tipo de público, permitiendo que la información sea entendida tanto por especialistas como por personas con menor conocimiento técnico. La claridad en la explicación de conceptos, junto con una correcta estructuración del contenido, hizo que los documentos cumplieran adecuadamente su propósito informativo y de apoyo en la toma de decisiones. En conjunto, esta habilidad fue clave para asegurar la coherencia del proyecto y lograr una documentación completa y profesional, alineada con los objetivos del equipo. <br><br>
+           <b>TB1:</b><br>
+         aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br><br>
         </td>
     </tr>
 </table>
@@ -1770,6 +1812,57 @@ Repositorios:
 
 ![contribution-sprint-1](./images/contribution2-sprint-1.png)
 
-# Anexo A
-## Videos de Exposiciones
+### 5.2.2. Sprint 2 
+#### 5.2.2.1. Sprint Planning 2. 
+#### 5.2.2.2. Aspect Leaders and Collaborators. 
+#### 5.2.2.3. Sprint Backlog 2. 
+#### 5.2.2.4. Development Evidence for Sprint Review. 
+#### 5.2.2.5. Execution Evidence for Sprint Review. 
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+## Conclusiones
+
+## Bibliografía
+
+•	LucidChart. (2010). LucidChart. Lucid Software Inc. `https://www.lucidchart.com`
+
+•	Trello(2011). Trello. Atlassian. `https://trello.com/`
+
+•	Pivotal Tracker (2008). Pivotal Tracker. VMware, Inc. `https://www.pivotaltracker.com/`
+
+•	Figma (2016). Figma. Figma, Inc.  `https://www.figma.com/`
+
+•	Schwaber, K., & Sutherland, J. (2020). The Scrum Guide: The definitive guide to Scrum: The rules of the game. Scrum.org. `https://scrumguides.org/`
+
+•	ProgressaLean. (2014). 5W+2H: Técnica de análisis de problemas. `https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/`
+
+•	IBM. (2022). As-is Scenario Map. `https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map`
+
+•	IBM. (s. f.). Empathy Map. `https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map`
+
+•	Browne, C. (2022). What are user flows in UX design? .CareerFoundry. `https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/`
+
+•	Structurizr. (s. f.). Embedding diagrams. `https://docs.structurizr.com/cloud/embed`
+
+•	Structurizr. (s. f.). Structurizr. `https://structurizr.com/`
+
+• Loy, M., Niemeyer, P., & Leuck, D. (2023). Learning Java (6th edition). O’Reilly.
+
+• Sciore, E. (2018). Java Program Design: Principles, Polymorphism, and Patterns. Apress L. P.
+
+• Heckler, M. (2021). Spring Boot:  Up and Running (1st edition). O’Reilly Media, Inc.
+
+• Modern API Development with Spring and Spring Boot. (2021). Packt Publishing.
+
+• Kotaru, V. Keerti. author. (2020). Angular for Material Design Leverage Angular Material and TypeScript to Build a Rich User Interface for Web Apps  (1st ed. 2020.). Apress. `https://doi.org/10.1007/978-1-4842-5434-9`
+
+• Karanam, R. R. (2017). Mastering Spring 5.0. Packt Publishing, Limited.
+
+• Gutierrez, F. (2018). Pro Spring Boot 2: An Authoritative Guide to Building Microservices, Web and Enterprise Applications, and Best Practices. Apress L. P.
+
+# Anexos
+**Anexo A:**
+Videos de Exposiciones
 AV1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBOBOCNiucHS5sxaF6NQxhAAcjIxyjyq0SMuPlVnGwHoMk?e=44emzC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D

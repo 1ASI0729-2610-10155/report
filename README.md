@@ -1847,6 +1847,8 @@ A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
 
 #### 5.2.2.3. Sprint Backlog 2. 
 
+![Sprint-Backlog-2](./images/sprint2.png)
+
 | User Story Id | User Story Title              | Task Id | Task Description                                                      | Status |
 | ------------- | ----------------------------- | ------- |-----------------------------------------------------------------------|------|
 | US-016        | Ver historial de temperaturas | T03     | Desarrollar interfaz web para visualizar historial de temperaturas.   | Done |
@@ -2035,16 +2037,62 @@ La regla de `rewrites` fue necesaria porque ColdTrack es una Single Page Applica
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 En este sprint, las tareas se organizaron en torno al modelado de dominio y la configuración inicial de la arquitectura para el sistema de logística de cadena de frío. La responsabilidad del desarrollo y la implementación técnica recayó en Mariano Vilela, Aaron Avila, Eslander Celis Berrospi, Mathias Arechaga y Rodrigo Oblitas.
+2. **Evidencia de commits**:
 
-<p align="center">
- <img src="images/commits.PNG" alt="commits" width="60%"/>
-</p>
+Repositorio:
 
-<p align="center">
-<img src="images/networkgraph.PNG" alt="networkgrap" width="60%"/>
-</p>
+**Documento**
+
+![commits-documento](./images/doc1.png)
+
+**Front**
+
+![commits-sprint-2](./images/commits.PNG)
+
+3. **Evidencia de Nertwork**:
+
+Repositorio:
+
+**Documento**
+
+![network-documento](./images/doc2.png)
+
+**Front**
+
+![nerwortk-sprint-2](./images/networkgraph.PNG)
+
+4.**Contributions**
+
+Repositorios:
+
+**Documento**
+
+![reporteTP1.png](./images/reporteTP1.png)
+
 
 ## Conclusiones
+
+### Conclusiones y recomendaciones
+
+**1.** Como equipo, confirmamos que el problema principal identificado en nuestro Lean UX Problem Statement es relevante para los segmentos objetivo. Las empresas distribuidoras, supervisores logísticos, personal de control de calidad y conductores necesitan mayor visibilidad sobre las condiciones de temperatura y humedad durante el transporte de alimentos. La Web Application que implementamos en el Sprint 2 responde a esta necesidad mediante un dashboard operativo, registro de envíos, gestión de sensores, consulta de alertas e historial de entregas.
+
+**2.** Consideramos que nuestras assumptions de usuario fueron coherentes con el comportamiento esperado de los segmentos. Partimos de la idea de que los usuarios necesitan una herramienta clara, rápida y centralizada para revisar el estado de los envíos antes, durante y después del transporte. Con la versión desarrollada, validamos parcialmente esta suposición, ya que ColdTrack permite consultar envíos activos, sensores disponibles, alertas críticas y registros históricos desde una sola interfaz.
+
+**3.** También concluimos que nuestras assumptions de negocio se mantienen vigentes. ColdTrack demuestra potencial como solución digital para reducir pérdidas, mejorar la trazabilidad y fortalecer el control de calidad durante el transporte de alimentos. Aunque nuestra versión actual trabaja con una API simulada en MockAPI.io, logramos demostrar el flujo base del modelo de negocio y evidenciar el valor de digitalizar la supervisión de cadena de frío.
+
+**4.** En relación con los Hypothesis Statements, avanzamos en la validación de las hipótesis vinculadas al monitoreo centralizado, las alertas, el historial y la claridad de la interfaz. Nuestra aplicación permite revisar varias rutas o unidades desde el dashboard, consultar alertas por severidad y estado, y acceder al historial de envíos completados. Estos resultados se relacionan directamente con los criterios de éxito que planteamos: mayor control operativo, respuesta más rápida ante incidentes y mejor trazabilidad logística.
+
+**5.** Reconocemos que la hipótesis sobre integración con sensores de temperatura y humedad todavía requiere una validación más profunda. En esta etapa representamos los sensores y lecturas mediante datos simulados, lo cual fue suficiente para probar la experiencia del usuario y el flujo de información. Para una siguiente versión, necesitaremos conectar sensores reales o servicios IoT que envíen datos periódicos al sistema.
+
+**6.** La implementación con Angular, Angular Material, Angular Signals, MockAPI.io y Firebase Hosting nos permitió obtener una primera versión funcional y desplegada de la Web Application. Con esto cumplimos el alcance del Sprint 2 y dejamos el producto disponible en un entorno público para que el equipo, los usuarios y los evaluadores puedan revisar sus funcionalidades principales.
+
+**7.** Como siguiente paso del roadmap, recomendamos reemplazar la API simulada por un backend propio RESTful, desarrollado con una arquitectura orientada a servicios. Este backend deberá incluir autenticación real, persistencia de datos, validaciones, documentación con OpenAPI/Swagger y una base preparada para futuras integraciones con sensores.
+
+**8.** También recomendamos ampliar el módulo de alertas para que no solo muestre incidencias, sino que permita registrar acciones correctivas, marcar alertas como atendidas, notificar al conductor o supervisor y generar evidencia del incidente. Esto fortalecerá la trazabilidad y nos permitirá medir mejor la reducción de pérdidas y tiempos de respuesta.
+
+**9.** Para mejorar la validación del producto, consideramos necesario realizar pruebas con usuarios de ambos segmentos objetivo: personal de logística y operaciones, y personal de transporte. Estas pruebas deben ayudarnos a medir si los usuarios interpretan correctamente los estados de envío, comprenden la severidad de las alertas, pueden registrar envíos sin asistencia y consideran útil el historial para la toma de decisiones.
+
+**10.** Finalmente, como equipo recomendamos que el roadmap de ColdTrack priorice la integración con sensores reales, reportes exportables, notificaciones en tiempo real, control de roles por tipo de usuario, métricas comparativas por ruta y mejoras de accesibilidad. Estas funcionalidades nos permitirán avanzar desde un prototipo funcional hacia una solución más completa, alineada con nuestro modelo de negocio digital y con los criterios de éxito definidos en el proceso Lean UX.
 
 ## Bibliografía
 

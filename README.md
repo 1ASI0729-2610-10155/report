@@ -2099,7 +2099,41 @@ A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX):
 | Arechaga, Mathias                   | MathZell        | C            | C                     | C                    | L                | C               | C                    |
 | Oblitas, Rodrigo                    | Darkdren        | C            | C                     | C                    | C                | L               | C                    |
 
-#### 5.2.3.3.Sprint Backlog 3.
+#### 5.2.3.3. Sprint Backlog 3.
+
+| User Story Id | User Story Title               | Task Id    | Task Description                                                                                                       | Status |
+|---------------|--------------------------------|------------|------------------------------------------------------------------------------------------------------------------------|--------|
+| US-001        | Registro de usuario            | IAM-001    | Implementar el agregado UserAccount con sus reglas de negocio en el dominio de IAM.                                    | Done   |
+| US-001        | Registro de usuario            | IAM-002    | Implementar el value object Email con validacion de formato.                                                           | Done   |
+| US-001        | Registro de usuario            | IAM-003    | Implementar el repositorio y la configuracion de persistencia de usuarios en MySQL.                                    | Done   |
+| US-001        | Registro de usuario            | IAM-004    | Implementar el servicio de hashing y verificacion segura de contrasenas.                                               | Done   |
+| US-001        | Registro de usuario            | IAM-006    | Implementar el caso de uso de registro (sign-up) de nuevos usuarios.                                                   | Done   |
+| US-002        | Inicio de sesion               | IAM-005    | Implementar el servicio de generacion y validacion de tokens JWT.                                                      | Done   |
+| US-002        | Inicio de sesion               | IAM-007    | Implementar el caso de uso de inicio de sesion (sign-in) y generacion de token.                                        | Done   |
+| US-002        | Inicio de sesion               | IAM-008    | Implementar los endpoints REST de registro e inicio de sesion.                                                         | Done   |
+| US-003        | Informacion del usuario actual | IAM-009    | Implementar el endpoint para obtener la informacion del usuario autenticado.                                           | Done   |
+| US-004        | Registro de envios             | SM-001     | Implementar el agregado Shipment con sus reglas de negocio en el dominio de Shipment Management.                       | Done   |
+| US-004        | Registro de envios             | SM-002     | Implementar el repositorio y la configuracion de persistencia de envios en MySQL.                                      | Done   |
+| US-004        | Registro de envios             | SM-003     | Implementar el caso de uso de registro de nuevos envios refrigerados.                                                  | Done   |
+| US-004        | Registro de envios             | SM-004     | Implementar el endpoint REST (POST) para el registro de envios, con validaciones de datos.                             | Done   |
+| US-005        | Consulta de envios             | SM-005     | Implementar el servicio de consulta de envios (listado y detalle).                                                     | Done   |
+| US-005        | Consulta de envios             | SM-006     | Implementar los endpoints REST (GET) para listar e inspeccionar envios.                                                | Done   |
+| US-005        | Consulta de envios             | SM-007     | Implementar filtros y paginacion para la consulta de envios.                                                           | Done   |
+| US-006        | Gestion del estado del envio   | SM-008     | Implementar el value object/enum ShipmentStatus con los estados validos del ciclo de vida del envio.                   | Done   |
+| US-006        | Gestion del estado del envio   | SM-009     | Implementar el caso de uso para actualizar el estado de un envio.                                                      | Done   |
+| US-006        | Gestion del estado del envio   | SM-010     | Implementar el endpoint REST (PATCH) para actualizar el estado de un envio.                                            | Done   |
+| US-013        | Alertas de temperaturas        | TS-004-005 | Implementar los endpoints del controlador de alertas de temperatura.                                                   | Done   |
+| US-013        | Alertas de temperaturas        | TS-005-001 | Implementar un gateway de notificaciones simulado (mock) para el envio de alertas.                                     | Done   |
+| US-016        | Ver historial de temperaturas  | TS-006-001 | Implementar el servicio generador de documentos PDF para los reportes de historial.                                    | Done   |
+| US-016        | Ver historial de temperaturas  | TS-006-002 | Implementar el endpoint REST para exportar el historial de temperaturas a PDF.                                         | Done   |
+| US-015        | Historial de alertas           | TS-007-001 | Implementar el servicio de comando para guardar el historial de alertas generadas.                                     | Done   |
+| US-017        | Testimonios de clientes        | TS-008-001 | Implementar el repositorio de testimonios de clientes.                                                                 | Done   |
+| US-017        | Testimonios de clientes        | TS-008-002 | Implementar el servicio de consulta para obtener los testimonios registrados.                                          | Done   |
+| US-017        | Testimonios de clientes        | TS-008-003 | Implementar el endpoint REST para exponer los testimonios de clientes.                                                 | Done   | 
+
+Link del Trello: https://trello.com/b/IcxxPY0t/sprint-backlog-3-coldtrack
+
+
 #### 5.2.3.4.Development Evidence for Sprint Review.
 Durante el Sprint 3, el equipo se enfocó en el desarrollo de la plataforma backend de ColdTrack, implementando los principales servicios, entidades de dominio, mecanismos de autenticación y funcionalidades relacionadas con la gestión logística. Asimismo, se avanzó en la construcción de APIs REST, la documentación técnica y la integración de componentes necesarios para la comunicación entre los distintos módulos del sistema.
 
@@ -2116,6 +2150,10 @@ Durante el Sprint 3, el equipo se enfocó en el desarrollo de la plataforma back
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+Durante este sprint, el equipo desarrolló la base técnica del backend de ColdTrack utilizando ASP.NET Core, C# y Entity Framework Core, implementando la persistencia en MySQL, el manejo de errores, la internacionalización y la documentación con OpenAPI.
+Además, se implementó el módulo de identidad y acceso (IAM) —registro, autenticación con JWT y consulta del usuario actual— y el módulo de gestión de envíos, con su registro, consulta y actualización de estado, sentando las bases para los próximos sprints.
+
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 # 5.3. Validation Interviews.

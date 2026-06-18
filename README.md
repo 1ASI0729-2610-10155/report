@@ -2143,6 +2143,110 @@ Durante el Sprint 3, el equipo se enfocó en el desarrollo de la plataforma back
 | FreshGuard.ColdTrack.Platform | `main` | `99e170f6` | `docs: update README with author information` | Se actualizó la documentación principal del repositorio incorporando información del equipo de desarrollo. | 18/06/2026 |
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Durante el Sprint 3 se validó la primera versión integral de ColdTrack con un backend funcional, persistencia MySQL y comunicación real con la Web Application desarrollada en Angular. A diferencia del Sprint 2, en el que el frontend consumía datos simulados, la revisión de este sprint se realizó utilizando la API REST desplegada en Render y una base de datos MySQL administrada mediante Filess.io.
+
+La evidencia de ejecución comprende tanto la validación independiente del backend mediante Swagger/OpenAPI como la ejecución de los principales flujos de negocio desde el frontend publicado en Firebase Hosting.
+
+##### Entorno utilizado durante la revisión
+
+| Componente | Tecnología o servicio | Evidencia de ejecución |
+|------------|-----------------------|------------------------|
+| Backend | Spring Boot 4.0.6, Java 26 y Maven | API REST desplegada y accesible públicamente |
+| Seguridad | Spring Security y JWT | Autenticación y autorización de recursos protegidos |
+| Persistencia | Spring Data JPA y MySQL 8 | Datos persistentes proporcionados por Filess.io |
+| Documentación del API | OpenAPI 3 y Swagger UI | Contratos y operaciones disponibles desde una interfaz pública |
+| Frontend | Angular 21 y TypeScript | Web Application integrada con el backend real |
+| Hosting del frontend | Firebase Hosting | Aplicación pública con navegación SPA |
+
+##### Verificación funcional del backend
+
+Para la Sprint Review se ejecutaron los siguientes flujos sobre la API desplegada:
+
+1. **Registro e inicio de sesión:** se verificó la creación de usuarios y el inicio de sesión mediante `POST /api/v1/authentication/sign-up` y `POST /api/v1/authentication/sign-in`. El inicio de sesión devuelve el usuario autenticado, un token JWT y el tipo de token `Bearer`.
+2. **Autorización de recursos protegidos:** se comprobó que las operaciones de envíos, sensores, telemetría, alertas, perfiles, analítica y reportes requieren un token JWT válido.
+3. **Registro y consulta de envíos:** se validó la creación de envíos refrigerados, el listado general y la consulta individual mediante el código del envío.
+4. **Ciclo de vida del envío:** se verificaron las transiciones permitidas por el dominio: `REGISTERED → IN_TRANSIT → COMPLETED`. También se comprobó la operación de cancelación para envíos que aún pueden ser cancelados.
+5. **Registro y asignación de sensores:** se registraron sensores con identificadores del tipo `SENS-*` y se comprobó su asignación a envíos existentes. Al asignarse, el sensor cambia de `AVAILABLE` a `ASSIGNED` y conserva el código del envío relacionado.
+6. **Registro de telemetría:** se validó el envío de lecturas de temperatura y humedad. Cada lectura actualiza el sensor, actualiza las condiciones del envío y conserva la fecha de medición.
+7. **Evaluación de alertas:** se comprobó que una lectura fuera de los umbrales establecidos puede generar una alerta vinculada al sensor y al envío correspondiente.
+8. **Dashboard y reportes:** se verificó la consulta de métricas operativas y la disponibilidad de información consolidada para los reportes de envíos.
+9. **Servicios públicos:** se validaron los endpoints públicos correspondientes a testimonios y mensajes de contacto.
+
+##### Principales endpoints ejecutados
+
+| Módulo | Método y endpoint | Resultado esperado |
+|--------|-------------------|--------------------|
+| Authentication | `POST /api/v1/authentication/sign-in` | Devuelve usuario y token JWT |
+| Authentication | `POST /api/v1/authentication/sign-up` | Registra un nuevo usuario |
+| Shipments | `GET /api/v1/shipments` | Lista los envíos persistidos |
+| Shipments | `POST /api/v1/shipments` | Registra un envío en estado `REGISTERED` |
+| Shipments | `GET /api/v1/shipments/{shipmentCode}` | Devuelve el detalle del envío |
+| Shipment lifecycle | `POST /api/v1/shipments/{shipmentCode}/departures` | Cambia el estado a `IN_TRANSIT` |
+| Shipment lifecycle | `POST /api/v1/shipments/{shipmentCode}/completions` | Cambia el estado a `COMPLETED` |
+| Sensors | `GET /api/v1/sensors` | Lista sensores y su estado de asignación |
+| Sensors | `POST /api/v1/sensors` | Registra un sensor disponible |
+| Sensor assignment | `POST /api/v1/shipments/{shipmentCode}/sensor-assignments` | Asigna un sensor al envío |
+| Telemetry | `POST /api/v1/telemetry-readings` | Registra temperatura, humedad y fecha |
+| Alerts | `GET /api/v1/alerts` | Lista alertas operativas |
+| Analytics | `GET /api/v1/analytics/dashboard` | Devuelve métricas consolidadas |
+| Reports | `GET /api/v1/reports/shipments/{shipmentCode}` | Devuelve información del reporte del envío |
+
+##### Evidencia de integración entre frontend y backend
+
+La Web Application dejó de utilizar MockAPI y fue configurada para consumir directamente la API productiva:
+
+```text
+https://freshguard-coldtrack-api.onrender.com/api/v1
+```
+
+La integración se validó mediante los siguientes flujos desde la interfaz:
+
+1. **Autenticación JWT:** el usuario inicia sesión y el frontend conserva de forma segura la sesión necesaria para enviar el encabezado `Authorization: Bearer <token>` en las solicitudes protegidas.
+2. **Dashboard operativo:** se muestran los envíos, métricas y alertas obtenidos desde MySQL a través del backend.
+3. **Creación y consulta de envíos:** el formulario Angular registra el envío utilizando la API y actualiza la vista con la respuesta del servidor.
+4. **Detalle del envío:** la opción **View details / Ver detalles** presenta destino, conductor, carga, fechas, condiciones ambientales, sensor asignado y alertas relacionadas.
+5. **Asignación de sensores:** la opción **Link / Vincular** permite seleccionar un envío en estado `REGISTERED` o `IN_TRANSIT`. La tabla actualiza el estado del sensor y muestra el código, destino y estado del envío asignado.
+6. **Lecturas del sensor:** la opción **Add reading / Agregar lectura** registra temperatura y humedad. Después de guardar, se actualizan la última lectura, las condiciones del sensor y las condiciones del envío.
+7. **Gestión del estado del envío:** desde el detalle se puede iniciar un envío registrado y posteriormente completarlo, respetando las reglas del dominio.
+8. **Alertas e historial:** las vistas consumen información persistida y permiten aplicar búsquedas y filtros.
+9. **Exportación:** el dashboard, las alertas y el historial permiten generar archivos CSV compatibles con herramientas de hojas de cálculo.
+10. **Internacionalización:** las funcionalidades integradas se verificaron en inglés y español.
+
+##### Resultados de la verificación técnica
+
+La siguiente tabla resume las comprobaciones efectuadas el 18 de junio de 2026:
+
+| Verificación | Resultado |
+|--------------|-----------|
+| Swagger UI público | `200 OK` |
+| Documento OpenAPI `/v3/api-docs` | `200 OK` y contenido JSON |
+| Firebase Hosting | `200 OK` y contenido HTML |
+| Inicio de sesión con la cuenta demo | Exitoso; se obtuvo token JWT |
+| Consulta autenticada de envíos | Exitosa; 4 registros disponibles al momento de la validación |
+| Consulta autenticada de sensores | Exitosa; 2 registros disponibles al momento de la validación |
+| Consulta autenticada de alertas | Exitosa; 2 registros disponibles al momento de la validación |
+| Build de producción del frontend | Exitoso mediante `npm run build` |
+| Pruebas funcionales del frontend | 12 de 12 escenarios aprobados |
+| Consola del navegador durante los flujos | Sin errores ni advertencias |
+
+El endpoint de Actuator no se utiliza como evidencia pública porque permanece protegido por Spring Security. La disponibilidad del servicio se comprobó mediante Swagger, OpenAPI, autenticación y consultas reales sobre los recursos protegidos.
+
+El backend contiene pruebas JUnit para el arranque de contexto y las reglas de dominio de `Shipment` y `Sensor`. Para ejecutarlas localmente es obligatorio utilizar JDK 26, que es la versión configurada en Maven y en la imagen Docker del proyecto:
+
+```bash
+./mvnw clean test
+```
+
+El frontend se verificó mediante la compilación optimizada de Angular:
+
+```bash
+npm install
+npm run build
+```
+
+En conjunto, estas evidencias demuestran que el incremento del Sprint 3 no se limita a endpoints aislados: el backend se encuentra desplegado, persiste información en MySQL y soporta los flujos operativos ejecutados desde la Web Application.
+
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación.
@@ -2151,6 +2255,191 @@ En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment
 Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3 se desplegó una arquitectura distribuida compuesta por el frontend Angular, la API REST de Spring Boot y una base de datos MySQL administrada. El objetivo del despliegue fue disponer de un entorno público que permitiera demostrar el backend funcional y su integración con la Web Application.
+
+##### Arquitectura desplegada
+
+```mermaid
+flowchart LR
+    U[Usuario] -->|HTTPS| F[Angular Web Application<br/>Firebase Hosting]
+    F -->|REST + JWT| B[Spring Boot API<br/>Render Web Service]
+    B -->|JDBC + TLS| D[(MySQL 8<br/>Filess.io)]
+    B --> S[Swagger / OpenAPI]
+```
+
+| Componente | Plataforma | URL o configuración principal |
+|------------|------------|--------------------------------|
+| Frontend Angular | Firebase Hosting | https://coldtrack-front-open.web.app |
+| Frontend alternativo | Firebase Hosting | https://coldtrack-front-open.firebaseapp.com |
+| Backend REST | Render Web Service | https://freshguard-coldtrack-api.onrender.com |
+| Swagger UI | Render | https://freshguard-coldtrack-api.onrender.com/swagger-ui/index.html |
+| OpenAPI JSON | Render | https://freshguard-coldtrack-api.onrender.com/v3/api-docs |
+| Base de datos | Filess.io | MySQL 8, conexión privada mediante variables de entorno |
+| Versión desplegada del backend | GitHub Release / Maven | `v0.1.1` / `0.1.1` |
+
+##### Despliegue del backend en Render
+
+El backend se publica como un **Web Service** de Render utilizando una imagen Docker multi-stage. La primera etapa compila el proyecto con Maven y Java 26; la segunda etapa copia únicamente el archivo JAR a una imagen JRE, reduciendo el tamaño y la superficie del contenedor final.
+
+Archivo `Dockerfile` utilizado:
+
+```dockerfile
+FROM maven:3.9.16-eclipse-temurin-26 AS build
+WORKDIR /app
+COPY .mvn .mvn
+COPY mvnw pom.xml ./
+RUN chmod +x mvnw && ./mvnw dependency:go-offline
+COPY src src
+RUN ./mvnw clean package -DskipTests
+
+FROM eclipse-temurin:26-jre AS runtime
+WORKDIR /app
+ENV SPRING_PROFILES_ACTIVE=prod
+COPY --from=build /app/target/*.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "app.jar"]
+```
+
+El perfil productivo utiliza variables de entorno para evitar almacenar credenciales dentro del repositorio:
+
+```properties
+spring.datasource.url=jdbc:mysql://${DATABASE_URL}:${DATABASE_PORT:3306}/${DATABASE_NAME}?useSSL=true&serverTimezone=UTC
+spring.datasource.username=${DATABASE_USER}
+spring.datasource.password=${DATABASE_PASSWORD}
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.show-sql=false
+server.forward-headers-strategy=framework
+```
+
+Las variables configuradas en Render incluyen los datos de conexión a MySQL, el secreto utilizado para firmar los JWT, los orígenes CORS permitidos y el perfil de Spring. Los valores sensibles no se muestran como parte de la evidencia.
+
+Proceso seguido para desplegar el backend:
+
+1. Se preparó la versión estable en `main` mediante GitFlow, integrando previamente las ramas `feature/*` en `develop`.
+2. Se creó la configuración Docker multi-stage para Java 26.
+3. Se creó un Web Service en Render asociado al repositorio del backend.
+4. Se configuró el perfil `prod` y las variables de entorno de base de datos, JWT y CORS.
+5. Se configuró el puerto de la aplicación y el pool de conexiones de acuerdo con el límite del servicio MySQL.
+6. Render construyó la imagen, generó el JAR e inició el contenedor.
+7. Se verificaron Swagger UI, OpenAPI y el inicio de sesión contra la URL pública.
+8. Se publicaron las versiones `v0.1.0` y `v0.1.1` como releases del backend.
+
+##### Persistencia MySQL en Filess.io
+
+La base de datos productiva se ejecuta sobre MySQL 8 en Filess.io. El backend accede mediante el driver oficial `mysql-connector-j` y Spring Data JPA.
+
+Para la configuración se utilizaron las siguientes variables, sin exponer sus valores:
+
+| Variable | Propósito |
+|----------|-----------|
+| `DATABASE_URL` | Host del servidor MySQL |
+| `DATABASE_PORT` | Puerto asignado por Filess.io |
+| `DATABASE_NAME` | Nombre de la base de datos productiva |
+| `DATABASE_USER` | Usuario con acceso a la base de datos |
+| `DATABASE_PASSWORD` | Contraseña almacenada como secreto en Render |
+| `SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE` | Límite controlado del pool de conexiones |
+
+La persistencia se comprobó creando usuarios, envíos, sensores, asignaciones, lecturas y alertas; posteriormente, la información continuó disponible después de nuevas solicitudes y despliegues del frontend.
+
+##### Despliegue e integración del frontend en Firebase
+
+El frontend Angular se compila como un conjunto de archivos estáticos optimizados. Firebase Hosting publica el contenido de `dist/coldtrack-front/browser` y redirige las rutas internas hacia `index.html` para soportar el comportamiento de Single Page Application.
+
+Configuración relevante de `firebase.json`:
+
+```json
+{
+  "hosting": {
+    "public": "dist/coldtrack-front/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/i18n/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Configuración del proyecto Firebase en `.firebaserc`:
+
+```json
+{
+  "projects": {
+    "default": "coldtrack-front-open"
+  }
+}
+```
+
+El entorno productivo del frontend apunta a la API desplegada:
+
+```typescript
+export const environment = {
+  production: true,
+  apiBaseUrl: 'https://freshguard-coldtrack-api.onrender.com/api/v1',
+};
+```
+
+Comandos utilizados para compilar y desplegar:
+
+```bash
+npm install
+npm run build
+firebase deploy --only hosting --project coldtrack-front-open
+```
+
+Para completar la integración se configuró en el backend el origen permitido de Firebase:
+
+```text
+https://coldtrack-front-open.web.app
+```
+
+De esta forma, el navegador puede realizar solicitudes CORS hacia Render, autenticar al usuario y consumir los endpoints protegidos con JWT.
+
+##### Estrategia de liberación y verificación
+
+Tanto el backend como el frontend siguieron el modelo GitFlow solicitado por el equipo:
+
+```text
+main → develop → feature/* → develop → main
+```
+
+Las ramas feature se utilizaron para autenticación, logística, monitoreo, documentación, despliegue e integración. Una vez verificadas, se integraron en `develop` y posteriormente en `main` para publicar una versión estable.
+
+Después del despliegue se realizaron las siguientes comprobaciones:
+
+| Evidencia | Resultado |
+|-----------|-----------|
+| Render construye la imagen con Java 26 | Correcto |
+| Swagger UI disponible públicamente | `200 OK` |
+| Contrato OpenAPI disponible | `200 OK` |
+| Inicio de sesión y emisión de JWT | Correcto |
+| Acceso autenticado a envíos, sensores y alertas | Correcto |
+| Firebase Hosting disponible | `200 OK` |
+| Frontend conectado a la API de Render | Correcto |
+| Persistencia de datos en MySQL | Correcto |
+| Navegación SPA después de recargar una ruta | Correcto |
+| Consola del navegador durante la validación | Sin errores |
+
+Como resultado, ColdTrack cuenta con un entorno productivo demostrable para la Sprint Review: la Web Application está disponible en Firebase, la API se ejecuta en Render, los contratos pueden inspeccionarse mediante Swagger y los datos operativos se almacenan en MySQL mediante Filess.io.
+
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.

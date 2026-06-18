@@ -2123,13 +2123,7 @@ A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX):
 | US-006        | Gestion del estado del envio   | SM-009     | Implementar el caso de uso para actualizar el estado de un envio.                                                      | Done   |
 | US-006        | Gestion del estado del envio   | SM-010     | Implementar el endpoint REST (PATCH) para actualizar el estado de un envio.                                            | Done   |
 | US-013        | Alertas de temperaturas        | TS-004-005 | Implementar los endpoints del controlador de alertas de temperatura.                                                   | Done   |
-| US-013        | Alertas de temperaturas        | TS-005-001 | Implementar un gateway de notificaciones simulado (mock) para el envio de alertas.                                     | Done   |
-| US-016        | Ver historial de temperaturas  | TS-006-001 | Implementar el servicio generador de documentos PDF para los reportes de historial.                                    | Done   |
-| US-016        | Ver historial de temperaturas  | TS-006-002 | Implementar el endpoint REST para exportar el historial de temperaturas a PDF.                                         | Done   |
 | US-015        | Historial de alertas           | TS-007-001 | Implementar el servicio de comando para guardar el historial de alertas generadas.                                     | Done   |
-| US-017        | Testimonios de clientes        | TS-008-001 | Implementar el repositorio de testimonios de clientes.                                                                 | Done   |
-| US-017        | Testimonios de clientes        | TS-008-002 | Implementar el servicio de consulta para obtener los testimonios registrados.                                          | Done   |
-| US-017        | Testimonios de clientes        | TS-008-003 | Implementar el endpoint REST para exponer los testimonios de clientes.                                                 | Done   | 
 
 Link del Trello: https://trello.com/b/IcxxPY0t/sprint-backlog-3-coldtrack
 
@@ -2151,8 +2145,10 @@ Durante el Sprint 3, el equipo se enfocó en el desarrollo de la plataforma back
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
-Durante este sprint, el equipo desarrolló la base técnica del backend de ColdTrack utilizando ASP.NET Core, C# y Entity Framework Core, implementando la persistencia en MySQL, el manejo de errores, la internacionalización y la documentación con OpenAPI.
-Además, se implementó el módulo de identidad y acceso (IAM) —registro, autenticación con JWT y consulta del usuario actual— y el módulo de gestión de envíos, con su registro, consulta y actualización de estado, sentando las bases para los próximos sprints.
+Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación.
+En lo que respecta al módulo de gestión de identidad y acceso, se llevó a cabo la implementación del agregado UserAccount junto con sus reglas de negocio, el value object Email con validación de formato, y la configuración del repositorio de usuarios sobre MySQL. Adicionalmente, se desarrolló el servicio de hashing y verificación segura de contraseñas, los casos de uso correspondientes al registro e inicio de sesión de usuarios con generación de token JWT, y los endpoints REST necesarios para exponer dichas funcionalidades, incluyendo la consulta del perfil del usuario autenticado.
+En cuanto al módulo de gestión de envíos, se implementó el agregado Shipment con sus respectivas reglas de negocio, la capa de persistencia en MySQL, y los casos de uso para el registro y actualización de envíos refrigerados. Asimismo, se desarrollaron los endpoints REST bajo los métodos POST, GET y PATCH para permitir el registro, consulta y actualización del estado de los envíos, apoyándose en el value object ShipmentStatus para modelar correctamente el ciclo de vida de cada envío.
+Finalmente, en el módulo de monitoreo de temperatura, se implementaron los endpoints del controlador de alertas de temperatura, así como el servicio encargado de registrar y preservar el historial de alertas generadas por el sistema.
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 #### 5.2.3.8.Team Collaboration Insights during Sprint.

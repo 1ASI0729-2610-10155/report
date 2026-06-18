@@ -2069,6 +2069,22 @@ Repositorios:
 
 ![reporteTP1.png](./images/reporteTP1.png)
 
+## 5.2.3. Sprint 3
+### 5.2.3.1. Sprint Planning 3.
+| Sprint                             | Sprint 3 |
+| ---------------------------------- | -------- |
+|                                    | Sprint Planning Background |
+| Date                               | 2026/06/01 |
+| Time                               | 19:30 PM |
+| Location                           | El desarrollo de la reunión se hizo virtualmente por medio de Discord |
+| Prepared By                        | Eslander Celis Berrospi |
+| Attendees (to planning meeting)    | Eslander Celis Berrospi, Mariano, Rodrigo Oblitas Alcalde, Aarón Avila Palacios |
+| Sprint n – 1 Review Summary        | En el Sprint 2 se desarrolló exitosamente el frontend de la aplicación, implementando las principales vistas, componentes y mecanismos de navegación necesarios para la interacción de los usuarios con el sistema. |
+| Sprint n – 1 Retrospective Summary | Durante la retrospectiva del Sprint 2, el equipo identificó oportunidades de mejora en la integración entre frontend y backend, la organización del código y la distribución de tareas para optimizar el desarrollo del proyecto. |
+|                                    | Sprint Goal & User Stories |
+| Sprint 3 Goal                      | Implementar nuevas historias de usuario relacionadas con el backend, iniciar el desarrollo de la API REST, configurar mecanismos de autenticación, establecer procedimientos para el reporte y monitoreo de servicios backend, y continuar con las tareas pendientes del frontend para lograr una integración progresiva del sistema. |
+| Sprint 3 Velocity                  | 14 |
+| Sum of Story Points                | 14 |
 #### 5.2.3.2 Aspect Leaders and Collaborator.
 
 En el presente Sprint, el equipo trabajará en la construcción de una Landing Page para ColdTrack que contempla diversas funcionalidades y secciones clave para la experiencia del usuario. Los principales aspectos considerados en este Sprint incluyen features, funcionalidades y secciones específicas. Cada aspecto contará con un líder responsable de su desarrollo y colaboradores que apoyarán en tareas específicas relacionadas, con el objetivo de lograr una comunicación efectiva y una distribución clara de responsabilidades en el equipo.
@@ -2082,6 +2098,32 @@ A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX):
 | Celis Berrospi, Eslander            | Eslander-Celis  | C            | C                     | L                    | C                | C               | C                    |
 | Arechaga, Mathias                   | MathZell        | C            | C                     | C                    | L                | C               | C                    |
 | Oblitas, Rodrigo                    | Darkdren        | C            | C                     | C                    | C                | L               | C                    |
+
+#### 5.2.3.3.Sprint Backlog 3.
+#### 5.2.3.4.Development Evidence for Sprint Review.
+Durante el Sprint 3, el equipo se enfocó en el desarrollo de la plataforma backend de ColdTrack, implementando los principales servicios, entidades de dominio, mecanismos de autenticación y funcionalidades relacionadas con la gestión logística. Asimismo, se avanzó en la construcción de APIs REST, la documentación técnica y la integración de componentes necesarios para la comunicación entre los distintos módulos del sistema.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FreshGuard.ColdTrack.Platform | `develop` | `1664554e` | `chore: initialize Spring Boot platform foundation` | Se configuró la estructura base de la plataforma backend utilizando Spring Boot y las dependencias iniciales del proyecto. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/iam-and-profiles` | `0a26eb40` | `feat(iam): add JWT authentication roles and profiles` | Se implementó el módulo de autenticación y autorización mediante JWT, incluyendo roles y perfiles de usuario. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/logistics-and-monitoring` | `478b33ab` | `feat(core): add shipments sensors and telemetry` | Se desarrollaron las entidades y servicios relacionados con envíos, sensores y telemetría para el monitoreo logístico. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/alerting-analytics-engagement` | `9bd144f0` | `feat(platform): add alerting analytics and engagement APIs` | Se implementaron APIs para la gestión de alertas, análisis de datos y seguimiento de eventos relevantes del sistema. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/documentation-and-tests` | `fb7873a9` | `test(docs): add architecture documentation and verification suites` | Se incorporó documentación arquitectónica y pruebas de verificación para validar el correcto funcionamiento de los módulos desarrollados. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `develop` | `6d58ae47` | `chore(release): prepare version 0.1.0` | Se realizaron ajustes finales de configuración, documentación y preparación para la liberación de la versión 0.1.0. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `main` | `65527345` | `release: merge develop into main for v0.1.0` | Se integraron las funcionalidades desarrolladas en la rama principal como parte del primer lanzamiento estable del sistema. | 17/06/2026 |
+| FreshGuard.ColdTrack.Platform | `main` | `99e170f6` | `docs: update README with author information` | Se actualizó la documentación principal del repositorio incorporando información del equipo de desarrollo. | 18/06/2026 |
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+# 5.3. Validation Interviews.
+## 5.3.1. Diseño de Entrevistas.
+## 5.3.2. Registro de Entrevistas.
+## 5.3.3. Evaluaciones según heurísticas.
+# 5.4. Video About-the-Product.
+
 
 
 ## Conclusiones

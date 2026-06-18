@@ -2069,6 +2069,20 @@ Repositorios:
 
 ![reporteTP1.png](./images/reporteTP1.png)
 
+#### 5.2.3.2 Aspect Leaders and Collaborator.
+
+En el presente Sprint, el equipo trabajará en la construcción de una Landing Page para ColdTrack que contempla diversas funcionalidades y secciones clave para la experiencia del usuario. Los principales aspectos considerados en este Sprint incluyen features, funcionalidades y secciones específicas. Cada aspecto contará con un líder responsable de su desarrollo y colaboradores que apoyarán en tareas específicas relacionadas, con el objetivo de lograr una comunicación efectiva y una distribución clara de responsabilidades en el equipo.
+
+A continuación, se presenta la Leadership-and-Collaboration Matrix (LACX):
+
+| Team Member (Last Name, First Name) | GitHub Username | Hero Section | Main features section | How it Works section | About Us section | Contact section | Testimonials section |
+|-------------------------------------|-----------------|--------------|-----------------------|----------------------|------------------|-----------------|----------------------|
+| Vilela, Mariano                     | vilelamenendez  | L            | C                     | C                    | C                | C               | L                    |
+| Avila, Aaron                        | AaronAvilap     | C            | L                     | C                    | C                | C               | C                    |
+| Celis Berrospi, Eslander            | Eslander-Celis  | C            | C                     | L                    | C                | C               | C                    |
+| Arechaga, Mathias                   | MathZell        | C            | C                     | C                    | L                | C               | C                    |
+| Oblitas, Rodrigo                    | Darkdren        | C            | C                     | C                    | C                | L               | C                    |
+
 
 ## Conclusiones
 

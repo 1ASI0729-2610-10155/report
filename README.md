@@ -2464,6 +2464,33 @@ Después del despliegue se realizaron las siguientes comprobaciones:
 Como resultado, ColdTrack cuenta con un entorno productivo demostrable para la Sprint Review: la Web Application está disponible en Firebase, la API se ejecuta en Render, los contratos pueden inspeccionarse mediante Swagger y los datos operativos se almacenan en MySQL mediante Filess.io.
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+Backend:
+
+Distribución de commits:
+Avila Aaron (AaronAvilap): 8
+Celis Berrospi Eslander (Eslander-Celis): 1
+Oblitas Rodrigo (Darkdren): 0
+Arechaga Mathias (MathZell): 0
+Vilela Mariano (vilelamenendez): 0
+
+Frontend:
+
+Distribución de commits:
+Avila Aaron (AaronAvilap): 8
+Oblitas Rodrigo (Darkdren): 2
+Arechaga Mathias (MathZell): 1
+Celis Berrospi Eslander (Eslander-Celis): 1
+Vilela Mariano (vilelamenendez): 1
+
+Landing Page:
+
+Distribución de commits:
+Avila Aaron (AaronAvilap): 1
+Celis Berrospi Eslander (Eslander-Celis): 1
+Oblitas Rodrigo (Darkdren): 0
+Arechaga Mathias (MathZell): 0
+Vilela Mariano (vilelamenendez): 0
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.
 

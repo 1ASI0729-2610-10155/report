@@ -191,6 +191,23 @@ Para la segunda entrega (TB1) se hicieron las correciones necesarias al proyecto
       * [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    * [5.2.3. Sprint 3](#523-sprint-3)
+
+      * [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      * [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      * [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      * [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      * [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      * [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      * [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      * [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+    * [5.3. Validation Interviews](#53-validation-interviews)
+    * [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    * [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    * [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+
+* [5.4. Video About-the-Product](#54-video-about-the-product)
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -2649,6 +2666,38 @@ Timing / Duración:
 **9.** Para mejorar la validación del producto, consideramos necesario realizar pruebas con usuarios de ambos segmentos objetivo: personal de logística y operaciones, y personal de transporte. Estas pruebas deben ayudarnos a medir si los usuarios interpretan correctamente los estados de envío, comprenden la severidad de las alertas, pueden registrar envíos sin asistencia y consideran útil el historial para la toma de decisiones.
 
 **10.** Finalmente, como equipo recomendamos que el roadmap de ColdTrack priorice la integración con sensores reales, reportes exportables, notificaciones en tiempo real, control de roles por tipo de usuario, métricas comparativas por ruta y mejoras de accesibilidad. Estas funcionalidades nos permitirán avanzar desde un prototipo funcional hacia una solución más completa, alineada con nuestro modelo de negocio digital y con los criterios de éxito definidos en el proceso Lean UX.
+
+### Video About-the-Team
+
+
+| Sección | Descripción | Inicio |
+|---------|-------------|--------|
+| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
+| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 01:52 |
+| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 02:50 |
+| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 04:03 |
+| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:00 |
+| Presentación de Mariano | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:58 |
+
+
+#### Evidencia del video
+
+Screenshot del video:
+
+![About-the-Team](images/about-the-team.png)
+
+Microsoft Stream URL:  
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBLyZI2bKctQYWAI6Wr6mRMAVhYhbuppTcY6C9_XdAFqbE?e=dZzXdY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+
+YouTube URL:  
+https://youtu.be/Mt3vnaf3Q1o
+
+
+Timing / Duración:  
+7:32 minutos
 
 ## Bibliografía
 

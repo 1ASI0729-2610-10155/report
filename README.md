@@ -2481,7 +2481,19 @@ Como resultado, ColdTrack cuenta con un entorno productivo demostrable para la S
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; tras interactuar con el Landing Page de ColdTrack, indicó que comprendió claramente el problema que la plataforma busca resolver, relacionado con el monitoreo de la cadena de frío durante el transporte, además señaló que la información presentada fue fácil de encontrar y estuvo bien organizada, lo que facilitó la comprensión de los datos del envío; también destacó que las alertas mostradas son visibles y permiten identificar rápidamente posibles incidencias durante el trayecto; finalmente, considera que la plataforma puede mejorar significativamente el control de las operaciones logísticas al permitir la supervisión en tiempo real y la detección oportuna de problemas, facilitando una mejor toma de decisiones y reduciendo riesgos en la cadena de suministro. |
 
+#### **Segundo Segmento - Personal de Transporte:** <br>
 
+| **ENTREVISTA 1** |                            |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Edery Abanto |
+| **Edad** | 30 |
+| **Profesión** | personal de transporte |
+| **Departamento** | Lima |
+| **Inicio del video** | 15:13 |
+| **Fin del video** | 20:40 |
+| **Link del video** |[ Entrevista 4 ](link)  |
+| **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
+| **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
 
 ## 5.3.3. Evaluaciones según heurísticas.
 

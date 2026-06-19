@@ -2479,7 +2479,7 @@ Distribución de commits:
 
 Frontend:
 <p align="center">
-  <img src="images/commitfronted.png" alt="Commit-Front" width="7%"/>
+  <img src="images/commitfronted.png" alt="Commit-Front" width="70%"/>
 </p>
 
 Distribución de commits:

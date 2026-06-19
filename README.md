@@ -2159,6 +2159,10 @@ La evidencia de ejecución comprende tanto la validación independiente del back
 | Frontend | Angular 21 y TypeScript | Web Application integrada con el backend real |
 | Hosting del frontend | Firebase Hosting | Aplicación pública con navegación SPA |
 
+La siguiente captura evidencia que Swagger UI se encuentra disponible desde el dominio productivo de Render y expone los controladores de telemetría y envíos, incluyendo las operaciones de salida, finalización y cancelación:
+
+![Swagger UI del backend desplegado en Render](./Sprint-3-Evidence/sprint3-swagger-api.png)
+
 ##### Verificación funcional del backend
 
 Para la Sprint Review se ejecutaron los siguientes flujos sobre la API desplegada:
@@ -2212,6 +2216,10 @@ La integración se validó mediante los siguientes flujos desde la interfaz:
 8. **Alertas e historial:** las vistas consumen información persistida y permiten aplicar búsquedas y filtros.
 9. **Exportación:** el dashboard, las alertas y el historial permiten generar archivos CSV compatibles con herramientas de hojas de cálculo.
 10. **Internacionalización:** las funcionalidades integradas se verificaron en inglés y español.
+    
+La ejecución integrada se evidencia en el dashboard productivo. La interfaz muestra información obtenida desde el backend, incluyendo cuatro envíos, un envío en ruta, un envío completado, condiciones de temperatura y humedad y una alerta activa generada por superar el umbral recomendado:
+
+![Dashboard Angular integrado con el backend de ColdTrack](./Sprint-3-Evidence/sprint3-integrated-dashboard.png)
 
 ##### Resultados de la verificación técnica
 
@@ -2247,6 +2255,8 @@ npm run build
 
 En conjunto, estas evidencias demuestran que el incremento del Sprint 3 no se limita a endpoints aislados: el backend se encuentra desplegado, persiste información en MySQL y soporta los flujos operativos ejecutados desde la Web Application.
 
+Las capturas incluidas demuestran tanto la disponibilidad de los contratos REST como la ejecución de datos reales en la Web Application. Como evidencia complementaria para una exposición oral se pueden mostrar en vivo el inicio de sesión, la asignación de sensores, el registro de telemetría y la transición `REGISTERED → IN_TRANSIT → COMPLETED`.
+
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 3, el equipo concentró sus esfuerzos en la construcción de la capa de backend del sistema, abarcando la implementación de la lógica de dominio, la configuración de persistencia de datos y la exposición de servicios a través de endpoints REST, sentando así las bases funcionales de los principales módulos de la aplicación.
@@ -2281,6 +2291,10 @@ flowchart LR
 ##### Despliegue del backend en Render
 
 El backend se publica como un **Web Service** de Render utilizando una imagen Docker multi-stage. La primera etapa compila el proyecto con Maven y Java 26; la segunda etapa copia únicamente el archivo JAR a una imagen JRE, reduciendo el tamaño y la superficie del contenedor final.
+
+La consola de Render evidencia que `freshguard-coldtrack-api` se encuentra configurado como Web Service mediante Docker, asociado al repositorio del backend y a la rama `main`. También muestra la URL pública utilizada por el frontend:
+
+![Web Service del backend desplegado en Render](./Sprint-3-Evidence/sprint3-render-service.png)
 
 Archivo `Dockerfile` utilizado:
 
@@ -2329,6 +2343,10 @@ Proceso seguido para desplegar el backend:
 
 La base de datos productiva se ejecuta sobre MySQL 8 en Filess.io. El backend accede mediante el driver oficial `mysql-connector-j` y Spring Data JPA.
 
+La consola de Filess.io evidencia que la instancia MySQL se encuentra activa en la región de España y muestra la información general de conexión. La contraseña permanece oculta en la captura:
+
+![Base de datos MySQL activa en Filess.io](./Sprint-3-Evidence/sprint3-filess-mysql.png)
+
 Para la configuración se utilizaron las siguientes variables, sin exponer sus valores:
 
 | Variable | Propósito |
@@ -2345,6 +2363,11 @@ La persistencia se comprobó creando usuarios, envíos, sensores, asignaciones, 
 ##### Despliegue e integración del frontend en Firebase
 
 El frontend Angular se compila como un conjunto de archivos estáticos optimizados. Firebase Hosting publica el contenido de `dist/coldtrack-front/browser` y redirige las rutas internas hacia `index.html` para soportar el comportamiento de Single Page Application.
+
+La evidencia de Firebase Hosting muestra la versión publicada el 18 de junio de 2026, el historial de despliegues y los dos dominios públicos asociados al proyecto `coldtrack-front-open`:
+
+![Historial y dominios del despliegue en Firebase Hosting](./Sprint-3-Evidence/sprint3-firebase-hosting.png)
+
 
 Configuración relevante de `firebase.json`:
 

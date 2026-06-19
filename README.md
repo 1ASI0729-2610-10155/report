@@ -2471,11 +2471,11 @@ Backend:
 </p>
 
 Distribución de commits:
-Avila Aaron (AaronAvilap): 8
-Celis Berrospi Eslander (Eslander-Celis): 1
-Oblitas Rodrigo (Darkdren): 0
-Arechaga Mathias (MathZell): 0
-Vilela Mariano (vilelamenendez): 0
+- Avila Aaron (AaronAvilap): 8
+- Celis Berrospi Eslander (Eslander-Celis): 1 
+- Oblitas Rodrigo (Darkdren): 0
+- Arechaga Mathias (MathZell): 0
+- Vilela Mariano (vilelamenendez): 0
 
 Frontend:
 <p align="center">
@@ -2483,11 +2483,11 @@ Frontend:
 </p>
 
 Distribución de commits:
-Avila Aaron (AaronAvilap): 8
-Oblitas Rodrigo (Darkdren): 2
-Arechaga Mathias (MathZell): 1
-Celis Berrospi Eslander (Eslander-Celis): 1
-Vilela Mariano (vilelamenendez): 1
+- Avila Aaron (AaronAvilap): 8
+- Oblitas Rodrigo (Darkdren): 2
+- Arechaga Mathias (MathZell): 1
+- Celis Berrospi Eslander (Eslander-Celis): 1
+- Vilela Mariano (vilelamenendez): 1
 
 Landing Page:
 <p align="center">
@@ -2495,11 +2495,12 @@ Landing Page:
 </p>
 
 Distribución de commits:
-Avila Aaron (AaronAvilap): 1
-Celis Berrospi Eslander (Eslander-Celis): 1
-Oblitas Rodrigo (Darkdren): 0
-Arechaga Mathias (MathZell): 0
-Vilela Mariano (vilelamenendez): 0
+- Avila Aaron (AaronAvilap): 1
+- Celis Berrospi Eslander (Eslander-Celis): 1
+- Oblitas Rodrigo (Darkdren): 0
+- Arechaga Mathias (MathZell): 0
+- Vilela Mariano (vilelamenendez): 0
+  
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.
 

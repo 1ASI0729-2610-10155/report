@@ -2461,8 +2461,28 @@ Como resultado, ColdTrack cuenta con un entorno productivo demostrable para la S
 
 
 ## 5.3.3. Evaluaciones según heurísticas.
+
 # 5.4. Video About-the-Product.
 
+En esta sección se presenta el Video About-the-Product, cuyo objetivo es dar a conocer el modelo de negocio, la propuesta de valor y las principales funcionalidades desarrolladas en la solución. El video está dirigido a los visitantes del Landing Page y a los usuarios de la aplicación web, quienes podrán conocer cómo el producto permite resolver las necesidades identificadas en los segmentos objetivo.
+
+Durante el video se muestra una explicación general del producto, el recorrido por el Landing Page, las principales funcionalidades de la aplicación y la forma en que los usuarios pueden interactuar con la plataforma. Asimismo, se incluye un testimonio positivo de un usuario que participó en las entrevistas de validación, reforzando la utilidad de la solución propuesta.
+
+### Evidencia del video
+
+Screenshot del video:
+
+![About-the-Product](./images/About-the-Product.png)
+
+
+Microsoft Stream URL:
+https://1drv.ms/v/c/466c954577703c8e/IQCJdrSE1GKPRZgYP4VEqUP1Afc-5qI4_2WpZSsziXpq_MQ?e=gN01d1
+
+YouTube URL:
+https://www.youtube.com/watch?v=CDCBfXDJFjQ
+
+Timing / Duración:
+3:07 minutos 
 
 
 ## Conclusiones

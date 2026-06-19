@@ -2657,7 +2657,7 @@ Después de la interacción con el Landing Page y la Web Application, se aplicar
 | **Departamento** | Lima |
 | **Inicio del video** | 0:00 |
 | **Fin del video** | 3:55 |
-| **Link del video** | https://drive.google.com/file/d/1D8FggaAjoaZGn1T6NujB7ZEzi5Wi1Bjq/view?usp=drive_link |
+| **Link del video** | https://drive.google.com/file/d/1XwYRweeNHZzyui3-aG7p3ch4PIPFYLEc/view?usp=drive_link |
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; tras interactuar con el Landing Page de ColdTrack, indicó que comprendió claramente el problema que la plataforma busca resolver, relacionado con el monitoreo de la cadena de frío durante el transporte, además señaló que la información presentada fue fácil de encontrar y estuvo bien organizada, lo que facilitó la comprensión de los datos del envío; también destacó que las alertas mostradas son visibles y permiten identificar rápidamente posibles incidencias durante el trayecto; finalmente, considera que la plataforma puede mejorar significativamente el control de las operaciones logísticas al permitir la supervisión en tiempo real y la detección oportuna de problemas, facilitando una mejor toma de decisiones y reduciendo riesgos en la cadena de suministro. |
 

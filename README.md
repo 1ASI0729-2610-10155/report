@@ -2161,7 +2161,7 @@ La evidencia de ejecución comprende tanto la validación independiente del back
 
 La siguiente captura evidencia que Swagger UI se encuentra disponible desde el dominio productivo de Render y expone los controladores de telemetría y envíos, incluyendo las operaciones de salida, finalización y cancelación:
 
-![Swagger UI del backend desplegado en Render](./Sprint-3-Evidence/sprint3-swagger-api.png)
+![Swagger UI del backend desplegado en Render](./images/sprint3-swagger-api.png)
 
 ##### Verificación funcional del backend
 
@@ -2219,7 +2219,7 @@ La integración se validó mediante los siguientes flujos desde la interfaz:
     
 La ejecución integrada se evidencia en el dashboard productivo. La interfaz muestra información obtenida desde el backend, incluyendo cuatro envíos, un envío en ruta, un envío completado, condiciones de temperatura y humedad y una alerta activa generada por superar el umbral recomendado:
 
-![Dashboard Angular integrado con el backend de ColdTrack](./Sprint-3-Evidence/sprint3-integrated-dashboard.png)
+![Dashboard Angular integrado con el backend de ColdTrack](./images/sprint3-integrated-dashboard.png)
 
 ##### Resultados de la verificación técnica
 
@@ -2294,7 +2294,7 @@ El backend se publica como un **Web Service** de Render utilizando una imagen Do
 
 La consola de Render evidencia que `freshguard-coldtrack-api` se encuentra configurado como Web Service mediante Docker, asociado al repositorio del backend y a la rama `main`. También muestra la URL pública utilizada por el frontend:
 
-![Web Service del backend desplegado en Render](./Sprint-3-Evidence/sprint3-render-service.png)
+![Web Service del backend desplegado en Render](./images/sprint3-render-service.png)
 
 Archivo `Dockerfile` utilizado:
 
@@ -2345,7 +2345,7 @@ La base de datos productiva se ejecuta sobre MySQL 8 en Filess.io. El backend ac
 
 La consola de Filess.io evidencia que la instancia MySQL se encuentra activa en la región de España y muestra la información general de conexión. La contraseña permanece oculta en la captura:
 
-![Base de datos MySQL activa en Filess.io](./Sprint-3-Evidence/sprint3-filess-mysql.png)
+![Base de datos MySQL activa en Filess.io](./images/sprint3-filess-mysql.png)
 
 Para la configuración se utilizaron las siguientes variables, sin exponer sus valores:
 
@@ -2366,7 +2366,7 @@ El frontend Angular se compila como un conjunto de archivos estáticos optimizad
 
 La evidencia de Firebase Hosting muestra la versión publicada el 18 de junio de 2026, el historial de despliegues y los dos dominios públicos asociados al proyecto `coldtrack-front-open`:
 
-![Historial y dominios del despliegue en Firebase Hosting](./Sprint-3-Evidence/sprint3-firebase-hosting.png)
+![Historial y dominios del despliegue en Firebase Hosting](./images/sprint3-firebase-hosting.png)
 
 
 Configuración relevante de `firebase.json`:

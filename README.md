@@ -2573,6 +2573,17 @@ En esta sección se describe el diseño de las entrevistas de validación realiz
 
 Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante primero revisó el Landing Page de ColdTrack y luego ejecutó tareas específicas dentro de la aplicación. Durante la validación se observaron sus comentarios, dudas, tiempos de navegación, facilidad para completar los flujos y apreciaciones sobre la utilidad de la solución.
 
+### Metodología de la sesión
+
+Cada entrevista se desarrolló de manera remota mediante videollamada, registrando la interacción del participante con la solución web. El entrevistador explicó brevemente el objetivo de la sesión y solicitó al usuario navegar por el Landing Page y por la Web Application sin recibir instrucciones detalladas sobre dónde hacer clic, con el fin de observar si la interfaz comunicaba correctamente sus funcionalidades.
+
+| **Etapa** | **Actividad realizada** | **Propósito** |
+|-----------|--------------------------|---------------|
+| Presentación del participante | Se solicitaron datos generales como nombre, edad, ocupación y relación con logística, operaciones o transporte. | Caracterizar al usuario y confirmar su pertenencia al segmento objetivo. |
+| Exploración del Landing Page | El participante revisó la propuesta de valor, beneficios y explicación general de ColdTrack. | Validar si el producto web comunica claramente el problema que resuelve. |
+| Ejecución de tareas en la Web Application | El usuario completó flujos relacionados con envíos, monitoreo, alertas e historial. | Evaluar la comprensión de la navegación y la facilidad para completar tareas. |
+| Preguntas de cierre | Se recogieron opiniones sobre utilidad, claridad, alertas, información visible y oportunidades de mejora. | Obtener retroalimentación cualitativa para mejorar la experiencia de usuario. |
+
 ### Objetivos de la validación
 
 | **Objetivo** | **Descripción** |
@@ -2589,6 +2600,16 @@ Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante
 | Personal de Logística y Operaciones | Supervisores, jefes de operaciones o personal de control de calidad relacionado con transporte refrigerado. | Supervisar envíos, revisar condiciones de temperatura y humedad, detectar alertas y consultar historial para tomar decisiones. |
 | Personal de Transporte | Conductores o transportistas encargados del traslado de productos refrigerados. | Consultar el estado del envío, interpretar alertas y reaccionar oportunamente ante incidencias durante la ruta. |
 
+### Elementos evaluados
+
+| **Elemento** | **Aspecto validado** |
+|--------------|----------------------|
+| Landing Page | Claridad del mensaje, comprensión de la propuesta de valor, beneficios percibidos y relación con el problema de cadena de frío. |
+| Dashboard principal | Facilidad para reconocer el estado general de los envíos, métricas principales y alertas visibles. |
+| Gestión de envíos | Comprensión del listado de envíos, estado operativo y detalle de información del transporte. |
+| Alertas | Interpretación de mensajes críticos, severidad y capacidad de reacción ante incidencias. |
+| Historial | Utilidad de la información histórica para trazabilidad, revisión de incidentes y toma de decisiones. |
+
 ### User flows utilizados en la validación
 
 | **Segmento** | **Elemento validado** | **User flow** | **Tarea asignada al entrevistado** |
@@ -2601,6 +2622,18 @@ Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante
 | Personal de Transporte | Web Application | Consultar estado del envío | Ubicar el envío asignado y revisar su estado general. |
 | Personal de Transporte | Web Application | Interpretar alertas | Revisar una alerta de temperatura o humedad e indicar si el mensaje es comprensible. |
 | Personal de Transporte | Web Application | Revisar detalle de ruta o carga | Consultar los detalles principales del envío para identificar información útil durante el transporte. |
+
+### Criterios de observación
+
+Durante la ejecución de las tareas se observaron los siguientes criterios:
+
+| **Criterio** | **Descripción** |
+|--------------|-----------------|
+| Comprensión inicial | Si el usuario entiende rápidamente para qué sirve ColdTrack y a qué problema responde. |
+| Facilidad de navegación | Si el usuario puede avanzar entre secciones sin perderse o requerir ayuda constante. |
+| Claridad visual | Si los datos, estados, alertas e indicadores son visibles y fáciles de interpretar. |
+| Utilidad percibida | Si el usuario considera que la plataforma puede ayudar en su trabajo real. |
+| Oportunidades de mejora | Comentarios sobre información faltante, términos confusos o elementos que deberían destacarse más. |
 
 ### Guía de preguntas
 
@@ -2624,23 +2657,9 @@ Después de la interacción con el Landing Page y la Web Application, se aplicar
 | **Departamento** | Lima |
 | **Inicio del video** | 0:00 |
 | **Fin del video** | 3:55 |
-| **Link del video** |    |
+| **Link del video** | https://drive.google.com/file/d/1D8FggaAjoaZGn1T6NujB7ZEzi5Wi1Bjq/view?usp=drive_link |
 | **Foto entrevista** | <img src="images/entrevista1-segmento1.png" alt=""  width="250" /> |
 | **Resumen** | Gianelly Vásquez, supervisora de control de calidad en transporte de alimentos refrigerados que vive en Jesús María, actualmente gestiona el monitoreo de temperatura de forma manual usando termómetros digitales, dataloggers básicos y registros en Excel, sin contar con un sistema integrado en tiempo real, lo que genera dependencia del conductor y riesgo de errores humanos; tras interactuar con el Landing Page de ColdTrack, indicó que comprendió claramente el problema que la plataforma busca resolver, relacionado con el monitoreo de la cadena de frío durante el transporte, además señaló que la información presentada fue fácil de encontrar y estuvo bien organizada, lo que facilitó la comprensión de los datos del envío; también destacó que las alertas mostradas son visibles y permiten identificar rápidamente posibles incidencias durante el trayecto; finalmente, considera que la plataforma puede mejorar significativamente el control de las operaciones logísticas al permitir la supervisión en tiempo real y la detección oportuna de problemas, facilitando una mejor toma de decisiones y reduciendo riesgos en la cadena de suministro. |
-
-#### **Segundo Segmento - Personal de Transporte:** <br>
-
-| **ENTREVISTA 1** |                            |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Edery Abanto |
-| **Edad** | 30 |
-| **Profesión** | personal de transporte |
-| **Departamento** | Lima |
-| **Inicio del video** | 15:13 |
-| **Fin del video** | 20:40 |
-| **Link del video** |[ Entrevista 4 ](link)  |
-| **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
-| **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
 
 | **ENTREVISTA 2** | |
 |------------------|----------------------------|
@@ -2655,25 +2674,50 @@ Después de la interacción con el Landing Page y la Web Application, se aplicar
 | **Foto entrevista** | <img src="images/entrevista2-segmento1-claudio.png" alt=""  width="250" /> |
 | **Resumen** | Claudio Castillo participó en la entrevista de validación del primer segmento, guiada por Mariano Vilela. Durante la sesión revisó el Landing Page y la Web Application de ColdTrack, enfocándose en los flujos de monitoreo de envíos, revisión de alertas y consulta de información operativa. A partir de la interacción, comprendió que la propuesta busca mejorar el control de la cadena de frío durante el transporte de alimentos mediante información centralizada y alertas oportunas. Asimismo, valoró que la plataforma permita visualizar el estado del envío y posibles incidencias en un solo entorno, ya que esto podría reducir la dependencia de reportes manuales o llamadas constantes al conductor. Como oportunidad de mejora, se identificó que los mensajes de alerta deben ser directos y priorizar la acción que debe tomar el responsable logístico. |
 
-| **ENTREVISTA 3** | |
-|------------------|----------------------------|
-| **Nombre entrevistado** | Pendiente de completar |
-| **Edad** | Pendiente de completar |
-| **Profesión** | Personal relacionado con logística, operaciones o control de calidad |
-| **Departamento** | Pendiente de completar |
-| **Inicio del video** | 0:00 |
-| **Fin del video** | 1:56 |
-| **Link del video** | https://drive.google.com/file/d/1D8FggaAjoaZGn1T6NujB7ZEzi5Wi1Bjq/view?usp=drive_link |
-| **Foto entrevista** | Pendiente de completar |
-| **Resumen** | En esta sesión, el participante interactuó con los elementos principales de ColdTrack y brindó comentarios sobre la claridad de la información presentada. Tras revisar el Landing Page, identificó que la solución busca apoyar el monitoreo de productos refrigerados durante el traslado y facilitar la detección de riesgos en ruta. Al ejecutar los flujos de la aplicación, reconoció la utilidad del dashboard para visualizar el estado de los envíos y consideró que el acceso a alertas e historial permitiría tomar mejores decisiones en operaciones logísticas. Como oportunidad de mejora, se identificó la importancia de mantener una interfaz simple, con indicadores visibles y términos fáciles de entender para usuarios que trabajan bajo presión operativa. |
-
 #### **Segundo Segmento - Personal de Transporte:** <br>
 
+| **ENTREVISTA 1** |                            |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Edery Abanto |
+| **Edad** | 30 |
+| **Profesión** | personal de transporte |
+| **Departamento** | Lima |
+| **Inicio del video** | 15:13 |
+| **Fin del video** | 20:40 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202416908_upc_edu_pe/IQBXzX9sjMywR5oHRjJ8GAxeAdWlzKxOcQMLt52n6XrGGnc?e=VBNRJi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista** | <img src="images/entrevista1-segmento2.png" alt=""  width="250" /> |
+| **Resumen** | Edri Abanto, conductor de transporte de carga refrigerada de 30 años con 5 años de experiencia, encargado de trasladar productos perecibles como lácteos, embutidos y carnes frescas que requieren una cadena de frío estricta, actualmente monitorea la temperatura mediante un sistema integrado en la cabina que le permite visualizar el estado general sin detenerse, pero que no proporciona datos precisos, ni alertas preventivas, ni información en tiempo real compartible con la central, lo que genera una dependencia de la observación manual y aumenta el riesgo de no detectar fallas a tiempo; su principal problema es la inestabilidad de la temperatura durante la ruta debido a factores externos como el clima o paradas prolongadas, así como la falta de alertas automáticas ante fallas progresivas del sistema de refrigeración, lo que ya ha ocasionado pérdidas de mercadería en el pasado por detección tardía de incidentes; además, enfrenta limitaciones de conectividad en ciertas zonas, lo que dificulta la comunicación y el monitoreo continuo; por ello, considera que la solución ideal debería ofrecer alertas sonoras progresivas, indicadores visuales claros mediante códigos de color, monitoreo en tiempo real y una interfaz intuitiva que no requiera interacción constante, creyendo que una aplicación como ColdTrack podría brindarle mayor seguridad operativa, facilitar la toma de decisiones durante la ruta y reducir significativamente el riesgo de pérdida de productos. |
 
+| **ENTREVISTA 2** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Camila Vega |
+| **Edad** | 28 |
+| **Profesión** | conductora |
+| **Departamento** | Lima |
+| **Entrevistador** | Aarón Avila Palacios |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 2:18 |
+| **Link del video** | https://drive.google.com/file/d/1qJee7ydMPY_k7aXL2FoFVtS1GJaTjhjl/view?usp=drive_link |
+| **Foto entrevista** | <img src="images/entrevista2-segmento2-camila.png" alt=""  width="250" /> |
+| **Resumen** | Camila Vega, conductora de 28 años perteneciente al segmento de personal de transporte, participó en la validación de ColdTrack revisando el Landing Page y los flujos principales de la aplicación orientados al seguimiento del estado de un envío y la interpretación de alertas. Durante la sesión identificó que la propuesta busca apoyar a los conductores durante el traslado de productos refrigerados, especialmente cuando se presentan variaciones de temperatura o humedad. Consideró importante que la información del envío sea clara, rápida de consultar y fácil de entender mientras se encuentra en ruta. Asimismo, valoró que las alertas permitan reaccionar con mayor rapidez ante incidencias, siempre que los mensajes sean directos y no requieran una interacción compleja durante la conducción. |
+
+| **ENTREVISTA 3** | |
+|------------------|----------------------------|
+| **Nombre entrevistado** | Fernando Pérez |
+| **Edad** | 51 |
+| **Profesión** | conductor |
+| **Departamento** | Lima |
+| **Inicio del video** | 0:00 |
+| **Fin del video** | 1:28 |
+| **Link del video** | https://drive.google.com/file/d/12zC-XNC_SjH2qDJEn48HsPJ6_leXD-kd/view?usp=drive_link |
+| **Foto entrevista** | <img src="images/entrevista3-segmento2-fernando.png" alt=""  width="250" /> |
+| **Resumen** | Fernando Pérez, conductor de 51 años perteneciente al segmento de personal de transporte, evaluó la propuesta de ColdTrack desde la perspectiva de un usuario que necesita información simple y oportuna durante una ruta. Al revisar la solución, identificó la utilidad de consultar el estado del envío y recibir alertas relacionadas con temperatura o humedad, ya que estas señales podrían ayudar a prevenir pérdidas de mercadería y comunicar incidencias a tiempo. También destacó la importancia de que la aplicación sea clara, con indicadores visuales fáciles de interpretar y mensajes concretos, debido a que el conductor no puede dedicar demasiado tiempo a navegar por varias pantallas mientras cumple sus actividades de transporte. |
 
 ## 5.3.3. Evaluaciones según heurísticas.
 
 Para complementar las entrevistas de validación, se aplicó una evaluación basada en heurísticas de experiencia de usuario. Esta evaluación permitió analizar la propuesta de ColdTrack desde tres enfoques: usabilidad, arquitectura de información e inclusive design. El objetivo fue identificar problemas de interacción, claridad, accesibilidad y organización de contenido que pudieran afectar la experiencia de los usuarios durante el uso del Landing Page y la Web Application.
+
+La evaluación se realizó tomando como referencia las observaciones obtenidas durante las sesiones de validación. Para ello se revisó si los usuarios podían comprender la propuesta del Landing Page, ejecutar los flujos principales de la aplicación y reconocer información crítica relacionada con el estado del envío, las alertas y el historial de monitoreo.
 
 ### Escala de severidad utilizada
 
@@ -2699,9 +2743,25 @@ Para complementar las entrevistas de validación, se aplicó una evaluación bas
 | Ayuda para reconocer y recuperarse de errores | Alertas y mensajes del sistema | Las alertas comunican incidencias, pero deben indicar de forma clara qué ocurrió y qué acción se recomienda. | 2 | Redactar mensajes de alerta con causa, impacto y acción sugerida. |
 | Inclusive design y accesibilidad | Interfaz visual | La solución debe considerar usuarios con distintos niveles de experiencia digital y condiciones de uso en campo. | 2 | Asegurar contraste adecuado, tamaños legibles, textos simples, iconos acompañados de etiquetas y diseño responsive. |
 
+### Resultados por segmento
+
+| **Segmento** | **Resultado de la validación** | **Principales oportunidades de mejora** |
+|--------------|--------------------------------|------------------------------------------|
+| Personal de Logística y Operaciones | El segmento comprendió que ColdTrack permite centralizar el monitoreo de la cadena de frío y mejorar la visibilidad del estado de los envíos. Se valoró positivamente la posibilidad de detectar incidencias mediante alertas y revisar información en tiempo real. | Reforzar filtros de búsqueda, priorizar alertas por severidad y mejorar la explicación de acciones sugeridas ante incidentes. |
+| Personal de Transporte | El segmento identificó la utilidad de consultar el estado del envío y recibir alertas claras durante la ruta. Los participantes destacaron que la aplicación debe ser rápida, simple y fácil de interpretar porque el conductor no puede dedicar demasiado tiempo a navegar. | Simplificar mensajes de alerta, mantener indicadores visuales grandes, reducir pasos en la consulta del envío y asegurar buena visualización en dispositivos móviles. |
+
+### Hallazgos principales
+
+| **Hallazgo** | **Interpretación** | **Acción recomendada** |
+|--------------|--------------------|-------------------------|
+| Los usuarios entienden la propuesta general de ColdTrack. | El Landing Page comunica adecuadamente que la solución se relaciona con monitoreo de cadena de frío y prevención de incidencias. | Mantener el enfoque del mensaje y reforzar ejemplos concretos de uso para logística y transporte. |
+| Las alertas son el elemento más valorado por ambos segmentos. | Los entrevistados relacionan las alertas con una respuesta más rápida ante variaciones de temperatura o humedad. | Incluir mensajes de alerta con nivel de severidad, causa probable y acción sugerida. |
+| El personal de transporte requiere una experiencia más directa. | Los conductores necesitan consultar información sin navegar por muchas pantallas. | Priorizar una vista resumida del envío, estado actual y alertas activas. |
+| El historial aporta valor para trazabilidad. | El personal de logística puede usar registros anteriores para revisar incidentes y sustentar decisiones. | Mejorar filtros por fecha, envío, ruta, estado y severidad. |
+
 ### Conclusión de la evaluación
 
-La evaluación heurística muestra que ColdTrack presenta una experiencia comprensible para los usuarios del segmento de logística y operaciones, especialmente en la visualización del estado de envíos y la identificación de alertas. Los principales aspectos positivos se relacionan con la centralización de información, la visibilidad de incidencias y la relación directa entre la propuesta del Landing Page y las funcionalidades de la aplicación.
+La evaluación heurística muestra que ColdTrack presenta una experiencia comprensible para los usuarios de logística, operaciones y transporte, especialmente en la visualización del estado de envíos y la identificación de alertas. Los principales aspectos positivos se relacionan con la centralización de información, la visibilidad de incidencias y la relación directa entre la propuesta del Landing Page y las funcionalidades de la aplicación.
 
 Como oportunidades de mejora, se recomienda reforzar la claridad de los mensajes de alerta, agregar validaciones en acciones críticas, mejorar filtros de búsqueda y asegurar criterios de accesibilidad visual. Estas mejoras permitirán que la plataforma sea más efectiva para usuarios que deben tomar decisiones rápidas durante operaciones de transporte refrigerado.
 

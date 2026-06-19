@@ -2526,6 +2526,10 @@ Distribución de commits:
 - Arechaga Mathias (MathZell): 0
 - Vilela Mariano (vilelamenendez): 0
 
+<p align="center">
+  <img src="images/nethback.png" alt="Commit-Back" width="70%"/>
+</p>
+
 Frontend:
 <p align="center">
   <img src="images/commitfronted.png" alt="Commit-Front" width="70%"/>
@@ -2538,6 +2542,10 @@ Distribución de commits:
 - Celis Berrospi Eslander (Eslander-Celis): 1
 - Vilela Mariano (vilelamenendez): 1
 
+<p align="center">
+  <img src="images/nethfront.png" alt="Commit-Back" width="70%"/>
+</p>
+
 Landing Page:
 <p align="center">
   <img src="images/commitlanding.png" alt="Commit-Land" width="70%"/>
@@ -2549,6 +2557,10 @@ Distribución de commits:
 - Oblitas Rodrigo (Darkdren): 0
 - Arechaga Mathias (MathZell): 0
 - Vilela Mariano (vilelamenendez): 0
+
+  <p align="center">
+  <img src="images/nethland.png" alt="Commit-Back" width="70%"/>
+</p>
   
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.

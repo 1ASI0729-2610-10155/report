@@ -2466,6 +2466,9 @@ Como resultado, ColdTrack cuenta con un entorno productivo demostrable para la S
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
 Backend:
+<p align="center">
+  <img src="images/commitback.png" alt="Commit-Back" width="70%"/>
+</p>
 
 Distribución de commits:
 Avila Aaron (AaronAvilap): 8
@@ -2475,6 +2478,9 @@ Arechaga Mathias (MathZell): 0
 Vilela Mariano (vilelamenendez): 0
 
 Frontend:
+<p align="center">
+  <img src="images/commitfronted.png" alt="Commit-Front" width="7%"/>
+</p>
 
 Distribución de commits:
 Avila Aaron (AaronAvilap): 8
@@ -2484,6 +2490,9 @@ Celis Berrospi Eslander (Eslander-Celis): 1
 Vilela Mariano (vilelamenendez): 1
 
 Landing Page:
+<p align="center">
+  <img src="images/commitlanding.png" alt="Commit-Land" width="70%"/>
+</p>
 
 Distribución de commits:
 Avila Aaron (AaronAvilap): 1

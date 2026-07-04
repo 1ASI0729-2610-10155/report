@@ -2564,8 +2564,34 @@ Distribución de commits:
 - Arechaga Mathias (MathZell): 0
 - Vilela Mariano (vilelamenendez): 0
 
+## 5.2.4. Sprint 4
+### 5.2.4.1. Sprint Planning 4.
+### 5.2.4.1. Sprint Planning 4.
 
-  
+| Sprint | Sprint 4 |
+| ---------------------------------- | -------- |
+| | Sprint Planning Background |
+| Date | 2026/07/1 |
+| Time | 19:30 PM |
+| Location | El desarrollo de la reunión se realizó virtualmente mediante Discord. |
+| Prepared By | Eslander Celis Berrospi |
+| Attendees (to planning meeting) | Eslander Celis Berrospi, Mariano, Rodrigo Oblitas Alcalde, Aarón Avila Palacios, Mathias Aréchaga |
+| Sprint 3 Review Summary | Durante el Sprint 3 se desarrolló exitosamente la plataforma backend de ColdTrack, implementando los principales servicios, entidades de dominio, mecanismos de autenticación, APIs REST y la integración inicial con el frontend. Asimismo, se avanzó en la documentación técnica y la configuración de la infraestructura necesaria para el funcionamiento del sistema. |
+| Sprint 3 Retrospective Summary | Durante la retrospectiva del Sprint 3, el equipo concluyó que la comunicación y distribución de tareas permitió avanzar de forma constante en el desarrollo del backend. Sin embargo, se identificó la necesidad de fortalecer las pruebas de integración, optimizar algunos componentes del frontend, completar la documentación del proyecto y preparar la versión final para su entrega. |
+| | Sprint Goal & User Stories |
+| Sprint 4 Goal | Completar la integración entre el frontend y backend de ColdTrack, finalizar las funcionalidades pendientes del sistema, realizar pruebas funcionales y de integración, corregir incidencias detectadas durante las validaciones, optimizar la experiencia de usuario, completar la documentación técnica y preparar el despliegue de la versión final del proyecto para su presentación y entrega. |
+| Sprint 4 Velocity | 21 |
+| Sum of Story Points | 21 |
+### 5.2.4.2. Aspect Leaders and Collaborators.
+### 5.2.4.3. Sprint Backlog 4.
+### 5.2.4.4. Development Evidence for Sprint Review.
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.
 

@@ -202,6 +202,17 @@ Para la segunda entrega (TB1) se hicieron las correciones necesarias al proyecto
       * [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       * [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 
+    * [5.2.4. Sprint 4](#524-sprint-4)
+
+      * [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      * [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      * [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      * [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      * [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      * [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      * [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      * [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+
     * [5.3. Validation Interviews](#53-validation-interviews)
     * [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     * [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2587,12 +2598,11 @@ Distribución de commits:
 
 ## 5.2.4. Sprint 4
 ### 5.2.4.1. Sprint Planning 4.
-### 5.2.4.1. Sprint Planning 4.
 
 | Sprint | Sprint 4 |
 | ---------------------------------- | -------- |
 | | Sprint Planning Background |
-| Date | 2026/07/1 |
+| Date | 2026/07/04 |
 | Time | 19:30 PM |
 | Location | El desarrollo de la reunión se realizó virtualmente mediante Discord. |
 | Prepared By | Eslander Celis Berrospi |
@@ -2608,8 +2618,181 @@ Distribución de commits:
 ### 5.2.4.4. Development Evidence for Sprint Review.
 
 ### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 4 se validó la versión final integrada de ColdTrack, con el frontend Angular desplegado en Firebase Hosting, el backend Spring Boot publicado en Render, la base de datos MySQL activa en Filess.io y las releases finales disponibles en GitHub. Esta revisión tuvo como objetivo comprobar que el producto ya no depende de MockAPI ni de datos exclusivamente simulados en el frontend, sino que opera mediante una API REST propia, autenticación JWT, persistencia en MySQL y flujos funcionales conectados entre la Web Application y el backend.
+
+La evidencia de ejecución se organizó alrededor de los flujos principales esperados para la presentación final: inicio de sesión, consulta del dashboard, registro y seguimiento de envíos, gestión de sensores, vinculación de sensores a envíos, registro de telemetría, generación de alertas, cambio de estado de envíos y consulta de la documentación pública del API.
+
+##### Entorno final ejecutado
+
+| Componente | Tecnología o servicio | Estado final |
+|------------|-----------------------|--------------|
+| Frontend | Angular, Angular Material y TypeScript | Desplegado en Firebase Hosting |
+| Backend | Java 26, Spring Boot, Spring Security y Spring Data JPA | Desplegado en Render como Web Service Docker |
+| Base de datos | MySQL 8 | Activa en Filess.io |
+| Autenticación | JWT Bearer Token | Integrada entre frontend y backend |
+| Documentación de API | OpenAPI 3.1 y Swagger UI | Disponible públicamente |
+| Releases | GitHub Releases | `v1.0.0` publicada para frontend y backend |
+
+##### Evidencia visual de ejecución del frontend final
+
+La Web Application final se encuentra publicada en Firebase Hosting y consume directamente la API productiva de Render. La siguiente evidencia muestra el frontend en producción, disponible desde el dominio público del proyecto:
+
+![Frontend final de ColdTrack desplegado en Firebase](./images/sprint4-frontend-final.png)
+
+Desde esta interfaz se validaron los siguientes flujos de usuario:
+
+1. Inicio de sesión con la cuenta demo `test@test.com / password`.
+2. Carga del dashboard operativo con información obtenida desde la API REST.
+3. Consulta de envíos registrados, en ruta, completados y cancelados.
+4. Visualización de temperatura, humedad, conductor, destino y hora estimada.
+5. Acceso al detalle de un envío mediante la acción **View details / Ver detalles**.
+6. Registro de sensores y visualización de sensores disponibles/asignados.
+7. Vinculación de un sensor disponible a un envío registrado o en ruta.
+8. Registro de lecturas de telemetría para actualizar temperatura y humedad.
+9. Cambio del estado del envío desde `REGISTERED` hacia `IN_TRANSIT` y posteriormente hacia `COMPLETED`.
+10. Exportación de información operativa desde las vistas disponibles.
+
+##### Evidencia de API ejecutable
+
+El backend final expone sus contratos mediante Swagger UI. La versión productiva del documento OpenAPI fue actualizada a `1.0.0`, reflejando la release final del Sprint 4:
+
+![Swagger UI final del backend con OpenAPI 1.0.0](./images/sprint4-swagger-v100.png)
+
+Los endpoints validados durante la ejecución final fueron:
+
+| Módulo | Endpoint | Evidencia funcional |
+|--------|----------|--------------------|
+| Authentication | `POST /api/v1/authentication/sign-in` | Emite JWT para acceder a recursos protegidos |
+| Shipments | `GET /api/v1/shipments` | Lista envíos persistidos en MySQL |
+| Shipments | `POST /api/v1/shipments` | Registra nuevos envíos refrigerados |
+| Shipment lifecycle | `POST /api/v1/shipments/{shipmentCode}/departures` | Inicia un envío registrado |
+| Shipment lifecycle | `POST /api/v1/shipments/{shipmentCode}/completions` | Completa un envío en ruta |
+| Sensors | `GET /api/v1/sensors` | Lista sensores disponibles y asignados |
+| Sensor assignment | `POST /api/v1/shipments/{shipmentCode}/sensor-assignments` | Vincula un sensor a un envío |
+| Telemetry | `POST /api/v1/telemetry-readings` | Registra temperatura y humedad |
+| Alerts | `GET /api/v1/alerts` | Consulta alertas generadas por condiciones críticas |
+| Analytics | `GET /api/v1/analytics/dashboard` | Devuelve métricas para el dashboard |
+| Reports | `GET /api/v1/reports/shipments/{shipmentCode}` | Devuelve información consolidada del envío |
+
+##### Resultados de la validación final
+
+| Validación | Resultado |
+|------------|-----------|
+| Frontend público en Firebase | `200 OK` |
+| Backend público en Render | `200 OK` |
+| OpenAPI `/v3/api-docs` | `200 OK`, versión `1.0.0` |
+| Swagger UI | Disponible públicamente |
+| Inicio de sesión con cuenta demo | Correcto |
+| Consumo de endpoints protegidos con JWT | Correcto |
+| Persistencia de usuarios, envíos, sensores y telemetría | Correcta en MySQL |
+| Vinculación sensor-envío | Correcta desde el frontend |
+| Cambio de estado del envío | Correcto desde el frontend |
+| Build de Angular | Correcto mediante `npm run build` |
+| Pruebas del backend | 4 pruebas ejecutadas, 0 fallos |
+| Empaquetado del backend | Correcto mediante `mvnw.cmd -DskipTests package` |
+
+La ejecución final confirma que ColdTrack opera como un sistema integrado de extremo a extremo. El usuario interactúa con una Web Application pública, el frontend autentica y consume una API REST propia, el backend aplica reglas de negocio y persistencia, y la base de datos conserva la información operativa usada para dashboard, sensores, alertas e historial.
+
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se consolidó el despliegue final de ColdTrack, dejando publicados los tres componentes principales del sistema: Web Application, API REST y base de datos. A diferencia de sprints anteriores, en esta etapa se cerró la configuración productiva con releases finales, verificación de disponibilidad pública y documentación de las URLs necesarias para la presentación del producto.
+
+##### Arquitectura final desplegada
+
+```mermaid
+flowchart LR
+    U[Usuario final] -->|HTTPS| F[ColdTrack Frontend<br/>Firebase Hosting]
+    F -->|REST + JWT| B[FreshGuard ColdTrack Platform<br/>Render Web Service]
+    B -->|JDBC + TLS| D[(MySQL 8<br/>Filess.io)]
+    B -->|OpenAPI| S[Swagger UI]
+    R[GitHub Releases] --> F
+    R --> B
+```
+
+| Componente | Plataforma | URL o evidencia |
+|------------|------------|-----------------|
+| Frontend final | Firebase Hosting | https://coldtrack-front-open.web.app |
+| Backend final | Render Web Service | https://freshguard-coldtrack-api.onrender.com |
+| Swagger UI | Render | https://freshguard-coldtrack-api.onrender.com/swagger-ui/index.html |
+| OpenAPI JSON | Render | https://freshguard-coldtrack-api.onrender.com/v3/api-docs |
+| Base de datos | Filess.io | MySQL 8 administrado |
+| Release backend | GitHub Releases | https://github.com/1ASI0729-2610-10155/FreshGuard.ColdTrack.Platform/releases/tag/v1.0.0 |
+| Release frontend | GitHub Releases | https://github.com/1ASI0729-2610-10155/ColdTrack-Front/releases/tag/v1.0.0 |
+
+##### Evidencia del backend desplegado en Render
+
+El backend se ejecuta en Render como Web Service basado en Docker. La evidencia final muestra que el servicio `freshguard-coldtrack-api` quedó en estado `live` utilizando el commit `b9a7093`, correspondiente al merge final de la versión estable del backend:
+
+![Render con backend final en estado live](./images/sprint4-render-live-b9a7093.png)
+
+La configuración productiva utiliza variables de entorno para evitar exponer credenciales sensibles:
+
+| Variable | Uso |
+|----------|-----|
+| `SPRING_PROFILES_ACTIVE=prod` | Activa la configuración productiva |
+| `DATABASE_URL` | Host de MySQL en Filess.io |
+| `DATABASE_PORT` | Puerto de la instancia MySQL |
+| `DATABASE_NAME` | Base de datos productiva |
+| `DATABASE_USER` | Usuario de conexión |
+| `DATABASE_PASSWORD` | Contraseña protegida en Render |
+| `DATABASE_MAX_POOL_SIZE=1` | Limita conexiones para el plan compartido |
+| `DATABASE_MIN_IDLE=0` | Reduce conexiones inactivas |
+| `JWT_SECRET` | Firma de tokens JWT |
+| `FRONTEND_ORIGINS` | Orígenes permitidos para CORS |
+| `OPENAPI_SERVERS` | Servidores mostrados en Swagger/OpenAPI |
+
+##### Evidencia de releases finales en GitHub
+
+Para cerrar el Sprint 4 se publicaron releases formales en GitHub para ambos repositorios principales. Esto permite identificar de forma estable la versión presentada durante la entrega final:
+
+![Release final del backend v1.0.0](./images/sprint4-backend-release-v100.png)
+
+![Release final del frontend v1.0.0](./images/sprint4-frontend-release-v100.png)
+
+| Repositorio | Rama principal | Release final | Propósito |
+|-------------|----------------|---------------|-----------|
+| `FreshGuard.ColdTrack.Platform` | `main` | `v1.0.0` | Backend Spring Boot desplegado en Render |
+| `ColdTrack-Front` | `main` | `v1.0.0` | Frontend Angular desplegado en Firebase |
+| `report` | `main` | Documentación final | Evidencias, validación y conclusiones del producto |
+
+##### Flujo de despliegue seguido
+
+El equipo mantuvo el flujo de trabajo basado en GitFlow:
+
+```text
+main → develop → feature/* → develop → main → release/tag
+```
+
+El cierre de despliegue se realizó de la siguiente manera:
+
+1. Se implementaron las mejoras finales del frontend en una rama feature.
+2. Se integró la rama feature a `develop`.
+3. Se integró `develop` a `main`.
+4. Se creó y publicó el tag `v1.0.0` del frontend.
+5. Se desplegó el frontend en Firebase Hosting.
+6. Se implementaron ajustes finales de documentación/configuración del backend en una rama feature.
+7. Se integró la rama feature a `develop` y luego a `main`.
+8. Se creó y publicó el tag `v1.0.0` del backend.
+9. Render ejecutó el auto-deploy desde `main` y dejó el commit `b9a7093` en estado `live`.
+10. Se verificó que OpenAPI respondiera con versión `1.0.0`.
+
+##### Comprobaciones posteriores al despliegue
+
+| Comprobación | Resultado final |
+|--------------|-----------------|
+| `https://coldtrack-front-open.web.app` | `200 OK` |
+| `https://freshguard-coldtrack-api.onrender.com/v3/api-docs` | `200 OK`, versión `1.0.0` |
+| Swagger UI | Disponible desde Render |
+| Render Web Service | Commit `b9a7093` en estado `live` |
+| Firebase Hosting | Última versión liberada correctamente |
+| Releases GitHub | `v1.0.0` publicada para frontend y backend |
+| CORS frontend-backend | Configurado para Firebase y entorno local |
+| Base de datos MySQL | Activa y utilizada por el backend productivo |
+
+Como resultado, el Sprint 4 deja una versión final demostrable del sistema. ColdTrack cuenta con una aplicación pública, una API propia documentada, persistencia real y releases identificables para sustentación académica y revisión técnica.
+
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 
@@ -2839,25 +3022,25 @@ Timing / Duración:
 
 ### Conclusiones y recomendaciones
 
-**1.** Como equipo, confirmamos que el problema principal identificado en nuestro Lean UX Problem Statement es relevante para los segmentos objetivo. Las empresas distribuidoras, supervisores logísticos, personal de control de calidad y conductores necesitan mayor visibilidad sobre las condiciones de temperatura y humedad durante el transporte de alimentos. La Web Application que implementamos en el Sprint 2 responde a esta necesidad mediante un dashboard operativo, registro de envíos, gestión de sensores, consulta de alertas e historial de entregas.
+**1.** Como equipo, confirmamos que el problema principal identificado en nuestro Lean UX Problem Statement es relevante para los segmentos objetivo. Las empresas distribuidoras, supervisores logísticos, personal de control de calidad y conductores necesitan mayor visibilidad sobre las condiciones de temperatura y humedad durante el transporte de alimentos. La versión final de ColdTrack responde a esta necesidad mediante una Web Application integrada con un backend propio, dashboard operativo, gestión de envíos, sensores, telemetría, alertas e historial.
 
-**2.** Consideramos que nuestras assumptions de usuario fueron coherentes con el comportamiento esperado de los segmentos. Partimos de la idea de que los usuarios necesitan una herramienta clara, rápida y centralizada para revisar el estado de los envíos antes, durante y después del transporte. Con la versión desarrollada, validamos parcialmente esta suposición, ya que ColdTrack permite consultar envíos activos, sensores disponibles, alertas críticas y registros históricos desde una sola interfaz.
+**2.** Las assumptions de usuario se validaron con mayor solidez durante la entrega final. Los usuarios requieren una herramienta clara, rápida y centralizada para revisar el estado de los envíos antes, durante y después del transporte. ColdTrack permite consultar envíos activos, sensores disponibles, alertas críticas, lecturas ambientales y registros históricos desde una sola interfaz conectada a datos persistidos en MySQL.
 
-**3.** También concluimos que nuestras assumptions de negocio se mantienen vigentes. ColdTrack demuestra potencial como solución digital para reducir pérdidas, mejorar la trazabilidad y fortalecer el control de calidad durante el transporte de alimentos. Aunque nuestra versión actual trabaja con una API simulada en MockAPI.io, logramos demostrar el flujo base del modelo de negocio y evidenciar el valor de digitalizar la supervisión de cadena de frío.
+**3.** Las assumptions de negocio también se mantienen vigentes. ColdTrack demuestra potencial como solución digital para reducir pérdidas, mejorar la trazabilidad y fortalecer el control de calidad durante el transporte de alimentos. A diferencia de la primera versión del frontend, la entrega final ya no depende de MockAPI como fuente principal de información, sino de una API REST propia desplegada en Render y documentada con Swagger/OpenAPI.
 
-**4.** En relación con los Hypothesis Statements, avanzamos en la validación de las hipótesis vinculadas al monitoreo centralizado, las alertas, el historial y la claridad de la interfaz. Nuestra aplicación permite revisar varias rutas o unidades desde el dashboard, consultar alertas por severidad y estado, y acceder al historial de envíos completados. Estos resultados se relacionan directamente con los criterios de éxito que planteamos: mayor control operativo, respuesta más rápida ante incidentes y mejor trazabilidad logística.
+**4.** En relación con los Hypothesis Statements, se avanzó en la validación de las hipótesis vinculadas al monitoreo centralizado, las alertas, el historial, la trazabilidad y la claridad de la interfaz. La aplicación permite revisar varias rutas o unidades desde el dashboard, consultar alertas por severidad y estado, registrar telemetría, vincular sensores a envíos y completar el ciclo de vida operativo de un envío.
 
-**5.** Reconocemos que la hipótesis sobre integración con sensores de temperatura y humedad todavía requiere una validación más profunda. En esta etapa representamos los sensores y lecturas mediante datos simulados, lo cual fue suficiente para probar la experiencia del usuario y el flujo de información. Para una siguiente versión, necesitaremos conectar sensores reales o servicios IoT que envíen datos periódicos al sistema.
+**5.** La hipótesis sobre integración con sensores de temperatura y humedad fue validada a nivel funcional mediante el registro de sensores, asignación a envíos y envío de lecturas de telemetría hacia el backend. Sin embargo, para una siguiente etapa se recomienda conectar sensores físicos o servicios IoT reales que transmitan lecturas periódicas automáticamente, permitiendo validar el comportamiento del sistema en escenarios de campo.
 
-**6.** La implementación con Angular, Angular Material, Angular Signals, MockAPI.io y Firebase Hosting nos permitió obtener una primera versión funcional y desplegada de la Web Application. Con esto cumplimos el alcance del Sprint 2 y dejamos el producto disponible en un entorno público para que el equipo, los usuarios y los evaluadores puedan revisar sus funcionalidades principales.
+**6.** La implementación final con Angular, Angular Material, Angular Signals, Java 26, Spring Boot, Spring Security, Spring Data JPA, MySQL, Render, Filess.io y Firebase Hosting permitió obtener una solución funcional, desplegada y demostrable de extremo a extremo. El frontend está disponible públicamente, el backend responde desde Render, la documentación de servicios está publicada y los datos operativos se conservan en una base MySQL administrada.
 
-**7.** Como siguiente paso del roadmap, recomendamos reemplazar la API simulada por un backend propio RESTful, desarrollado con una arquitectura orientada a servicios. Este backend deberá incluir autenticación real, persistencia de datos, validaciones, documentación con OpenAPI/Swagger y una base preparada para futuras integraciones con sensores.
+**7.** El uso de GitFlow, ramas feature, merges hacia `develop` y `main`, tags y GitHub Releases permitió ordenar la liberación del producto final. Las releases `v1.0.0` del frontend y backend facilitan identificar con claridad la versión presentada para la evaluación final, reduciendo ambigüedad entre versiones de desarrollo, despliegue y documentación.
 
-**8.** También recomendamos ampliar el módulo de alertas para que no solo muestre incidencias, sino que permita registrar acciones correctivas, marcar alertas como atendidas, notificar al conductor o supervisor y generar evidencia del incidente. Esto fortalecerá la trazabilidad y nos permitirá medir mejor la reducción de pérdidas y tiempos de respuesta.
+**8.** Las validaciones con usuarios y la evaluación heurística mostraron que ColdTrack comunica adecuadamente su propuesta de valor y que los flujos principales son comprensibles. No obstante, se recomienda continuar mejorando la claridad de los mensajes de alerta, los filtros de búsqueda, la priorización por severidad, las confirmaciones en acciones críticas y la accesibilidad visual para usuarios en contextos operativos.
 
-**9.** Para mejorar la validación del producto, consideramos necesario realizar pruebas con usuarios de ambos segmentos objetivo: personal de logística y operaciones, y personal de transporte. Estas pruebas deben ayudarnos a medir si los usuarios interpretan correctamente los estados de envío, comprenden la severidad de las alertas, pueden registrar envíos sin asistencia y consideran útil el historial para la toma de decisiones.
+**9.** El módulo de alertas debe evolucionar para no solo mostrar incidencias, sino también permitir registrar acciones correctivas, marcar alertas como atendidas, notificar al conductor o supervisor y generar evidencia del incidente. Esto fortalecerá la trazabilidad y permitirá medir mejor la reducción de pérdidas, tiempos de respuesta y calidad de la operación logística.
 
-**10.** Finalmente, como equipo recomendamos que el roadmap de ColdTrack priorice la integración con sensores reales, reportes exportables, notificaciones en tiempo real, control de roles por tipo de usuario, métricas comparativas por ruta y mejoras de accesibilidad. Estas funcionalidades nos permitirán avanzar desde un prototipo funcional hacia una solución más completa, alineada con nuestro modelo de negocio digital y con los criterios de éxito definidos en el proceso Lean UX.
+**10.** Finalmente, recomendamos que el roadmap de ColdTrack priorice la integración con sensores reales, notificaciones en tiempo real, reportes exportables más completos, control de roles por tipo de usuario, métricas comparativas por ruta, auditoría de acciones y mejoras de accesibilidad responsive. Estas funcionalidades permitirán pasar de una versión académica funcional hacia una solución más robusta, alineada con el modelo de negocio digital y con los criterios de éxito definidos en el proceso Lean UX.
 
 ### Video About-the-Team
 

@@ -2287,6 +2287,17 @@ La siguiente tabla resume las comprobaciones efectuadas el 18 de junio de 2026:
 | Pruebas funcionales del frontend | 12 de 12 escenarios aprobados |
 | Consola del navegador durante los flujos | Sin errores ni advertencias |
 
+Como verificación final de la versión estable, el 04 de julio de 2026 se volvió a comprobar el entorno productivo después de publicar las releases `v1.0.0` del frontend y backend. El servicio de Render quedó ejecutando el commit `b9a7093`, correspondiente a la integración final del backend, y el documento OpenAPI público respondió correctamente con la versión `1.0.0`.
+
+| Verificación final | Resultado |
+|--------------------|-----------|
+| Backend desplegado en Render | Commit `b9a7093` en estado `live` |
+| OpenAPI productivo | `200 OK`, versión `1.0.0` |
+| Swagger UI productivo | Disponible públicamente |
+| Frontend desplegado en Firebase | `200 OK` en `https://coldtrack-front-open.web.app` |
+| GitHub Release del backend | `v1.0.0` publicada |
+| GitHub Release del frontend | `v1.0.0` publicada |
+
 El endpoint de Actuator no se utiliza como evidencia pública porque permanece protegido por Spring Security. La disponibilidad del servicio se comprobó mediante Swagger, OpenAPI, autenticación y consultas reales sobre los recursos protegidos.
 
 El backend contiene pruebas JUnit para el arranque de contexto y las reglas de dominio de `Shipment` y `Sensor`. Para ejecutarlas localmente es obligatorio utilizar JDK 26, que es la versión configurada en Maven y en la imagen Docker del proyecto:
@@ -2335,7 +2346,8 @@ flowchart LR
 | Swagger UI | Render | https://freshguard-coldtrack-api.onrender.com/swagger-ui/index.html |
 | OpenAPI JSON | Render | https://freshguard-coldtrack-api.onrender.com/v3/api-docs |
 | Base de datos | Filess.io | MySQL 8, conexión privada mediante variables de entorno |
-| Versión desplegada del backend | GitHub Release / Maven | `v0.1.1` / `0.1.1` |
+| Versión final del backend | GitHub Release / OpenAPI | `v1.0.0` / `1.0.0` |
+| Versión final del frontend | GitHub Release / Firebase Hosting | `v1.0.0` / producción |
 
 ##### Despliegue del backend en Render
 
@@ -2386,7 +2398,8 @@ Proceso seguido para desplegar el backend:
 5. Se configuró el puerto de la aplicación y el pool de conexiones de acuerdo con el límite del servicio MySQL.
 6. Render construyó la imagen, generó el JAR e inició el contenedor.
 7. Se verificaron Swagger UI, OpenAPI y el inicio de sesión contra la URL pública.
-8. Se publicaron las versiones `v0.1.0` y `v0.1.1` como releases del backend.
+8. Se publicaron las versiones `v0.1.0`, `v0.1.1` y `v1.0.0` como releases del backend.
+9. Se verificó que Render dejara como `live` el commit `b9a7093` y que OpenAPI mostrara la versión `1.0.0`.
 
 ##### Persistencia MySQL en Filess.io
 
@@ -2405,7 +2418,8 @@ Para la configuración se utilizaron las siguientes variables, sin exponer sus v
 | `DATABASE_NAME` | Nombre de la base de datos productiva |
 | `DATABASE_USER` | Usuario con acceso a la base de datos |
 | `DATABASE_PASSWORD` | Contraseña almacenada como secreto en Render |
-| `SPRING_DATASOURCE_HIKARI_MAXIMUM_POOL_SIZE` | Límite controlado del pool de conexiones |
+| `DATABASE_MAX_POOL_SIZE` | Límite controlado del pool de conexiones |
+| `DATABASE_MIN_IDLE` | Reduce conexiones inactivas en el entorno gratuito |
 
 La persistencia se comprobó creando usuarios, envíos, sensores, asignaciones, lecturas y alertas; posteriormente, la información continuó disponible después de nuevas solicitudes y despliegues del frontend.
 
@@ -2495,13 +2509,20 @@ main → develop → feature/* → develop → main
 
 Las ramas feature se utilizaron para autenticación, logística, monitoreo, documentación, despliegue e integración. Una vez verificadas, se integraron en `develop` y posteriormente en `main` para publicar una versión estable.
 
+Las releases finales publicadas para la revisión son:
+
+| Repositorio | Release | URL |
+|-------------|---------|-----|
+| FreshGuard.ColdTrack.Platform | `v1.0.0` | https://github.com/1ASI0729-2610-10155/FreshGuard.ColdTrack.Platform/releases/tag/v1.0.0 |
+| ColdTrack-Front | `v1.0.0` | https://github.com/1ASI0729-2610-10155/ColdTrack-Front/releases/tag/v1.0.0 |
+
 Después del despliegue se realizaron las siguientes comprobaciones:
 
 | Evidencia | Resultado |
 |-----------|-----------|
 | Render construye la imagen con Java 26 | Correcto |
 | Swagger UI disponible públicamente | `200 OK` |
-| Contrato OpenAPI disponible | `200 OK` |
+| Contrato OpenAPI disponible | `200 OK`, versión `1.0.0` |
 | Inicio de sesión y emisión de JWT | Correcto |
 | Acceso autenticado a envíos, sensores y alertas | Correcto |
 | Firebase Hosting disponible | `200 OK` |

@@ -1,33 +1,40 @@
-<h1 align="center"> UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS </h1>
-
-<h2 align="center"> INGENIERIA DE SOFTWARE</h2>
-<h2 align="center"> CICLO 2026-1</h2>
-
 <div align="center">
-   <img src="images/logo_UPC.png" alt="Logo de la UPC" />
+   <br><br>
+   <img src="images/logo_UPC.png" alt="Logo de la UPC" width="58" />
+
+   <p>Universidad Peruana de Ciencias Aplicadas</p>
+   <p>Carrera de Ingeniería de Software</p>
+
+   <br>
+   <p><strong>1ASI0730</strong></p>
+   <p><strong>Aplicaciones Web</strong></p>
+   <p>NRC</p>
+   <p><strong>10215</strong></p>
+   <h3>Informe del Trabajo Final</h3>
+   <p>Docente</p>
+   <p><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+   <p>Equipo</p>
+   <p><strong>FreshGuard</strong></p>
+
+   <br>
+   <p>Proyecto</p>
+   <p><strong>ColdTrack</strong></p>
+
+   <br>
+   <p><strong>Integrantes</strong></p>
+   <p><strong>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</strong></p>
+   <p>U201911249&nbsp;&nbsp;&nbsp;&nbsp;Celis Berrospi, Eslander</p>
+   <p>U202416908&nbsp;&nbsp;&nbsp;&nbsp;Mendoza Palacios, Gabriel</p>
+   <p>U20221G185&nbsp;&nbsp;&nbsp;&nbsp;Oblitas Alcalde, Rodrigo</p>
+   <p>U201823654&nbsp;&nbsp;&nbsp;&nbsp;Avila Palacios, Aarón</p>
+   <p>U202320699&nbsp;&nbsp;&nbsp;&nbsp;Arechaga Saavedra, Mathias</p>
+
+   <br>
+   <p><strong>Período 202610</strong></p>
+
+   <br>
+   <p><strong>Junio 2026</strong></p>
 </div>
-
-<br>
-<h3 align="center"> Desarrollo de Aplicaciones Open Source </h3>
-<h3 align="center"> 1ASI0729-2610-10155 </h3>
-<h3 align="center"> Profesor del Curso: Mori Paiva, Hugo Allan </h3>
-<h3 align="center"> "INFORME DE TRABAJO FINAL"</h3>
-<h3 align="center"> Nombre de Startup: FreshGuard  </h3>
-<h3 align="center"> Nombre del Producto: ColdTrack  </h3>
-<div align="center">
-
-| **Member**                | **Code**   |
-|---------------------------|------------|
-| Eslander Celis Berrospi   | U201911249 |
-| Rodrigo Oblitas Alcalde   | U20221G185 |
-| Mariano Vilela Menendez   | U201918216 |
-| Aarón Avila Palacios      | U201823654 |
-| Mathias Arechaga Saavedra | U202320699 |
-
-
-</div>
-
-<h3 align="center"> MAYO - 2026   </h3>
 
 <div style="page-break-before: always;"></div>
 
@@ -42,7 +49,9 @@
 | 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language |
 | 1.6     | 23/04/2026 | Mathias Arechaga Savedra  | Desarollo del capítulo IV: Web app wireframes, Mock-ups, Wireflows                       |
 | 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarollo del capítulo II: User personas, user task matrix, journey map                    |
-| 2.1     | 11/05/2026 | Aarón Avila Palacios      |                                                               |
+| 2.1     | 11/05/2026 | Aarón Avila Palacios      | Desarrollo de evidencias de ejecución y despliegue del Sprint 2 para TB1                 |
+| 2.2     | 18/06/2026 | Aarón Avila Palacios      | Documentación del backend funcional, integración con frontend y despliegue Sprint 3      |
+| 3.1     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones    |
 
 
 
@@ -279,6 +288,8 @@ Durante el desarrollo del backend, participé en la presentación de la integrac
 
 <b>Mariano Vilela: AV2</b><br>
 Durante esta entrega, fortalecí mi comunicación oral al presentar la documentación técnica del backend, incluyendo Swagger/OpenAPI, validación de endpoints y pruebas funcionales. Expliqué cómo estas herramientas facilitaron la verificación y demostración del sistema implementado.<br><br> 
+<b>Aarón Avila: TB2</b><br>
+Durante la entrega final TB2, participé en la presentación de la versión integrada de ColdTrack, explicando el funcionamiento del frontend conectado al backend desplegado, el uso de Render, Firebase Hosting, MySQL en Filess.io y las releases finales publicadas en GitHub. Me enfoqué en comunicar de forma clara cómo los componentes del sistema trabajan juntos para soportar autenticación, gestión de envíos, sensores, telemetría, alertas y despliegue productivo.<br><br>
         </td>
         <td>
           <b>AV1</b><br>
@@ -287,6 +298,9 @@ Durante esta entrega, fortalecí mi comunicación oral al presentar la documenta
 Durante el desarrollo del frontend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de manera clara las funcionalidades implementadas, la estructura de navegación y el diseño de las interfaces de usuario. Cada integrante explicó distintos componentes del sistema, adaptando el nivel técnico de sus exposiciones según la audiencia, lo que permitió transmitir tanto aspectos funcionales como decisiones de diseño de forma comprensible. Asimismo, las reuniones y presentaciones realizadas facilitaron la coordinación del equipo y la validación de avances durante la implementación del producto. En conjunto, la comunicación oral contribuyó significativamente a mantener una correcta organización y comprensión del proyecto.<br><br>
 <b>AV2:</b><br>
 Durante el desarrollo del backend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de forma clara la arquitectura del sistema, los servicios implementados y el proceso de integración entre frontend, backend y base de datos. Cada integrante explicó distintos aspectos técnicos, como autenticación JWT, APIs REST, deployment y persistencia, adaptando el nivel de detalle según la audiencia. Esto permitió comunicar de manera comprensible conceptos técnicos complejos y facilitó la validación del incremento desarrollado. En conjunto, la comunicación oral fue clave para evidenciar el funcionamiento integral del sistema y sustentar las decisiones técnicas adoptadas.<br><br>
+<b>TB2:</b><br>
+Durante la entrega final TB2, el equipo evidenció una comunicación oral efectiva al sustentar el producto completo, desde la propuesta de valor hasta la ejecución técnica final. Se explicó el funcionamiento de la Web Application, la API REST, la base de datos, las evidencias de despliegue, las releases y los resultados de validación con un lenguaje adecuado para una audiencia académica y técnica. Esta comunicación permitió demostrar que ColdTrack pasó de un prototipo inicial a una solución integrada, desplegada y verificable.<br><br>
+        </td>
     </tr>
     <tr>
         <th>Comunica por escrito con efectividad a diferentes rangos de audiencia.</th>
@@ -329,14 +343,18 @@ Fortalecí mi comunicación escrita al documentar la integración de servicios b
 
 <b>Mariano Vilela: AV2</b><br>
 Desarrollé mi comunicación escrita al elaborar documentación técnica sobre Swagger, validación funcional y pruebas de integración del backend. Procuré estructurar la información de forma clara y profesional.<br><br>
+<b>Aarón Avila: TB2</b><br>
+Durante la entrega final TB2, desarrollé mi comunicación escrita al documentar las evidencias finales de ejecución y despliegue del sistema, incluyendo capturas del frontend productivo, Swagger/OpenAPI, Render, Firebase Hosting y GitHub Releases. Procuré redactar el contenido de manera ordenada, técnica y comprensible, vinculando cada evidencia con el funcionamiento real del producto y con las decisiones de despliegue adoptadas por el equipo.<br><br>
         </td>
         <td>
           <b>AV1:</b><br>
           El equipo evidenció una buena capacidad de comunicación escrita al desarrollar distintos componentes del proyecto, como entrevistas, User Stories, backlog, documentación técnica, diseño de interfaces y secciones del informe final. Cada integrante utilizó un lenguaje claro, ordenado y adecuado según el tipo de público, permitiendo que la información sea entendida tanto por especialistas como por personas con menor conocimiento técnico. La claridad en la explicación de conceptos, junto con una correcta estructuración del contenido, hizo que los documentos cumplieran adecuadamente su propósito informativo y de apoyo en la toma de decisiones. En conjunto, esta habilidad fue clave para asegurar la coherencia del proyecto y lograr una documentación completa y profesional, alineada con los objetivos del equipo. <br><br>
            <b>TB1:</b><br>
         El equipo evidenció una comunicación escrita efectiva durante el desarrollo del frontend de ColdTrack, elaborando documentación clara y estructurada sobre las vistas, componentes y funcionalidades implementadas en la aplicación. Cada integrante redactó información relacionada con el diseño visual, navegación y experiencia de usuario, utilizando un lenguaje adecuado según el tipo de audiencia. La organización y claridad de los documentos permitieron comprender fácilmente el progreso del proyecto y las decisiones tomadas durante el sprint. En conjunto, la comunicación escrita contribuyó a mantener una documentación consistente, profesional y alineada con los objetivos planteados para la implementación del frontend.<br><br>
-        <b>AV2:</b><br>
+<b>AV2:</b><br>
 El equipo evidenció una comunicación escrita efectiva durante el desarrollo del backend de ColdTrack, elaborando documentación técnica clara y estructurada sobre arquitectura, servicios, endpoints, deployment e integración del sistema. Cada integrante contribuyó redactando información relacionada con distintos módulos backend, utilizando un lenguaje adecuado según el tipo de audiencia. La organización y claridad de la documentación permitieron comprender el funcionamiento del sistema y las decisiones técnicas adoptadas durante el sprint. En conjunto, la comunicación escrita contribuyó a mantener una documentación consistente, profesional y alineada con los objetivos del proyecto.<br><br>
+<b>TB2:</b><br>
+Durante la entrega final TB2, el equipo consolidó una documentación escrita más completa y coherente, integrando evidencias de ejecución, despliegue, validación, entrevistas, releases y conclusiones finales. La redacción permitió explicar el producto desde una perspectiva funcional y técnica, facilitando que diferentes audiencias comprendan el valor de ColdTrack, su arquitectura, su estado de despliegue y las oportunidades futuras de mejora.<br><br>
         </td>
     </tr>
 </table>
@@ -3076,41 +3094,53 @@ Timing / Duración:
 
 ## Bibliografía
 
-•	LucidChart. (2010). LucidChart. Lucid Software Inc. `https://www.lucidchart.com`
+• Atlassian. (s. f.). *Trello*. https://trello.com/
 
-•	Trello(2011). Trello. Atlassian. `https://trello.com/`
+• CareerFoundry. (2022). *What are user flows in UX design?* https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/
 
-•	Pivotal Tracker (2008). Pivotal Tracker. VMware, Inc. `https://www.pivotaltracker.com/`
+• Figma. (s. f.). *Figma: The collaborative interface design tool*. https://www.figma.com/
 
-•	Figma (2016). Figma. Figma, Inc.  `https://www.figma.com/`
+• Git. (s. f.). *Git documentation*. https://git-scm.com/doc
 
-•	Schwaber, K., & Sutherland, J. (2020). The Scrum Guide: The definitive guide to Scrum: The rules of the game. Scrum.org. `https://scrumguides.org/`
+• GitHub Docs. (s. f.). *Managing releases in a repository*. https://docs.github.com/repositories/releasing-projects-on-github/managing-releases-in-a-repository
 
-•	ProgressaLean. (2014). 5W+2H: Técnica de análisis de problemas. `https://www.progressalean.com/5w2h-tecnica-de-analisis-de-problemas/`
+• Google Firebase. (s. f.). *Firebase Hosting documentation*. https://firebase.google.com/docs/hosting
 
-•	IBM. (2022). As-is Scenario Map. `https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map`
+• IBM. (s. f.). *As-is Scenario Map*. IBM Design Thinking. https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map
 
-•	IBM. (s. f.). Empathy Map. `https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map`
+• IBM. (s. f.). *Empathy Map*. IBM Design Thinking. https://www.ibm.com/design/thinking/page/toolkit/activity/empathy-map
 
-•	Browne, C. (2022). What are user flows in UX design? .CareerFoundry. `https://careerfoundry.com/en/blog/ux-design/what-are-user-flows/`
+• Lucid Software Inc. (s. f.). *Lucidchart*. https://www.lucidchart.com
 
-•	Structurizr. (s. f.). Embedding diagrams. `https://docs.structurizr.com/cloud/embed`
+• MySQL. (s. f.). *MySQL 8.0 Reference Manual*. Oracle. https://dev.mysql.com/doc/refman/8.0/en/
 
-•	Structurizr. (s. f.). Structurizr. `https://structurizr.com/`
+• OpenAPI Initiative. (s. f.). *OpenAPI Specification*. https://spec.openapis.org/oas/latest.html
 
-• Loy, M., Niemeyer, P., & Leuck, D. (2023). Learning Java (6th edition). O’Reilly.
+• Render. (s. f.). *Render Web Services documentation*. https://render.com/docs/web-services
 
-• Sciore, E. (2018). Java Program Design: Principles, Polymorphism, and Patterns. Apress L. P.
+• Schwaber, K., & Sutherland, J. (2020). *The Scrum Guide: The definitive guide to Scrum: The rules of the game*. Scrum.org. https://scrumguides.org/
 
-• Heckler, M. (2021). Spring Boot:  Up and Running (1st edition). O’Reilly Media, Inc.
+• Spring. (s. f.). *Spring Boot Reference Documentation*. VMware Tanzu. https://docs.spring.io/spring-boot/index.html
 
-• Modern API Development with Spring and Spring Boot. (2021). Packt Publishing.
+• Spring. (s. f.). *Spring Security Reference*. VMware Tanzu. https://docs.spring.io/spring-security/reference/
 
-• Kotaru, V. Keerti. author. (2020). Angular for Material Design Leverage Angular Material and TypeScript to Build a Rich User Interface for Web Apps  (1st ed. 2020.). Apress. `https://doi.org/10.1007/978-1-4842-5434-9`
+• Springdoc.org. (s. f.). *Springdoc OpenAPI documentation*. https://springdoc.org/
 
-• Karanam, R. R. (2017). Mastering Spring 5.0. Packt Publishing, Limited.
+• Structurizr. (s. f.). *Structurizr documentation*. https://docs.structurizr.com/
 
-• Gutierrez, F. (2018). Pro Spring Boot 2: An Authoritative Guide to Building Microservices, Web and Enterprise Applications, and Best Practices. Apress L. P.
+• Swagger. (s. f.). *Swagger UI documentation*. SmartBear Software. https://swagger.io/tools/swagger-ui/
+
+• The Angular Team. (s. f.). *Angular documentation*. Google. https://angular.dev/
+
+• The Angular Team. (s. f.). *Angular Material documentation*. Google. https://material.angular.dev/
+
+• VMware Tanzu. (2008). *Pivotal Tracker*. https://www.pivotaltracker.com/
+
+• Heckler, M. (2021). *Spring Boot: Up and Running*. O’Reilly Media.
+
+• Kotaru, V. K. (2020). *Angular for Material Design: Leverage Angular Material and TypeScript to Build a Rich User Interface for Web Apps*. Apress. https://doi.org/10.1007/978-1-4842-5434-9
+
+• Loy, M., Niemeyer, P., & Leuck, D. (2023). *Learning Java* (6th ed.). O’Reilly.
 
 # Anexos
 **Anexo A:**

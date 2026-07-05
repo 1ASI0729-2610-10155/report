@@ -6,13 +6,13 @@
    <p>Carrera de Ingeniería de Software</p>
 
    <br>
-   <p><strong>1ASI0730</strong></p>
-   <p><strong>Aplicaciones Web</strong></p>
+   <p><strong>1ASI0729</strong></p>
+   <p><strong>Desarrollo de Aplicaciones Open Source</strong></p>
    <p>NRC</p>
-   <p><strong>10215</strong></p>
+   <p><strong>10155</strong></p>
    <h3>Informe del Trabajo Final</h3>
    <p>Docente</p>
-   <p><strong>Velásquez Núñez, Ángel Augusto</strong></p>
+   <p><strong>Mori Paiva, Hugo Allan</strong></p>
    <p>Equipo</p>
    <p><strong>FreshGuard</strong></p>
 

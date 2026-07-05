@@ -290,6 +290,8 @@ Durante el desarrollo del backend, participé en la presentación de la integrac
 Durante esta entrega, fortalecí mi comunicación oral al presentar la documentación técnica del backend, incluyendo Swagger/OpenAPI, validación de endpoints y pruebas funcionales. Expliqué cómo estas herramientas facilitaron la verificación y demostración del sistema implementado.<br><br> 
 <b>Aarón Avila: TB2</b><br>
 Durante la entrega final TB2, participé en la presentación de la versión integrada de ColdTrack, explicando el funcionamiento del frontend conectado al backend desplegado, el uso de Render, Firebase Hosting, MySQL en Filess.io y las releases finales publicadas en GitHub. Me enfoqué en comunicar de forma clara cómo los componentes del sistema trabajan juntos para soportar autenticación, gestión de envíos, sensores, telemetría, alertas y despliegue productivo.<br><br>
+<b>Mathias Aréchaga: TB2</b><br>
+Durante la entrega final TB2, participé y desarrollé la documentacion tecnica del sprint backlog 4 y pruebas funcionales sobre las endpoints REST .<br><br>
         </td>
         <td>
           <b>AV1</b><br>
@@ -345,6 +347,8 @@ Fortalecí mi comunicación escrita al documentar la integración de servicios b
 Desarrollé mi comunicación escrita al elaborar documentación técnica sobre Swagger, validación funcional y pruebas de integración del backend. Procuré estructurar la información de forma clara y profesional.<br><br>
 <b>Aarón Avila: TB2</b><br>
 Durante la entrega final TB2, desarrollé mi comunicación escrita al documentar las evidencias finales de ejecución y despliegue del sistema, incluyendo capturas del frontend productivo, Swagger/OpenAPI, Render, Firebase Hosting y GitHub Releases. Procuré redactar el contenido de manera ordenada, técnica y comprensible, vinculando cada evidencia con el funcionamiento real del producto y con las decisiones de despliegue adoptadas por el equipo.<br><br>
+<b>Mathias Aréchaga: TB2</b><br>
+Durante el proceso del TB2, desarrollé mi comunicación escrita mediante la documentación del Sprint Backlog 4 y las pruebas de validación de los endpoints REST. Procuré redactar el contenido de manera ordenada, técnica y comprensible, describiendo las actividades realizadas y los resultados obtenidos para facilitar la comprensión del trabajo desarrollado por el equipo.<br><br>
         </td>
         <td>
           <b>AV1:</b><br>
@@ -2633,6 +2637,10 @@ Distribución de commits:
 | Sum of Story Points | 21 |
 ### 5.2.4.2. Aspect Leaders and Collaborators.
 ### 5.2.4.3. Sprint Backlog 4.
+
+
+
+
 ### 5.2.4.4. Development Evidence for Sprint Review.
 
 ### 5.2.4.5. Execution Evidence for Sprint Review.

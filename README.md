@@ -24,7 +24,7 @@
    <p><strong>Integrantes</strong></p>
    <p><strong>Código&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apellidos y Nombres</strong></p>
    <p>U201911249&nbsp;&nbsp;&nbsp;&nbsp;Celis Berrospi, Eslander</p>
-   <p>U202416908&nbsp;&nbsp;&nbsp;&nbsp;Mendoza Palacios, Gabriel</p>
+   <p>U201918216&nbsp;&nbsp;&nbsp;&nbsp;Vilela Menendez, Mariano</p>
    <p>U20221G185&nbsp;&nbsp;&nbsp;&nbsp;Oblitas Alcalde, Rodrigo</p>
    <p>U201823654&nbsp;&nbsp;&nbsp;&nbsp;Avila Palacios, Aarón</p>
    <p>U202320699&nbsp;&nbsp;&nbsp;&nbsp;Arechaga Saavedra, Mathias</p>

@@ -2636,10 +2636,51 @@ Distribución de commits:
 | Sprint 4 Velocity | 21 |
 | Sum of Story Points | 21 |
 ### 5.2.4.2. Aspect Leaders and Collaborators.
+
 ### 5.2.4.3. Sprint Backlog 4.
+##### En este item se detalla el Sprint Backlog del cuarto sprint de desarrollo del proyecto.
 
+| User Story Id | User Story Title | Task Id | Task Description | Aspect (Frontend/Backend) | Status |
+|---------------|------------------|---------|------------------|--------------------------|--------|
+| US-001 | Registro de usuario | FE-001 | Optimizar el formulario de registro con validaciones en tiempo real | Frontend | Done |
+| US-002 | Inicio de sesión | FE-002 | Mejorar la interfaz de inicio de sesión y manejo de errores de autenticación | Frontend | Done |
+| US-004 | Crear envío | FE-003 | Validar y refinar el formulario de creación de envíos en el frontend | Frontend | Done |
+| US-005 | Ver envíos activos | FE-004 | Optimizar la visualización de la tabla de envíos y agregar filtros avanzados | Frontend | Done |
+| US-006 | Ver detalle del envío | FE-005 | Mejorar la vista de detalle del envío con información consolidada de monitoreo | Frontend | Done |
+| US-009 | Ver temperatura en tiempo real | FE-006 | Implementar actualización en tiempo real de temperatura mediante WebSocket | Frontend | Done |
+| US-010 | Ver humedad en tiempo real | FE-007 | Implementar actualización en tiempo real de humedad mediante WebSocket | Frontend | Done |
+| US-013 | Alertas de temperatura | FE-008 | Mejorar visualización de alertas con indicadores visuales y sonoros | Frontend | Done |
+| US-015 | Historial de alertas | FE-009 | Optimizar la tabla de historial de alertas con filtros y exportación | Frontend | Done |
+| US-016 | Ver historial de envíos | FE-010 | Refinar la visualización del historial de envíos completados | Frontend | Done |
+| US-017 | Descargar reporte | FE-011 | Implementar exportación de reportes en formatos CSV y PDF desde el frontend | Frontend | Done |
+| US-019 | Ver información de la app (Landing) | FE-012 | Validar responsividad y SEO del Landing Page en todos los dispositivos | Frontend | Done |
+| TS-001 | Crear usuario | BE-001 | Optimizar el servicio de persistencia de usuarios en MySQL | Backend | Done |
+| TS-002 | Autenticación | BE-002 | Validar y refinar la generación de tokens JWT con expiración correcta | Backend | Done |
+| TS-003 | CRUD envíos | BE-003 | Optimizar las operaciones de lectura y escritura de envíos en la base de datos | Backend | Done |
+| TS-004 | Asignación sensor | BE-004 | Refinar la lógica de asignación de sensores a envíos con validaciones de negocio | Backend | Done |
+| TS-005 | Integración IoT | BE-005 | Validar la recepción de datos IoT desde sensores y almacenamiento en telemetría | Backend | Done |
+| TS-006 | Tiempo real | BE-006 | Implementar WebSocket para actualización de datos en tiempo real en frontend | Backend | Done |
+| TS-007 | Motor alertas | BE-007 | Refinar la lógica de detección de anomalías y generación automática de alertas | Backend | Done |
+| TS-008 | Notificaciones | BE-008 | Implementar notificaciones automáticas mediante Firebase Cloud Messaging | Backend | Done |
+| TS-009 | Guardar historial | BE-009 | Validar persistencia correcta del historial de envíos y alertas en MySQL | Backend | Done |
+| TS-010 | Exportar PDF | BE-010 | Implementar generación dinámica de reportes en PDF desde el backend | Backend | Done |
+| US-002 | Inicio de sesión | BE-011 | Implementar endpoint de validación y renovación de tokens JWT | Backend | Done |
+| US-007 | Asignar sensor a envío | FE-013 | Implementar interfaz gráfica para vincular sensores disponibles a envíos | Frontend | Done |
+| US-008 | Finalizar envío | BE-013 | Implementar endpoint para finalizar envío y generar reporte automático | Backend | Done |
+| US-011 | Estado del envío | FE-014 | Visualizar estado consolidado del envío con indicadores de color | Frontend | Done |
+| US-012 | Visualizar gráficos históricos | FE-015 | Implementar gráficos interactivos de temperatura y humedad en tiempo histórico | Frontend | Done |
+| US-014 | Notificación al conductor | FE-016 | Integrar notificaciones push en el navegador para alertas críticas | Frontend | Done |
+| US-018 | Filtrar historial | FE-017 | Implementar filtros avanzados para búsqueda en historial de envíos y alertas | Frontend | Done |
+| Integration-001 | CORS Configuration | BE-014 | Configurar CORS para permitir solicitudes desde Firebase Hosting | Backend | Done |
+| Documentation-001 | OpenAPI/Swagger Documentation | BE-015 | Actualizar documentación OpenAPI a versión 1.0.0 y validar todos los endpoints | Backend | Done |
+| Testing-001 | Unit Tests | BE-017 | Ejecutar pruebas unitarias del backend y validar cobertura de reglas de negocio | Backend | Done |
+| Testing-002 | Integration Tests | FE-018 | Realizar pruebas de integración frontend-backend en ambiente de staging | Frontend | Done |
+| Deployment-001 | Firebase Hosting Deployment | FE-019 | Desplegar versión final del frontend en Firebase Hosting | Frontend | Done |
+| Deployment-002 | Render Web Service Deployment | BE-018 | Desplegar versión final del backend en Render Web Service con Docker | Backend | Done |
+| Release-001 | GitHub Release Frontend | FE-020 | Crear y publicar release v1.0.0 del frontend en GitHub | Frontend | Done |
+| Release-002 | GitHub Release Backend | BE-020 | Crear y publicar release v1.0.0 del backend en GitHub | Backend | Done |
 
-
+Link del Trello: https://trello.com/b/xxxxxxxxxxxxx/sprint-4-coldtrack
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
 

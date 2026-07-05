@@ -990,10 +990,10 @@ Por otro lado, los entrevistados resaltaron la necesidad de contar con herramien
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/persona_user.jpg" alt="userpersona1" width="100%">
+<img src="./images/User_Persona1_Vf.png" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/persona_user2.jpg" alt="userpersona2" width="100%">
+<img src="./images/User_Persona2_Vf.png" alt="userpersona2" width="100%">
 
 
 ### 2.3.2. User Task Matrix
@@ -2680,7 +2680,7 @@ Distribución de commits:
 | Release-001 | GitHub Release Frontend | FE-020 | Crear y publicar release v1.0.0 del frontend en GitHub | Frontend | Done |
 | Release-002 | GitHub Release Backend | BE-020 | Crear y publicar release v1.0.0 del backend en GitHub | Backend | Done |
 
-Link del Trello: https://trello.com/b/xxxxxxxxxxxxx/sprint-4-coldtrack
+Link del Trello: https://trello.com/invite/b/6a49d6b1379f3de6b3448e00/ATTI674155e888c769884578e795703837992229B9CF/sprint-backlog-4-coldtrack
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
 

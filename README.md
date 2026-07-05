@@ -2762,6 +2762,20 @@ Los endpoints validados durante la ejecución final fueron:
 La ejecución final confirma que ColdTrack opera como un sistema integrado de extremo a extremo. El usuario interactúa con una Web Application pública, el frontend autentica y consume una API REST propia, el backend aplica reglas de negocio y persistencia, y la base de datos conserva la información operativa usada para dashboard, sensores, alertas e historial.
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+Durante el Sprint Review, se recopiló y organizó toda la evidencia relacionada con los servicios implementados en el proyecto, detallando cada endpoint y respuestas esperadas.
+
+| Módulo | Endpoint base | Acciones disponibles | Métodos HTTP | Descripción |
+|---|---|---|---|---|
+| Plataforma | `/health` | Verificar estado del servidor | `GET` | Estado de salud de la plataforma |
+| Autenticación | `/api/v1/authentication` | Registrar cuenta, iniciar sesión | `POST /sign-up`<br>`POST /sign-in` | Registro y autenticación de usuarios ColdTrack |
+| Usuarios | `/api/v1/users` | Obtener perfil del usuario autenticado | `GET /me` | Gestión del perfil de usuario |
+| Envíos | `/api/v1/shipments` | Registrar envío, listar envíos, obtener por ID, actualizar estado | `POST`<br>`GET`<br>`GET /{shipmentId}`<br>`PATCH /{shipmentId}/status` | Gestión del ciclo de vida de envíos refrigerados |
+| Sensores | `/api/v1/sensors` | Registrar sensor, listar sensores, asignar a envío | `POST`<br>`GET`<br>`PATCH /{sensorId}/assignment` | Registro y asignación de sensores de monitoreo |
+| Telemetría | `/api/v1/telemetry` | Registrar lectura de sensor, consultar telemetría por envío | `POST`<br>`GET /shipments/{shipmentId}/telemetry` | Ingesta y consulta de datos de temperatura y humedad en tiempo real |
+| Alertas | `/api/v1/alerts` | Listar alertas, reconocer alerta, resolver alerta | `GET`<br>`PATCH /{alertId}/acknowledgment`<br>`PATCH /{alertId}/resolution` | Gestión de alertas por desvíos de temperatura o humedad |
+| Analítica | `/api/v1/analytics` | Obtener indicadores del dashboard, consultar historial de envíos | `GET /dashboard`<br>`GET /shipment-history` | Indicadores operativos consolidados y análisis histórico de envíos |
+| Reportes | `/api/v1/reports` | Generar reporte, listar reportes, descargar reporte como PDF | `POST`<br>`GET`<br>`GET /{reportId}/file` | Generación y descarga de reportes de desempeño de la cadena de frío |
+
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 4 se consolidó el despliegue final de ColdTrack, dejando publicados los tres componentes principales del sistema: Web Application, API REST y base de datos. A diferencia de sprints anteriores, en esta etapa se cerró la configuración productiva con releases finales, verificación de disponibilidad pública y documentación de las URLs necesarias para la presentación del producto.

@@ -2683,7 +2683,41 @@ Distribución de commits:
 Link del Trello: https://trello.com/invite/b/6a49d6b1379f3de6b3448e00/ATTI674155e888c769884578e795703837992229B9CF/sprint-backlog-4-coldtrack
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
+Durante el **Sprint 4**, el equipo se enfocó en la preparación de la versión final de **ColdTrack**, completando la integración entre el frontend y backend, realizando ajustes para el despliegue en producción, optimizando la experiencia de usuario y consolidando la documentación técnica del proyecto. Asimismo, se realizaron mejoras en la configuración de Render, optimizaciones finales del sistema y la actualización del informe final con la evidencia correspondiente al desarrollo del proyecto.
 
+#### Backend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| FreshGuard.ColdTrack.Platform | `feature/render-deployment-configuration` | `bccad7d0` | `chore(deploy): prepare Render and Filess configuration` | Se preparó la configuración necesaria para el despliegue de la plataforma backend utilizando Render y Filess. | 18/06/2026 |
+| FreshGuard.ColdTrack.Platform | `main` | `a58f4978` | `release: merge develop into main for v0.1.1` | Se integraron las últimas funcionalidades desarrolladas en la rama principal para la versión 0.1.1 del sistema. | 18/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/fix-render-docker-image` | `48c3af81` | `fix(deploy): use available Maven Java 26 image` | Se corrigió la imagen Docker utilizada durante el despliegue para garantizar compatibilidad con Render. | 18/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/final-backend-polish` | `3d8be85b` | `fix(deploy): limit production database pool` | Se optimizó el tamaño del pool de conexiones a la base de datos para el entorno de producción. | 23/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/final-backend-polish` | `b93aaa7c` | `fix(deploy): reduce production database pool to one` | Se redujo el número de conexiones simultáneas para mejorar la estabilidad del despliegue en Render. | 23/06/2026 |
+| FreshGuard.ColdTrack.Platform | `feature/final-backend-polish` | `590dfea5` | `docs: finalize backend deployment guidance` | Se actualizó la documentación del despliegue backend con las configuraciones finales para producción. | 04/07/2026 |
+| FreshGuard.ColdTrack.Platform | `main` | `b9a70930` | `merge: release final backend polish` | Se integraron las optimizaciones finales del backend en la rama principal como parte de la versión definitiva del sistema. | 04/07/2026 |
+
+#### Frontend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| ColdTrack-Frontend | `feature/operational-actions` | `9855a7f5` | `feat: enable operational shipment actions` | Se implementaron acciones operativas relacionadas con la gestión de envíos desde la interfaz de usuario. | 18/06/2026 |
+| ColdTrack-Frontend | `feature/telemetry-and-lifecycle` | `e914cf0d` | `feat: add telemetry and shipment lifecycle controls` | Se añadieron controles para la visualización de telemetría y el ciclo de vida de los envíos. | 18/06/2026 |
+| ColdTrack-Frontend | `feature/final-frontend-polish` | `d4e7bcee` | `feat: polish final frontend experience` | Se realizaron mejoras finales en la experiencia de usuario, navegación e interfaz del sistema. | 04/07/2026 |
+| ColdTrack-Frontend | `main` | `3b19b30d` | `merge: release final frontend polish` | Se integraron las optimizaciones finales del frontend en la rama principal para la versión final del proyecto. | 04/07/2026 |
+
+#### Report Repository
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|---------------------|--------------------|
+| Report | `main` | `fa42442f` | `docs: add sprint 4 planning section` | Se añadió la planificación correspondiente al Sprint 4 dentro del informe del proyecto. | 04/07/2026 |
+| Report | `codex/update-sprint3-report` | `dd145267` | `docs: update sprint 3 deployment evidence` | Se actualizó la evidencia de desarrollo y despliegue correspondiente al Sprint 3. | 04/07/2026 |
+| Report | `codex/final-report-sprint4` | `d585a871` | `docs: complete final sprint report evidence` | Se incorporó la evidencia final del Sprint 4 dentro del informe académico. | 04/07/2026 |
+| Report | `codex/final-report-cover-outcome` | `0b04affe` | `docs: update final cover outcome and references` | Se actualizaron la portada, los Student Outcomes y las referencias finales del informe. | 04/07/2026 |
+| Report | `main` | `ce4c3580` | `docs: Update Student Outcome` | Se actualizaron las evidencias correspondientes a los Student Outcomes alcanzados por el equipo. | 04/07/2026 |
+| Report | `main` | `75b9410f` | `docs: add sprint backlog 4` | Se agregó el Sprint Backlog correspondiente al Sprint 4. | 04/07/2026 |
+| Report | `main` | `7ba3ca76` | `docs: Add Trello Link and Update User Personas` | Se añadieron los enlaces del tablero Trello y se actualizaron las User Personas del proyecto. | 04/07/2026 |
+| Report | `main` | `487e1b97` | `docs: add chapter 5.2.4.6 Documentation` | Se incorporó la documentación correspondiente al capítulo 5.2.4.6 del informe final. | 04/07/2026 |
 ### 5.2.4.5. Execution Evidence for Sprint Review.
 
 Durante el Sprint 4 se validó la versión final integrada de ColdTrack, con el frontend Angular desplegado en Firebase Hosting, el backend Spring Boot publicado en Render, la base de datos MySQL activa en Filess.io y las releases finales disponibles en GitHub. Esta revisión tuvo como objetivo comprobar que el producto ya no depende de MockAPI ni de datos exclusivamente simulados en el frontend, sino que opera mediante una API REST propia, autenticación JWT, persistencia en MySQL y flujos funcionales conectados entre la Web Application y el backend.

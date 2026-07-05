@@ -38,22 +38,26 @@
 
 <div style="page-break-before: always;"></div>
 
-
 # Registro de Versiones del Informe
-| Versión | Fecha      | Autor(es)                 | Descripción                                                                              |
-|---------|------------|---------------------------|------------------------------------------------------------------------------------------|
-| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción                                                  |
-| 1.2     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification                                  |
-| 1.3     | 22/04/2026 | Eslander Celis Berrospi   | Completar el documento con Student Outcome                                               |
-| 1.4     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V                                                                |
-| 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language |
-| 1.6     | 23/04/2026 | Mathias Arechaga Savedra  | Desarollo del capítulo IV: Web app wireframes, Mock-ups, Wireflows                       |
-| 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarollo del capítulo II: User personas, user task matrix, journey map                    |
-| 2.1     | 11/05/2026 | Aarón Avila Palacios      | Desarrollo de evidencias de ejecución y despliegue del Sprint 2 para TB1                 |
-| 2.2     | 18/06/2026 | Aarón Avila Palacios      | Documentación del backend funcional, integración con frontend y despliegue Sprint 3      |
-| 3.1     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones    |
-
-
+| Versión | Fecha      | Autor(es)                 | Descripción                                             |
+|---------|------------|---------------------------|---------------------------------------------------------|
+| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción. |
+| 1.2     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification. |
+| 1.3     | 22/04/2026 | Eslander Celis Berrospi   | Actualización del Student Outcome y consolidación de evidencias iniciales. |
+| 1.4     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V y evidencias de implementación. |
+| 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language. |
+| 1.6     | 23/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capítulo IV: Web App Wireframes, Mock-ups y Wireflows. |
+| 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capítulo II: User Personas, User Task Matrix y Journey Map. |
+| 2.1     | 11/05/2026 | Aarón Avila Palacios      | Desarrollo de evidencias del Sprint 2, despliegue frontend y capturas de participación de la entrega TB2. |
+| 2.2     | 12/05/2026 | Mariano Vilela Menendez   | Actualización de Team Collaboration Insights, evidencias de commits y participación del Sprint 2. |
+| 3.0     | 18/06/2026 | Aarón Avila Palacios      | Incorporación de la estructura del Sprint 3 y evidencias iniciales para AV2. |
+| 3.1     | 18/06/2026 | Eslander Celis Berrospi   | Actualización del Student Outcome para AV2 y registro de aportes del equipo. |
+| 3.2     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización del Sprint Backlog 3 y documentación de servicios del backend. |
+| 3.3     | 18/06/2026 | Mariano Vilela Menendez   | Actualización de imágenes, distribución de commits y Team Collaboration Insights. |
+| 3.4     | 18/06/2026 | Aarón Avila Palacios      | Desarrollo de evidencias de ejecución y despliegue del Sprint 3. |
+| 3.5     | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de entrevistas de validación, actualización del video y ajustes finales de AV2. |
+| 3.6     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones. |
+| 3.7     | 05/07/2026 | Rodrigo Oblitas Alcalde   | Corrección de carátula, Lean UX Process, registro de versiones, evidencias TB2/AV2 y Lean UX Canvas. |
 
 
 # Project Report Collaboration Insights
@@ -64,17 +68,29 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 - 🔗 Enlace de la organización: https://github.com/1ASI0729-2610-10155
 - 🔗 Enlace de repositorios: https://github.com/orgs/1ASI0729-2610-10155/repositories
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo y las evidencias correspondientes.
 
 ## AV1
-Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice, la organización del repositorio y la distribución de responsabilidades entre los miembros del equipo. En esta etapa se consolidó la presentación inicial de la startup FreshGuard y del producto ColdTrack, así como la descripción del problema, los segmentos objetivo y los primeros artefactos de análisis requeridos para sustentar la solución.
+
+También se avanzó con el Lean UX Process, la identificación de necesidades de los usuarios, los primeros elementos de Requirements Elicitation & Analysis y la planificación de entregables para las siguientes fases. Esta entrega permitió establecer una base común de trabajo, ordenar el contenido del informe y alinear al equipo sobre el alcance funcional y documental del proyecto.
 
 ![reporteTB1.png](./images/reporteTB1.png)
 
-## TB1
-Para la segunda entrega (TB1) se hicieron las correciones necesarias al proyecto y se agrego todo el Sprint 2
+## TB2
+Para la entrega TB2 se desarrolló el avance correspondiente al Sprint 2, enfocado principalmente en la implementación de la Web Application de ColdTrack. El equipo trabajó en la construcción del frontend, la navegación entre vistas, el registro e inicio de sesión, la gestión de envíos, el dashboard operativo, el módulo de sensores, las alertas, el historial y el soporte de los principales flujos de interacción.
 
-![reporteTP1.png](./images/reporteTP1.png)
+Asimismo, se documentaron las evidencias de desarrollo, ejecución y despliegue, incluyendo capturas de la aplicación, configuración de entorno, conexión con datos simulados y publicación del producto para su revisión. Esta etapa permitió transformar los artefactos de diseño y requerimientos en una aplicación funcional inicial, preparada para integrarse posteriormente con los Web Services del Sprint 3.
+
+![Participación del Sprint 2](./images/reporteTP1.png)
+
+## AV2
+Para la segunda entrega (AV2) se completó la integración del producto ColdTrack, consolidando el trabajo realizado en el Sprint 3. Durante esta etapa se documentaron las evidencias de ejecución y despliegue, la conexión entre la Web Application y los Web Services, la persistencia en MySQL, la autenticación, los flujos de envíos, sensores, telemetría, alertas, historial y generación de reportes.
+
+Además, se actualizaron las secciones de Student Outcome, conclusiones, recomendaciones, Video About-the-Product, Video About-the-Team y entrevistas de validación. La participación del equipo quedó reflejada en el historial de Git, donde se registraron contribuciones mediante commits, documentación, capturas, evidencias de despliegue y ajustes finales del informe.
+
+![Participación de Git en AV2](./images/commitback.png)
+
 
 ## Contenido
 
@@ -101,8 +117,8 @@ Para la segunda entrega (TB1) se hicieron las correciones necesarias al proyecto
       * [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
-    * [Segmento Objetivo 1: Estudiantes Universitarios](#segmento-objetivo-1-estudiantes-universitarios)
-    * [Segmento Objetivo 2: Profesores Universitarios](#segmento-objetivo-2-profesores-universitarios)
+    * [Segmento Objetivo 1: Personal de Logística y Operaciones](#segmento-objetivo-1-personal-de-logística-y-operaciones)
+    * [Segmento Objetivo 2: Personal de Transporte](#segmento-objetivo-2-personal-de-transporte)
 
 * [Capitulo II: Requirements Elicitation & Analysis](#capitulo-ii-requirements-elicitation--analysis)
 
@@ -260,19 +276,19 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
          Durante el desarrollo del proyecto, participé en la exposición de herramientas de diseño centrado en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación web. Me enfoqué en explicar de forma clara los flujos, interfaces y funcionalidades, adaptando mi lenguaje para que tanto aspectos técnicos como visuales sean entendidos por todos.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
          Durante el proyecto, fortalecí mi comunicación oral al presentar el análisis de competidores, el diseño y resultados de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré transmitir la información de forma ordenada y clara, facilitando la comprensión de los hallazgos y su impacto en la propuesta de solución.<br><br> 
-            <b>Aarón Avila: TB1</b><br>
+            <b>Aarón Avila: TB2</b><br>
 Durante esta entrega, participé en la presentación del frontend de la aplicación ColdTrack, explicando la estructura de las vistas, la navegación entre módulos y el funcionamiento de los componentes implementados. Procuré comunicar de manera clara el propósito de cada interfaz y cómo estas mejoran la experiencia del usuario, adaptando mi explicación según el nivel técnico de la audiencia.<br><br> 
 
-<b>Eslander Celis: TB1</b><br>
+<b>Eslander Celis: TB2</b><br>
 Durante el desarrollo del frontend de ColdTrack, fortalecí mi comunicación oral al exponer la implementación de las principales funcionalidades de la aplicación, incluyendo las vistas de autenticación, dashboard y gestión de productos. Expliqué de manera ordenada el flujo de navegación y la interacción entre componentes, procurando que tanto aspectos técnicos como funcionales sean comprendidos por todos los integrantes y docentes.<br><br> 
 
-<b>Rodrigo Oblitas: TB1</b><br>
+<b>Rodrigo Oblitas: TB2</b><br>
 Durante esta entrega, participé en la explicación del diseño visual y la estructura del frontend, detallando la implementación de componentes reutilizables y estilos responsivos. Me enfoqué en comunicar las decisiones de diseño de manera clara y estructurada, facilitando la comprensión de la propuesta desarrollada.<br><br> 
 
-<b>Mathias Arechaga: TB1</b><br>
+<b>Mathias Arechaga: TB2</b><br>
 Durante el desarrollo del frontend, participé en la presentación de los prototipos implementados y las funcionalidades visuales de la aplicación. Expliqué el comportamiento de las interfaces y la distribución de los elementos gráficos, utilizando un lenguaje claro para facilitar la comprensión de la experiencia de usuario planteada.<br><br> 
 
-<b>Mariano Vilela: TB1</b><br>
+<b>Mariano Vilela: TB2</b><br>
 Durante esta entrega, fortalecí mi comunicación oral al presentar las mejoras visuales y la organización de las vistas del frontend de ColdTrack. Expliqué cómo las interfaces fueron diseñadas para facilitar la interacción del usuario con el sistema, transmitiendo las ideas de manera ordenada y comprensible.<br><br>
 <b>Aarón Avila: AV2</b><br>
 Durante esta entrega, participé en la presentación del backend de ColdTrack, explicando la arquitectura general de la API REST, la configuración de autenticación con JWT y el funcionamiento de los servicios implementados. Me enfoqué en comunicar de forma clara cómo interactúan los distintos módulos del sistema, facilitando la comprensión de la lógica backend tanto para una audiencia técnica como académica.<br><br>
@@ -281,7 +297,7 @@ Durante esta entrega, participé en la presentación del backend de ColdTrack, e
 Durante el desarrollo del backend de ColdTrack, fortalecí mi comunicación oral al exponer la implementación de los principales módulos del sistema, incluyendo autenticación, gestión de envíos y monitoreo de sensores. Expliqué de manera ordenada el flujo entre frontend, backend y base de datos, asegurando que los aspectos técnicos y funcionales fueran comprendidos claramente por el equipo y los docentes.<br><br>
 
 <b>Rodrigo Oblitas: AV2</b><br>
-Durante esta entrega, participé en la explicación del deployment e integración del sistema, detallando cómo el backend fue desplegado en Render y conectado con MySQL y Firebase. Me enfoqué en transmitir de forma estructurada el proceso de integración y validación técnica del producto.<br><br>
+Durante esta entrega, participé en la explicación de las entrevistas de validación y del diseño de la experiencia del producto, relacionando los hallazgos de los usuarios con los ajustes propuestos para los flujos principales de ColdTrack. Me enfoqué en comunicar de forma clara cómo la validación del diseño ayudó a mejorar la comprensión de la solución y a sustentar las decisiones tomadas para AV2.<br><br>
 
 <b>Mathias Arechaga: AV2</b><br>
 Durante el desarrollo del backend, participé en la presentación de la integración entre servicios, endpoints REST y persistencia de datos. Expliqué cómo los distintos componentes del sistema se relacionan para soportar las funcionalidades principales de ColdTrack, utilizando un lenguaje claro y preciso.<br><br>
@@ -296,7 +312,7 @@ Durante la entrega final TB2, participé y desarrollé la documentacion tecnica 
         <td>
           <b>AV1</b><br>
           Durante el desarrollo del proyecto, el equipo evidenció una comunicación oral sólida al intervenir de manera constante en exposiciones, reuniones y actividades colaborativas. Cada miembro supo ajustar su forma de expresarse según el tipo de audiencia, tanto en entornos técnicos con sus compañeros como en contextos académicos frente a docentes. Esta capacidad se reflejó en la explicación ordenada y fundamentada de temas como el perfil de solución, la segmentación de usuarios, las arquitecturas planteadas y el diseño de la experiencia de usuario. Asimismo, el equipo sobresalió al compartir los resultados de entrevistas e investigaciones de forma clara, facilitando un intercambio de ideas fluido y productivo. En general, la comunicación oral fue fundamental para mantener la coherencia del trabajo, validar decisiones y transmitir propuestas de manera profesional. <br><br>
-          <b>TB1:</b><br>
+          <b>TB2:</b><br>
 Durante el desarrollo del frontend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de manera clara las funcionalidades implementadas, la estructura de navegación y el diseño de las interfaces de usuario. Cada integrante explicó distintos componentes del sistema, adaptando el nivel técnico de sus exposiciones según la audiencia, lo que permitió transmitir tanto aspectos funcionales como decisiones de diseño de forma comprensible. Asimismo, las reuniones y presentaciones realizadas facilitaron la coordinación del equipo y la validación de avances durante la implementación del producto. En conjunto, la comunicación oral contribuyó significativamente a mantener una correcta organización y comprensión del proyecto.<br><br>
 <b>AV2:</b><br>
 Durante el desarrollo del backend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de forma clara la arquitectura del sistema, los servicios implementados y el proceso de integración entre frontend, backend y base de datos. Cada integrante explicó distintos aspectos técnicos, como autenticación JWT, APIs REST, deployment y persistencia, adaptando el nivel de detalle según la audiencia. Esto permitió comunicar de manera comprensible conceptos técnicos complejos y facilitó la validación del incremento desarrollado. En conjunto, la comunicación oral fue clave para evidenciar el funcionamiento integral del sistema y sustentar las decisiones técnicas adoptadas.<br><br>
@@ -317,19 +333,19 @@ Durante la entrega final TB2, el equipo evidenció una comunicación oral efecti
          Desarrollé mi comunicación escrita al documentar herramientas de diseño como User Personas, User Journey Mapping y los prototipos de la aplicación web. Mantuve un enfoque claro y organizado, permitiendo que la información visual y funcional sea fácilmente comprendida por el lector.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
          Fortalecí mi comunicación escrita al desarrollar el análisis de competidores, el diseño y análisis de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré presentar la información de forma clara, estructurada y coherente, facilitando la comprensión de los resultados y su aplicación en el proyecto.<br><br> 
-             <b>Aarón Avila: TB1</b><br>
+             <b>Aarón Avila: TB2</b><br>
 Desarrollé mi comunicación escrita al documentar el proceso de implementación del frontend de ColdTrack, describiendo las vistas desarrolladas, la estructura de componentes y las funcionalidades principales de la aplicación. Procuré mantener una redacción clara y organizada para facilitar la comprensión del avance realizado.<br><br> 
 
-<b>Eslander Celis: TB1</b><br>
+<b>Eslander Celis: TB2</b><br>
 Fortalecí mi comunicación escrita al redactar documentación relacionada con el frontend de la aplicación, incluyendo la descripción de las vistas implementadas, la navegación del sistema y las funcionalidades desarrolladas durante el sprint. Mantuve una estructura clara y coherente para asegurar que la información sea entendida tanto por lectores técnicos como no técnicos.<br><br> 
 
-<b>Rodrigo Oblitas: TB1</b><br>
+<b>Rodrigo Oblitas: TB2</b><br>
 Durante esta entrega, desarrollé mi comunicación escrita al documentar aspectos relacionados con el diseño visual, estilos responsivos y componentes reutilizables implementados en el frontend. Procuré presentar la información de manera ordenada y comprensible para facilitar la interpretación del trabajo realizado.<br><br> 
 
-<b>Mathias Arechaga: TB1</b><br>
+<b>Mathias Arechaga: TB2</b><br>
 Fortalecí mi comunicación escrita al documentar los prototipos implementados y la organización visual de las interfaces del frontend. Me enfoqué en redactar de forma clara las funcionalidades y flujos de interacción desarrollados en la aplicación.<br><br> 
 
-<b>Mariano Vilela: TB1</b><br>
+<b>Mariano Vilela: TB2</b><br>
 Desarrollé mi comunicación escrita al elaborar documentación relacionada con las mejoras visuales y la experiencia de usuario del frontend de ColdTrack. Procuré estructurar la información de forma clara y coherente para facilitar la comprensión de las decisiones tomadas durante la implementación.<br><br> 
 <b>Aarón Avila: AV2</b><br>
 Desarrollé mi comunicación escrita al documentar la arquitectura backend de ColdTrack, incluyendo la estructura de servicios, autenticación y endpoints REST. Procuré mantener una redacción clara y organizada para facilitar la comprensión técnica del sistema.<br><br>
@@ -338,7 +354,7 @@ Desarrollé mi comunicación escrita al documentar la arquitectura backend de Co
 Fortalecí mi comunicación escrita al redactar documentación relacionada con la implementación del backend, incluyendo módulos de autenticación, gestión de envíos y monitoreo. Mantuve una estructura clara y coherente para asegurar que la información fuera comprensible tanto para lectores técnicos como no técnicos.<br><br>
 
 <b>Rodrigo Oblitas: AV2</b><br>
-Durante esta entrega, desarrollé mi comunicación escrita al documentar el proceso de deployment e integración entre Render, Firebase y MySQL. Procuré presentar la información de forma ordenada y comprensible, resaltando las decisiones técnicas tomadas.<br><br>
+Durante esta entrega, desarrollé mi comunicación escrita al documentar las entrevistas de validación y los criterios de diseño revisados para AV2. Organicé los hallazgos obtenidos de los usuarios, los relacioné con oportunidades de mejora en la experiencia y redacté la información de manera clara para sustentar cómo el diseño del producto responde a necesidades reales del segmento objetivo.<br><br>
 
 <b>Mathias Arechaga: AV2</b><br>
 Fortalecí mi comunicación escrita al documentar la integración de servicios backend, persistencia y flujo de datos del sistema. Me enfoqué en redactar de forma clara los procesos técnicos implementados.<br><br>
@@ -353,7 +369,7 @@ Durante el proceso del TB2, desarrollé mi comunicación escrita mediante la doc
         <td>
           <b>AV1:</b><br>
           El equipo evidenció una buena capacidad de comunicación escrita al desarrollar distintos componentes del proyecto, como entrevistas, User Stories, backlog, documentación técnica, diseño de interfaces y secciones del informe final. Cada integrante utilizó un lenguaje claro, ordenado y adecuado según el tipo de público, permitiendo que la información sea entendida tanto por especialistas como por personas con menor conocimiento técnico. La claridad en la explicación de conceptos, junto con una correcta estructuración del contenido, hizo que los documentos cumplieran adecuadamente su propósito informativo y de apoyo en la toma de decisiones. En conjunto, esta habilidad fue clave para asegurar la coherencia del proyecto y lograr una documentación completa y profesional, alineada con los objetivos del equipo. <br><br>
-           <b>TB1:</b><br>
+           <b>TB2:</b><br>
         El equipo evidenció una comunicación escrita efectiva durante el desarrollo del frontend de ColdTrack, elaborando documentación clara y estructurada sobre las vistas, componentes y funcionalidades implementadas en la aplicación. Cada integrante redactó información relacionada con el diseño visual, navegación y experiencia de usuario, utilizando un lenguaje adecuado según el tipo de audiencia. La organización y claridad de los documentos permitieron comprender fácilmente el progreso del proyecto y las decisiones tomadas durante el sprint. En conjunto, la comunicación escrita contribuyó a mantener una documentación consistente, profesional y alineada con los objetivos planteados para la implementación del frontend.<br><br>
 <b>AV2:</b><br>
 El equipo evidenció una comunicación escrita efectiva durante el desarrollo del backend de ColdTrack, elaborando documentación técnica clara y estructurada sobre arquitectura, servicios, endpoints, deployment e integración del sistema. Cada integrante contribuyó redactando información relacionada con distintos módulos backend, utilizando un lenguaje adecuado según el tipo de audiencia. La organización y claridad de la documentación permitieron comprender el funcionamiento del sistema y las decisiones técnicas adoptadas durante el sprint. En conjunto, la comunicación escrita contribuyó a mantener una documentación consistente, profesional y alineada con los objetivos del proyecto.<br><br>
@@ -535,110 +551,204 @@ Para el prototipo, el costo será bajo, pero en una implementación real implica
 
 ### 1.2.2. Lean UX Process
 
-El Lean UX Process es una metodologia de trabajo iterativa que permite validar rapidamente las ideas del producto con base en las necesidades reales de los usuarios. Para ColdTrack, este proceso permite comprender los problemas que enfrentan las empresas de distribucion de alimentos durante el transporte, plantear suposiciones sobre sus necesidades y convertirlas en hipotesis que puedan comprobarse mediante pruebas, entrevistas y prototipos. De esta manera, el equipo puede reducir riesgos antes de desarrollar la solucion completa y asegurar que la aplicacion responda a problemas reales relacionados con el monitoreo de temperatura, humedad, alertas y trazabilidad de los envios.
+El Lean UX Process permite formular, validar y ajustar la propuesta de valor del producto a partir de problemas reales de los usuarios. En el caso de ColdTrack, este proceso se utiliza para analizar el modelo de negocio que será soportado por la aplicación web: una solución orientada al monitoreo de la cadena de frío durante el transporte de alimentos y productos sensibles.
+
+Tomando como referencia el modelo de Lean UX Canvas propuesto por Gothelf y Seiden, el proceso se organiza alrededor de ocho bloques principales: Business Problem, Business Outcomes, Users, User Outcomes & Benefits, Solutions, Hypotheses, What is the most important thing we need to learn first? y What is the least amount of work we need to do to learn it? Esta estructura ayuda a evitar que el equipo piense únicamente en funcionalidades y lo obliga a conectar cada decisión con un aprendizaje verificable.
+
+Para ColdTrack, el objetivo principal es reducir el riesgo operativo asociado a la pérdida de control sobre temperatura y humedad durante el transporte. Por ello, el proceso Lean UX se enfoca en comprobar si los usuarios pueden detectar más rápido un envío en riesgo, interpretar una alerta sin ayuda, reducir la dependencia de registros manuales y usar el historial para sustentar decisiones de calidad.
+
+La aplicación de Lean UX se conectó con el trabajo ágil del equipo. En el Sprint 1 se validó la propuesta de valor mediante la Landing Page. En el Sprint 2 se validó la experiencia operativa inicial mediante la Web Application y datos simulados. En el Sprint 3 se validó la integración real entre frontend, backend, base de datos, Swagger, Firebase Hosting y Render. De esta manera, el equipo no solo construyó entregables, sino que aprendió progresivamente sobre el problema, los usuarios y la viabilidad de la solución.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Nuestro servicio esta disenado para ayudar a las empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores a monitorear en tiempo real las condiciones de temperatura y humedad durante el transporte. Hemos observado que muchas organizaciones no cuentan con una herramienta centralizada que permita detectar variaciones criticas durante la ruta, lo que genera perdida de productos, retrasos en la toma de decisiones y menor control sobre la calidad de los alimentos. Esto esta causando problemas economicos, operativos y de seguridad alimentaria, ya que las fallas pueden ser identificadas demasiado tarde. ¿Como podriamos mejorar el control del transporte de alimentos mediante una plataforma que permita visualizar datos en tiempo real, recibir alertas oportunas y consultar el historial de cada envio, midiendo el exito a traves de la reduccion de perdidas, mayor rapidez de respuesta y mejor trazabilidad logistica?
+Según Lean UX, el Problem Statement debe expresar el problema de negocio de forma clara y abierta, evitando convertirlo en una lista de funcionalidades predeterminadas. Su propósito es orientar al equipo hacia el descubrimiento, la experimentación y la validación con usuarios reales. Por ello, el enunciado debe describir la situación actual, explicar por qué representa un problema, señalar a quién afecta y establecer cómo se sabrá si el problema fue resuelto.
+
+En el caso de ColdTrack, hemos observado que las empresas que transportan alimentos refrigerados o productos sensibles a temperatura y humedad no siempre cuentan con información oportuna durante el traslado. Actualmente, gran parte del control de la cadena de frío depende de revisiones manuales, comunicación por llamadas o mensajes, reportes posteriores y registros que no siempre se encuentran centralizados. Como consecuencia, los supervisores logísticos, responsables de control de calidad y conductores pueden enterarse tarde de una variación crítica, tener dificultades para reconstruir lo ocurrido y tomar decisiones con información incompleta.
+
+Este problema genera incertidumbre operativa durante la ruta, aumenta el riesgo de pérdida de productos, dificulta la trazabilidad de incidentes y reduce la confianza en el proceso de distribución. Para una empresa distribuidora, no basta con saber que un envío llegó a destino; también necesita conocer si las condiciones de conservación fueron adecuadas, si ocurrió alguna incidencia, cuándo sucedió y qué acción tomó el equipo responsable.
+
+El equipo considera que resolver este problema permitirá que los usuarios actúen con mayor rapidez ante condiciones fuera de rango, reduzcan la dependencia de registros manuales y utilicen información histórica para sustentar decisiones de calidad. Sabremos que avanzamos en la dirección correcta si los supervisores revisan el estado de los envíos durante la ruta, los conductores comprenden cuándo deben responder ante una alerta y el personal de calidad utiliza el historial del sistema para analizar incidencias y mejorar sus protocolos.
+
+Por lo tanto, el Problem Statement de ColdTrack se formula de la siguiente manera:
+
+**Las empresas distribuidoras de alimentos que realizan transporte refrigerado necesitan mejorar la visibilidad y trazabilidad de las condiciones de sus envíos durante la ruta, porque los controles manuales y la comunicación posterior no siempre permiten detectar a tiempo variaciones críticas de temperatura o humedad. Esto afecta a supervisores logísticos, responsables de calidad y conductores, quienes necesitan tomar decisiones rápidas para proteger la carga y reducir pérdidas. ¿Cómo podríamos ayudar a estos usuarios a detectar oportunamente incidencias, interpretar la información del envío y conservar evidencia útil para mejorar el control de la cadena de frío?**
+
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**User Assumptions (Suposiciones de Usuario)**
+En esta sección se registran los supuestos que guían la primera versión de ColdTrack. Estos supuestos deberán validarse con usuarios del segmento objetivo, entrevistas, prototipos y pruebas funcionales. Si los resultados contradicen alguna suposición, el producto deberá ajustarse antes de escalar la solución.
 
-- **¿Quien es el usuario?:** Los usuarios son empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores encargados de asegurar que los productos lleguen en condiciones adecuadas.
-- **¿Donde encaja nuestro producto en su trabajo o vida?:** ColdTrack encaja dentro del proceso diario de transporte y supervision de alimentos, especialmente durante el traslado desde centros de distribucion hasta el destino final.
-- **¿Que problemas resuelve nuestro producto?:** Resuelve la falta de monitoreo en tiempo real, la deteccion tardia de variaciones de temperatura o humedad, la ausencia de alertas oportunas y la poca trazabilidad del estado de los envios.
-- **¿Cuando y como se usa nuestro producto?:** Se utiliza antes, durante y despues del transporte. Antes del envio permite verificar la unidad y sensores; durante la ruta permite monitorear condiciones y recibir alertas; despues del envio permite revisar el historial registrado.
-- **¿Que caracteristicas son importantes?:** Las caracteristicas importantes son monitoreo en tiempo real, alertas automaticas, registro historico, visualizacion de temperatura y humedad, gestion de envios y una interfaz clara para supervisores y conductores.
-- **¿Como debe verse y comportarse nuestro producto?:** Debe ser una aplicacion sencilla, clara y confiable, con informacion facil de interpretar, tiempos de respuesta rapidos y alertas visibles que permitan actuar de inmediato.
+##### Business Outcomes
 
-**Business Assumptions (Suposiciones de Negocio)**
+1. Reducir el riesgo de pérdida de productos durante el transporte.
+   El objetivo principal de ColdTrack es ayudar a las empresas a identificar a tiempo condiciones ambientales fuera de rango. Si la plataforma permite detectar alertas y actuar oportunamente, se espera disminuir la cantidad de productos deteriorados por fallas de refrigeración o falta de control.
 
-- **Necesidades y problemas:** Creemos que las empresas de distribucion de alimentos necesitan herramientas digitales que reduzcan perdidas y mejoren el control de calidad durante el transporte.
-- **Plataforma:** Estas necesidades pueden resolverse mediante una aplicacion conectada a sensores de temperatura y humedad instalados en las unidades de transporte.
-- **Segmentacion:** Los usuarios principales seran empresas del sector alimentario, operadores logisticos, supervisores de calidad y personal de transporte.
-- **Comportamientos:** El valor principal que un usuario quiere obtener de ColdTrack es mayor control sobre las condiciones del envio y capacidad de reaccionar rapidamente ante incidentes.
-- **Beneficios:** Los usuarios obtendran reduccion de perdidas, mejor trazabilidad, mayor eficiencia operativa y mayor seguridad en la distribucion de alimentos.
-- **Captacion de clientes:** Obtendremos usuarios mediante alianzas con empresas distribuidoras, demostraciones del prototipo, recomendaciones del sector logistico y presencia en canales digitales.
-- **Modelos de ingresos:** Para una implementacion real, el servicio podria funcionar bajo un modelo de suscripcion por empresa o por unidad de transporte monitoreada.
-- **Competencia:** Nuestra competencia incluye soluciones de monitoreo logistico, sistemas de sensores IoT y plataformas de gestion de transporte.
-- **Ventaja competitiva:** ColdTrack se diferencia por enfocarse especificamente en el transporte de alimentos, integrando monitoreo ambiental, alertas e historial de envios en una sola plataforma.
+2. Mejorar la trazabilidad de los envíos refrigerados.
+   ColdTrack debe permitir que los supervisores revisen el historial de temperatura, humedad, alertas y estados de cada envío. Esto facilitará la verificación posterior de incidentes y permitirá tomar decisiones basadas en evidencia.
 
-**Technical Assumptions (Suposiciones Tecnicas)**
+3. Disminuir el tiempo de respuesta ante incidencias.
+   Se asume que una alerta visible y centralizada permitirá que supervisores y conductores reaccionen más rápido que con reportes manuales o comunicación tardía. El éxito se reflejará en una respuesta operativa más rápida ante desviaciones críticas.
 
-- **Tecnologia utilizada:** Se utilizaran tecnologias web modernas para desarrollar la aplicacion y permitir el acceso desde distintos dispositivos.
-- **Integraciones:** La plataforma se integrara con sensores de temperatura y humedad capaces de enviar datos periodicamente al sistema.
-- **Escalabilidad:** La solucion debe estar preparada para manejar multiples unidades de transporte, varios envios simultaneos y crecimiento progresivo de usuarios.
-- **Disponibilidad:** La aplicacion debe mantener disponibilidad constante durante las rutas, ya que las alertas y datos en tiempo real son importantes para la toma de decisiones.
+4. Aumentar la confianza del cliente en el proceso logístico.
+   Si la empresa puede demostrar que sus envíos fueron monitoreados y que las incidencias quedaron registradas, podrá brindar mayor seguridad a sus clientes y reforzar su propuesta de calidad.
 
-**Market Assumptions (Suposiciones de Mercado)**
+##### Users
 
-- **Tamano del mercado:** El mercado objetivo incluye empresas peruanas y latinoamericanas dedicadas a la distribucion de alimentos que necesitan conservar la calidad de sus productos durante el transporte.
-- **Competencia:** Existen plataformas de gestion logistica y soluciones IoT, pero no todas estan enfocadas en la cadena de frio y el control especifico de alimentos.
-- **Tendencias:** Existe una mayor demanda de digitalizacion logistica, trazabilidad y control de calidad en la industria alimentaria.
+Los usuarios principales de ColdTrack se dividen en dos grupos. El primero está compuesto por supervisores logísticos, responsables de operaciones y personal de control de calidad, quienes necesitan información centralizada para tomar decisiones y verificar el cumplimiento de condiciones. El segundo grupo está compuesto por conductores o personal de transporte, quienes requieren alertas simples y acciones claras durante la ruta.
 
-**Design Assumptions (Suposiciones de Diseno)**
+1. Supervisores logísticos y responsables de operaciones.
+   Necesitan revisar varios envíos activos, conocer el estado de cada unidad, priorizar incidencias y coordinar respuestas ante problemas durante el transporte.
 
-- **Interaccion del usuario:** La plataforma debe permitir que el usuario revise rapidamente el estado de un envio y entienda si existe algun riesgo.
-- **Experiencia del usuario:** La experiencia debe ser fluida, directa y facil de usar, especialmente para conductores o personal operativo que necesita informacion clara durante la ruta.
-- **Colores y tipografia:** Los usuarios valoraran una interfaz limpia, profesional y legible, con colores que permitan identificar estados normales, advertencias y alertas criticas.
-- **Preferencias visuales:** Los usuarios preferiran graficos simples, indicadores de estado y datos resumidos antes que pantallas saturadas de informacion.
-- **Prototipos y pruebas:** Se validaran las principales funciones mediante prototipos y pruebas de usabilidad con usuarios relacionados al transporte y control de calidad.
+2. Personal de control de calidad.
+   Necesita acceder a registros históricos, verificar si los productos se mantuvieron dentro de los rangos adecuados y contar con evidencia para auditorías internas o reclamos.
+
+3. Conductores y personal de transporte.
+   Necesitan recibir información directa, comprensible y oportuna cuando ocurre una variación crítica, sin depender de pantallas complejas o procesos largos.
+
+##### User Outcomes
+
+Los User Outcomes representan cambios esperados en el comportamiento, confianza o capacidad de decisión de los usuarios. No son pantallas ni funcionalidades, sino resultados que indican que ColdTrack está generando valor en la operación logística.
+
+1. Los supervisores podrán visualizar en una sola plataforma el estado de los envíos activos.
+2. El personal de calidad podrá revisar evidencias históricas de temperatura, humedad y alertas.
+3. Los conductores podrán identificar rápidamente si existe una incidencia y actuar según indicaciones.
+4. Las empresas podrán reducir la dependencia de registros manuales y mejorar la transparencia del proceso.
+5. Los responsables de operación podrán priorizar envíos críticos y reducir tiempos de comunicación interna.
+
+##### Solutions / Outputs
+
+Las soluciones u outputs son los elementos que el equipo construye para intentar generar los outcomes anteriores. En Lean UX, estos outputs deben validarse mediante experimentos, ya que construir una funcionalidad no garantiza por sí mismo que el comportamiento del usuario cambie.
+
+1. ¿Qué características son importantes para probar la propuesta?
+   - Registro y seguimiento de envíos.
+   - Asociación de sensores a envíos.
+   - Visualización de temperatura y humedad.
+   - Alertas automáticas ante valores fuera de rango.
+   - Dashboard con estados operativos.
+   - Historial de envíos, sensores, lecturas y alertas.
+   - Generación de reportes para revisión posterior.
+   - Autenticación para proteger el acceso a la información.
+
+2. ¿Cómo debe verse nuestro producto y comportarse?
+   ColdTrack debe verse como una herramienta operativa, clara y confiable. La interfaz debe priorizar datos críticos, estados visibles y navegación simple. Los colores deben diferenciar condiciones normales, preventivas y críticas. La aplicación debe comportarse de forma rápida, responsiva y consistente, ya que sus usuarios pueden necesitar consultar información durante una operación logística real.
+
+##### MVP de ColdTrack
+
+El MVP actual de ColdTrack consiste en una Web Application conectada a Web Services que permite autenticar usuarios, registrar envíos, asociar sensores, registrar lecturas de temperatura y humedad, generar alertas, consultar historial y exportar reportes PDF. Esta versión permite validar el flujo principal del producto sin depender todavía de una integración completa con sensores físicos reales.
+
+La conexión con sensores reales, notificaciones en tiempo real avanzadas, roles más detallados y analítica predictiva se consideran parte de una evolución futura del producto. Para esta etapa, el aprendizaje principal se centra en comprobar si los usuarios comprenden el estado del envío, interpretan alertas y consideran útil la evidencia histórica para tomar decisiones.
+
+##### Experimentos Lean UX
+
+| **Experimento** | **Qué se busca aprender** | **Evidencia esperada** |
+|-----------------|----------------------------|-------------------------|
+| Validación de interés mediante Landing Page | Si los usuarios comprenden el problema de la cadena de frío y la propuesta de valor de ColdTrack. | Comentarios de usuarios y claridad al explicar para qué sirve el producto. |
+| Entrevistas de validación | Si los segmentos objetivo reconocen el problema como relevante en su contexto operativo. | Respuestas de personal de logística, control de calidad y transporte. |
+| Prueba de prototipo navegable | Si los usuarios pueden desplazarse por las vistas principales sin asistencia constante. | Finalización de tareas asignadas y observación de dudas durante la navegación. |
+| Prueba del flujo de registro de envío | Si el usuario puede registrar un envío con datos suficientes para monitoreo. | Registro completado sin errores críticos o campos omitidos. |
+| Prueba de interpretación de alertas | Si el usuario entiende qué ocurrió y qué acción debe tomar ante una alerta. | Explicación correcta de la alerta por parte del usuario. |
+| Prueba de consulta de historial | Si el historial ayuda a justificar decisiones de calidad o revisar incidencias. | Usuario identifica eventos relevantes en un envío finalizado. |
+| Prueba de generación de reporte PDF | Si el reporte exportable resulta útil como evidencia posterior. | Usuario descarga el reporte y reconoce su utilidad para revisión o auditoría. |
+| Prueba del flujo frontend-backend | Si la integración técnica permite completar el flujo operativo sin depender de datos simulados. | Autenticación, registro, consulta, alerta, historial y reporte funcionando con servicios desplegados. |
+
+##### User Assumptions
+
+- Creemos que los supervisores logísticos necesitan consultar el estado de los envíos durante la ruta, no solo al finalizar el traslado.
+- Creemos que el personal de control de calidad necesita evidencia histórica para justificar decisiones sobre aceptación, rechazo o revisión de productos.
+- Creemos que los conductores necesitan alertas claras y accionables, no reportes técnicos extensos.
+- Creemos que los usuarios valorarán más una vista resumida con estados críticos que una pantalla saturada con todas las lecturas disponibles.
+- Creemos que los usuarios estarán dispuestos a adoptar ColdTrack si reduce llamadas, registros manuales y verificaciones repetitivas.
+
+##### Business Assumptions
+
+- Creemos que las empresas distribuidoras de alimentos tienen una necesidad real de reducir pérdidas por mala conservación durante el transporte.
+- Creemos que una plataforma web puede generar valor si centraliza monitoreo, alertas, historial y reportes en una sola solución.
+- Creemos que el modelo de negocio podría basarse en suscripciones por empresa, por número de usuarios o por cantidad de unidades monitoreadas.
+- Creemos que la propuesta será más atractiva para empresas que ya reconocen la importancia de la cadena de frío, pero aún dependen de controles manuales o herramientas aisladas.
+- Creemos que ColdTrack puede diferenciarse de sistemas logísticos genéricos al enfocarse en condiciones ambientales y trazabilidad de productos sensibles.
+
+##### Technical Assumptions
+
+- Creemos que una aplicación web permite acceso suficiente para supervisores y personal operativo desde distintos dispositivos.
+- Creemos que los sensores de temperatura y humedad podrán enviar lecturas periódicas al sistema mediante una API o simulador inicial.
+- Creemos que una arquitectura backend con servicios REST y persistencia en base de datos permitirá registrar envíos, sensores, lecturas y alertas.
+- Creemos que la solución debe estar preparada para manejar múltiples envíos activos y crecer progresivamente según la cantidad de unidades monitoreadas.
+- Creemos que la disponibilidad del sistema es importante porque las alertas pierden valor si llegan tarde o no se registran.
+
+##### Market Assumptions
+
+- Creemos que el mercado inicial incluye empresas peruanas de distribución de alimentos, operadores logísticos y negocios que transportan productos sensibles.
+- Creemos que la demanda por trazabilidad y control de calidad seguirá aumentando en operaciones alimentarias y logísticas.
+- Creemos que existen soluciones IoT y plataformas de transporte, pero muchas no se ajustan al flujo específico de empresas pequeñas o medianas que necesitan una solución simple de cadena de frío.
+- Creemos que la validación con usuarios reales permitirá identificar qué funciones son indispensables y cuáles pueden postergarse para futuras versiones.
+
+##### Design Assumptions
+
+- Creemos que el diseño debe priorizar claridad, contraste y lectura rápida de estados.
+- Creemos que los usuarios entenderán mejor el estado de un envío mediante tarjetas, indicadores visuales y alertas diferenciadas por severidad.
+- Creemos que el flujo principal debe permitir crear un envío, asociar sensores, monitorear lecturas y revisar alertas sin pasos innecesarios.
+- Creemos que los reportes e historiales deben organizarse por envío, fecha, sensor y severidad para facilitar el análisis posterior.
+- Creemos que la solución debe ser responsive porque los usuarios podrían revisarla desde laptops, tablets o celulares durante operaciones de campo.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis Statement 01:**
+Las hipótesis convierten los supuestos anteriores en afirmaciones comprobables. Cada una relaciona un resultado esperado, un segmento de usuario, una necesidad concreta y una funcionalidad del producto. Para alinearse con Lean UX, cada hipótesis incluye un criterio verificable que puede comprobarse mediante entrevistas, tareas guiadas, pruebas de prototipo o validación funcional del MVP.
 
-Creemos que las empresas distribuidoras de alimentos necesitan monitorear en tiempo real la temperatura y humedad durante el transporte. Sabremos que estamos en lo correcto cuando los supervisores consulten frecuentemente el estado de los envios y reporten mayor control sobre sus operaciones.
+##### Business Hypothesis Statement 01
 
-**Hypothesis Statement 02:**
+Nosotros creemos que una reducción del riesgo de pérdida de productos por condiciones inadecuadas se logrará si los supervisores logísticos pueden identificar rápidamente qué envío presenta temperatura o humedad fuera de rango.
 
-Creemos que las alertas automaticas ante variaciones criticas permitiran reducir perdidas de productos. Sabremos que estamos en lo correcto cuando los usuarios puedan actuar antes de que las condiciones afecten la calidad de los alimentos.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan identificar un envío en riesgo desde el dashboard en menos de 2 minutos y expliquen qué acción operativa tomarían.
 
-**Hypothesis Statement 03:**
+##### Business Hypothesis Statement 02
 
-Creemos que contar con un historial de cada envio mejorara la trazabilidad y el analisis logistico. Sabremos que estamos en lo correcto cuando las empresas utilicen los registros para revisar incidentes y tomar decisiones de mejora.
+Nosotros creemos que una disminución del tiempo de respuesta ante incidencias se logrará si los supervisores y conductores reciben alertas claras cuando las lecturas superen los rangos permitidos.
 
-**Hypothesis Statement 04:**
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan leer una alerta, explicar qué ocurrió y mencionar una acción de respuesta sin ayuda del entrevistador.
 
-Creemos que una interfaz clara y sencilla facilitara la adopcion de ColdTrack por parte de supervisores y conductores. Sabremos que estamos en lo correcto cuando los usuarios puedan interpretar el estado del envio sin requerir capacitacion extensa.
+##### Business Hypothesis Statement 03
 
-**Hypothesis Statement 05:**
+Nosotros creemos que una mejora en la trazabilidad logística se logrará si el personal de calidad puede consultar el historial de envíos, sensores, lecturas y alertas desde una misma plataforma.
 
-Creemos que la integracion con sensores de temperatura y humedad aumentara la confiabilidad del control durante la ruta. Sabremos que estamos en lo correcto cuando los datos registrados permitan identificar cambios ambientales en tiempo real.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan ubicar una incidencia pasada en el historial y explicar cómo usarían esa evidencia para justificar una decisión de calidad.
 
-**Hypothesis Statement 06:**
+##### Business Hypothesis Statement 04
 
-Creemos que los conductores necesitan recibir informacion directa sobre posibles fallas durante el transporte. Sabremos que estamos en lo correcto cuando las alertas ayuden a responder rapidamente ante problemas en la unidad o en el sistema de refrigeracion.
+Nosotros creemos que la adopción inicial de ColdTrack aumentará si los conductores y supervisores interactúan con una interfaz clara, visual y fácil de usar.
 
-**Hypothesis Statement 07:**
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios completen las tareas principales de revisar un envío, interpretar una alerta y consultar historial sin capacitación previa extensa.
 
-Creemos que ColdTrack ayudara a mejorar la eficiencia operativa de las empresas distribuidoras. Sabremos que estamos en lo correcto cuando se reduzca el tiempo dedicado a revisar manualmente las condiciones del transporte.
+##### Business Hypothesis Statement 05
 
-**Hypothesis Statement 08:**
+Nosotros creemos que el control operativo mejorará si las empresas pueden registrar envíos, asociar sensores y consultar su estado desde un flujo único.
 
-Creemos que la visualizacion centralizada de los envios permitira una mejor supervision logistica. Sabremos que estamos en lo correcto cuando los usuarios puedan revisar varias rutas o unidades desde una sola plataforma.
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan registrar un envío completo en menos de 5 minutos y sin omitir datos críticos como destino, conductor, carga o sensor asociado.
 
-**Hypothesis Statement 09:**
+##### Business Hypothesis Statement 06
 
-Creemos que la digitalizacion del control de calidad durante el transporte aumentara la confianza de las empresas en sus procesos. Sabremos que estamos en lo correcto cuando los usuarios consideren que la informacion registrada respalda mejor sus decisiones.
+Nosotros creemos que la confianza sobre la calidad del servicio aumentará si ColdTrack genera reportes o evidencias consultables después de cada envío.
 
-**Hypothesis Statement 10:**
+Sabremos que estamos en lo correcto cuando 3 de 4 usuarios de logística o calidad indiquen que el reporte PDF sería útil para auditorías internas, reclamos, revisiones de desempeño o comunicación con clientes.
 
-Creemos que una solucion enfocada en alimentos tendra mayor valor para empresas que requieren preservar la calidad de sus productos. Sabremos que estamos en lo correcto cuando los usuarios identifiquen a ColdTrack como una herramienta mas adecuada que plataformas logisticas genericas.
+##### Business Hypothesis Statement 07
+
+Nosotros creemos que la intención de adopción en pequeñas y medianas distribuidoras aumentará si ColdTrack ofrece una alternativa más simple que sistemas logísticos complejos o controles manuales.
+
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios del segmento inicial indiquen que usarían una versión piloto para monitorear al menos un envío refrigerado real o simulado.
+
+##### Business Hypothesis Statement 08
+
+Nosotros creemos que la confiabilidad percibida del control ambiental aumentará si las lecturas se registran de forma periódica y se relacionan con cada envío.
+
+Sabremos que estamos en lo correcto cuando 4 de 5 usuarios indiquen que las lecturas automáticas o simuladas les generan mayor confianza que un registro manual aislado y les ayudan a detectar patrones de riesgo durante el transporte.
+
 
 #### 1.2.2.4. Lean UX Canvas
 
-| **Seccion** | **Descripcion** |
-|-------------|-----------------|
-| **Business Problem** | Las empresas distribuidoras de alimentos tienen dificultades para controlar en tiempo real las condiciones de temperatura y humedad durante el transporte, lo que puede ocasionar perdidas economicas, deterioro de productos y problemas de calidad. |
-| **Business Outcomes** | Reducir perdidas de alimentos, mejorar la eficiencia logistica, aumentar la trazabilidad de los envios y fortalecer el control de calidad durante el transporte. |
-| **Users** | Empresas distribuidoras de alimentos, supervisores logisticos, personal de control de calidad y conductores encargados del traslado de productos. |
-| **User Outcomes & Benefits** | Los usuarios podran conocer el estado de los envios en tiempo real, recibir alertas ante condiciones criticas, actuar rapidamente y revisar historiales para mejorar sus procesos. |
-| **Solutions** | Aplicacion web ColdTrack conectada a sensores de temperatura y humedad, con monitoreo en tiempo real, alertas automaticas, visualizacion de datos e historial de envios. |
-| **Hypotheses** | Si las empresas utilizan ColdTrack para monitorear sus envios, entonces podran reducir riesgos de deterioro y tomar decisiones mas rapidas durante el transporte. |
-| **What is the most important thing we need to learn first?** | Validar si los usuarios consideran critico recibir alertas en tiempo real y si el historial de datos aporta valor para la supervision y control de calidad. |
-| **What is the least amount of work we need to do to learn the next most important thing?** | Crear un prototipo funcional con visualizacion de temperatura y humedad, alertas basicas y registro de un envio para probarlo con usuarios del sector logistico. |
+<p align="center">
+  <img src="images/LeanUXCanvas.png" alt="Lean UX Canvas v2 de ColdTrack" width="100%">
+</p>
+
 
 ## 1.3. Segmentos Objetivo
 

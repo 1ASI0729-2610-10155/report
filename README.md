@@ -325,7 +325,7 @@ Durante la entrega final TB2, participé y desarrollé la documentacion tecnica 
         <td>
           <b>AV1</b><br>
           Durante el desarrollo del proyecto, el equipo evidenció una comunicación oral sólida al intervenir de manera constante en exposiciones, reuniones y actividades colaborativas. Cada miembro supo ajustar su forma de expresarse según el tipo de audiencia, tanto en entornos técnicos con sus compañeros como en contextos académicos frente a docentes. Esta capacidad se reflejó en la explicación ordenada y fundamentada de temas como el perfil de solución, la segmentación de usuarios, las arquitecturas planteadas y el diseño de la experiencia de usuario. Asimismo, el equipo sobresalió al compartir los resultados de entrevistas e investigaciones de forma clara, facilitando un intercambio de ideas fluido y productivo. En general, la comunicación oral fue fundamental para mantener la coherencia del trabajo, validar decisiones y transmitir propuestas de manera profesional. <br><br>
-          <b>TB2:</b><br>
+          <b>TB1:</b><br>
 Durante el desarrollo del frontend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de manera clara las funcionalidades implementadas, la estructura de navegación y el diseño de las interfaces de usuario. Cada integrante explicó distintos componentes del sistema, adaptando el nivel técnico de sus exposiciones según la audiencia, lo que permitió transmitir tanto aspectos funcionales como decisiones de diseño de forma comprensible. Asimismo, las reuniones y presentaciones realizadas facilitaron la coordinación del equipo y la validación de avances durante la implementación del producto. En conjunto, la comunicación oral contribuyó significativamente a mantener una correcta organización y comprensión del proyecto.<br><br>
 <b>AV2:</b><br>
 Durante el desarrollo del backend de ColdTrack, el equipo demostró una comunicación oral efectiva al presentar de forma clara la arquitectura del sistema, los servicios implementados y el proceso de integración entre frontend, backend y base de datos. Cada integrante explicó distintos aspectos técnicos, como autenticación JWT, APIs REST, deployment y persistencia, adaptando el nivel de detalle según la audiencia. Esto permitió comunicar de manera comprensible conceptos técnicos complejos y facilitó la validación del incremento desarrollado. En conjunto, la comunicación oral fue clave para evidenciar el funcionamiento integral del sistema y sustentar las decisiones técnicas adoptadas.<br><br>
@@ -346,19 +346,19 @@ Durante la entrega final TB2, el equipo evidenció una comunicación oral efecti
          Desarrollé mi comunicación escrita al documentar herramientas de diseño como User Personas, User Journey Mapping y los prototipos de la aplicación web. Mantuve un enfoque claro y organizado, permitiendo que la información visual y funcional sea fácilmente comprendida por el lector.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
          Fortalecí mi comunicación escrita al desarrollar el análisis de competidores, el diseño y análisis de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré presentar la información de forma clara, estructurada y coherente, facilitando la comprensión de los resultados y su aplicación en el proyecto.<br><br> 
-             <b>Aarón Avila: TB2</b><br>
+             <b>Aarón Avila: TB1</b><br>
 Desarrollé mi comunicación escrita al documentar el proceso de implementación del frontend de ColdTrack, describiendo las vistas desarrolladas, la estructura de componentes y las funcionalidades principales de la aplicación. Procuré mantener una redacción clara y organizada para facilitar la comprensión del avance realizado.<br><br> 
 
-<b>Eslander Celis: TB2</b><br>
+<b>Eslander Celis: TB1</b><br>
 Fortalecí mi comunicación escrita al redactar documentación relacionada con el frontend de la aplicación, incluyendo la descripción de las vistas implementadas, la navegación del sistema y las funcionalidades desarrolladas durante el sprint. Mantuve una estructura clara y coherente para asegurar que la información sea entendida tanto por lectores técnicos como no técnicos.<br><br> 
 
-<b>Rodrigo Oblitas: TB2</b><br>
+<b>Rodrigo Oblitas: TB1</b><br>
 Durante esta entrega, desarrollé mi comunicación escrita al documentar aspectos relacionados con el diseño visual, estilos responsivos y componentes reutilizables implementados en el frontend. Procuré presentar la información de manera ordenada y comprensible para facilitar la interpretación del trabajo realizado.<br><br> 
 
-<b>Mathias Arechaga: TB2</b><br>
+<b>Mathias Arechaga: TB1</b><br>
 Fortalecí mi comunicación escrita al documentar los prototipos implementados y la organización visual de las interfaces del frontend. Me enfoqué en redactar de forma clara las funcionalidades y flujos de interacción desarrollados en la aplicación.<br><br> 
 
-<b>Mariano Vilela: TB2</b><br>
+<b>Mariano Vilela: TB1</b><br>
 Desarrollé mi comunicación escrita al elaborar documentación relacionada con las mejoras visuales y la experiencia de usuario del frontend de ColdTrack. Procuré estructurar la información de forma clara y coherente para facilitar la comprensión de las decisiones tomadas durante la implementación.<br><br> 
 <b>Aarón Avila: AV2</b><br>
 Desarrollé mi comunicación escrita al documentar la arquitectura backend de ColdTrack, incluyendo la estructura de servicios, autenticación y endpoints REST. Procuré mantener una redacción clara y organizada para facilitar la comprensión técnica del sistema.<br><br>

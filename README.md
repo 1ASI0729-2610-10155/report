@@ -2760,6 +2760,7 @@ A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
 | Celis Berrospi, Eslander            | Eslander-Celis  | C | C | **L** | C | C | C |
 | Arechaga, Mathias                   | MathZell        | C | C | C | **L** | C | C |
 | Oblitas, Rodrigo                    | Darkdren        | C | C | C | C | **L** | C |
+
 ### 5.2.4.3. Sprint Backlog 4.
 ##### En este item se detalla el Sprint Backlog del cuarto sprint de desarrollo del proyecto.
 
@@ -3032,6 +3033,38 @@ El cierre de despliegue se realizó de la siguiente manera:
 Como resultado, el Sprint 4 deja una versión final demostrable del sistema. ColdTrack cuenta con una aplicación pública, una API propia documentada, persistencia real y releases identificables para sustentación académica y revisión técnica.
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
+En este sprint, las tareas se organizaron en torno al modelado de dominio y la configuración inicial de la arquitectura para el sistema de logística de cadena de frío. La responsabilidad del desarrollo y la implementación técnica recayó en Mariano Vilela, Aaron Avila, Eslander Celis Berrospi, Mathias Arechaga y Rodrigo Oblitas.
+2. **Evidencia de commits**:
+
+Repositorio:
+
+**Documento**
+
+![commits-documento](./images/commitdocs4.PNG)
+
+**Front**
+
+![commits-sprint-4](./images/commitfronts4.PNG)
+
+3. **Evidencia de Nertwork**:
+
+Repositorio:
+
+**Front**
+
+![network-documento](./images/networkfronts4.PNG)
+
+**Back**
+
+![nerwortk-sprint-2](./images/networkbacks4.PNG)
+
+4.**Contributions**
+
+Repositorios:
+
+**Documento**
+
+![reporteTP1.png](./images/contributions4.PNG)
 
 
 

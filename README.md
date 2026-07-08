@@ -39,26 +39,27 @@
 <div style="page-break-before: always;"></div>
 
 # Registro de Versiones del Informe
-| Versión | Fecha      | Autor(es)                 | Descripción                                             |
-|---------|------------|---------------------------|---------------------------------------------------------|
-| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción. |
-| 1.2     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification. |
-| 1.3     | 22/04/2026 | Eslander Celis Berrospi   | Actualización del Student Outcome y consolidación de evidencias iniciales. |
-| 1.4     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V y evidencias de implementación. |
-| 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language. |
-| 1.6     | 23/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capítulo IV: Web App Wireframes, Mock-ups y Wireflows. |
-| 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capítulo II: User Personas, User Task Matrix y Journey Map. |
-| 2.1     | 11/05/2026 | Aarón Avila Palacios      | Desarrollo de evidencias del Sprint 2, despliegue frontend y capturas de participación de la entrega TB2. |
-| 2.2     | 12/05/2026 | Mariano Vilela Menendez   | Actualización de Team Collaboration Insights, evidencias de commits y participación del Sprint 2. |
-| 3.0     | 18/06/2026 | Aarón Avila Palacios      | Incorporación de la estructura del Sprint 3 y evidencias iniciales para AV2. |
-| 3.1     | 18/06/2026 | Eslander Celis Berrospi   | Actualización del Student Outcome para AV2 y registro de aportes del equipo. |
-| 3.2     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización del Sprint Backlog 3 y documentación de servicios del backend. |
-| 3.3     | 18/06/2026 | Mariano Vilela Menendez   | Actualización de imágenes, distribución de commits y Team Collaboration Insights. |
-| 3.4     | 18/06/2026 | Aarón Avila Palacios      | Desarrollo de evidencias de ejecución y despliegue del Sprint 3. |
-| 3.5     | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de entrevistas de validación, actualización del video y ajustes finales de AV2. |
-| 3.6     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones. |
-| 3.7     | 05/07/2026 | Rodrigo Oblitas Alcalde   | Corrección de carátula, Lean UX Process, registro de versiones, evidencias TB2/AV2 y Lean UX Canvas. |
-| 3.8     | 08/07/2026 | Aarón Avila Palacios      | Corrección final según rúbrica TB2: índice, evidencias de colaboración, Sprint 4, servicios, despliegue y videos. |
+| Versión | Fecha      | Autor(es)                 | Descripción                                                                                                       |
+|---------|------------|---------------------------|-------------------------------------------------------------------------------------------------------------------|
+| 1.1     | 12/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo I: Introducción.                                                                          |
+| 1.2     | 18/04/2026 | Eslander Celis Berrospi   | Desarrollo del capítulo III: Requirements specification.                                                          |
+| 1.3     | 22/04/2026 | Eslander Celis Berrospi   | Actualización del Student Outcome y consolidación de evidencias iniciales.                                        |
+| 1.4     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo V y evidencias de implementación.                                                         |
+| 1.5     | 22/04/2026 | Aarón Avila Palacios      | Desarrollo del capítulo II: Empathy Mapping, As-is Scenario Mapping y Ubiquitous Language.                        |
+| 1.6     | 23/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capítulo IV: Web App Wireframes, Mock-ups y Wireflows.                                             |
+| 1.7     | 23/04/2026 | Mathias Arechaga Saavedra | Desarrollo del capítulo II: User Personas, User Task Matrix y Journey Map.                                        |
+| 2.1     | 11/05/2026 | Aarón Avila Palacios      | Desarrollo de evidencias del Sprint 2, despliegue frontend y capturas de participación de la entrega TB2.         |
+| 2.2     | 12/05/2026 | Mariano Vilela Menendez   | Actualización de Team Collaboration Insights, evidencias de commits y participación del Sprint 2.                 |
+| 3.0     | 18/06/2026 | Aarón Avila Palacios      | Incorporación de la estructura del Sprint 3 y evidencias iniciales para AV2.                                      |
+| 3.1     | 18/06/2026 | Eslander Celis Berrospi   | Actualización del Student Outcome para AV2 y registro de aportes del equipo.                                      |
+| 3.2     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización del Sprint Backlog 3 y documentación de servicios del backend.                                      |
+| 3.3     | 18/06/2026 | Mariano Vilela Menendez   | Actualización de imágenes, distribución de commits y Team Collaboration Insights.                                 |
+| 3.4     | 18/06/2026 | Aarón Avila Palacios      | Desarrollo de evidencias de ejecución y despliegue del Sprint 3.                                                  |
+| 3.5     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización y desarrollo del Sprint Backlog 4 y documentación de servicios del backend.                         |
+| 3.6     | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de entrevistas de validación, actualización del video y ajustes finales de AV2.               |
+| 3.7     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones.                            |
+| 3.8     | 05/07/2026 | Rodrigo Oblitas Alcalde   | Corrección de carátula, Lean UX Process, registro de versiones, evidencias TB2/AV2 y Lean UX Canvas.              |
+| 3.9     | 08/07/2026 | Aarón Avila Palacios      | Corrección final según rúbrica TB2: índice, evidencias de colaboración, Sprint 4, servicios, despliegue y videos. |
 
 
 # Project Report Collaboration Insights

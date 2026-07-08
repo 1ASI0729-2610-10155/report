@@ -319,8 +319,14 @@ Durante el desarrollo del backend, participé en la presentación de la integrac
 Durante esta entrega, fortalecí mi comunicación oral al presentar la documentación técnica del backend, incluyendo Swagger/OpenAPI, validación de endpoints y pruebas funcionales. Expliqué cómo estas herramientas facilitaron la verificación y demostración del sistema implementado.<br><br> 
 <b>Aarón Avila: TB2</b><br>
 Durante la entrega final TB2, participé en la presentación de la versión integrada de ColdTrack, explicando el funcionamiento del frontend conectado al backend desplegado, el uso de Render, Firebase Hosting, MySQL en Filess.io y las releases finales publicadas en GitHub. Me enfoqué en comunicar de forma clara cómo los componentes del sistema trabajan juntos para soportar autenticación, gestión de envíos, sensores, telemetría, alertas y despliegue productivo.<br><br>
+<b>Eslander Celis: TB2</b><br>
+Durante la entrega final TB2, participé en la presentación de la integración completa de ColdTrack, explicando el funcionamiento de la arquitectura del sistema, la conexión entre el frontend, backend y base de datos, así como el despliegue de la aplicación utilizando Firebase Hosting, Render y MySQL en Filess.io. También expuse las evidencias finales del proyecto, incluyendo las releases, documentación técnica y validaciones realizadas, procurando comunicar los aspectos técnicos de forma clara y comprensible para la audiencia.<br><br>
 <b>Mathias Aréchaga: TB2</b><br>
 Durante la entrega final TB2, participé y desarrollé la documentacion tecnica del sprint backlog 4 y pruebas funcionales sobre las endpoints REST .<br><br>
+<b>Rodrigo Oblitas: TB2</b><br>
+Durante la entrega final TB2, participé en la sustentación de las validaciones finales del producto y de las mejoras realizadas a la experiencia de usuario. Expliqué cómo las entrevistas, pruebas de usabilidad y retroalimentación obtenida permitieron optimizar los flujos principales de ColdTrack, comunicando de manera clara las decisiones de diseño y los resultados alcanzados.<br><br>
+<b>Mariano Vilela: TB2</b><br>
+Durante la entrega final TB2, participé en la presentación de la documentación final del proyecto, explicando las evidencias del despliegue, las pruebas funcionales, las releases y la organización del informe. Procuré transmitir la información de manera ordenada y precisa, permitiendo que la audiencia comprendiera el proceso seguido para consolidar la versión final de ColdTrack.<br><br>
         </td>
         <td>
           <b>AV1</b><br>
@@ -376,8 +382,14 @@ Fortalecí mi comunicación escrita al documentar la integración de servicios b
 Desarrollé mi comunicación escrita al elaborar documentación técnica sobre Swagger, validación funcional y pruebas de integración del backend. Procuré estructurar la información de forma clara y profesional.<br><br>
 <b>Aarón Avila: TB2</b><br>
 Durante la entrega final TB2, desarrollé mi comunicación escrita al documentar las evidencias finales de ejecución y despliegue del sistema, incluyendo capturas del frontend productivo, Swagger/OpenAPI, Render, Firebase Hosting y GitHub Releases. Procuré redactar el contenido de manera ordenada, técnica y comprensible, vinculando cada evidencia con el funcionamiento real del producto y con las decisiones de despliegue adoptadas por el equipo.<br><br>
+<b>Eslander Celis: TB2</b><br>
+Durante la entrega final TB2, fortalecí mi comunicación escrita al elaborar y actualizar la documentación técnica del proyecto, incluyendo la arquitectura final, evidencias de despliegue, Sprint Backlog 4, resultados de validación y conclusiones del producto. Procuré mantener una redacción clara, organizada y coherente para facilitar la comprensión tanto de los aspectos técnicos como funcionales del sistema.<br><br>
 <b>Mathias Aréchaga: TB2</b><br>
 Durante el proceso del TB2, desarrollé mi comunicación escrita mediante la documentación del Sprint Backlog 4 y las pruebas de validación de los endpoints REST. Procuré redactar el contenido de manera ordenada, técnica y comprensible, describiendo las actividades realizadas y los resultados obtenidos para facilitar la comprensión del trabajo desarrollado por el equipo.<br><br>
+<b>Rodrigo Oblitas: TB2</b><br>
+Durante la entrega final TB2, desarrollé mi comunicación escrita al documentar los resultados de las validaciones finales, las mejoras aplicadas a la experiencia de usuario y las conclusiones obtenidas durante el cierre del proyecto. Organicé la información de manera clara y estructurada, facilitando la comprensión de las decisiones de diseño implementadas.<br><br>
+<b>Mariano Vilela: TB2</b><br>
+Durante la entrega final TB2, fortalecí mi comunicación escrita al elaborar la documentación correspondiente a las evidencias finales del proyecto, incluyendo despliegue, pruebas funcionales, releases y conclusiones. Procuré redactar el contenido de manera clara, técnica y organizada, contribuyendo a una documentación consistente y profesional del producto desarrollado.<br><br>
         </td>
         <td>
           <b>AV1:</b><br>

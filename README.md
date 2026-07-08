@@ -289,19 +289,19 @@ conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el l
          Durante el desarrollo del proyecto, participé en la exposición de herramientas de diseño centrado en el usuario, como User Personas, User Journey Mapping y prototipos de la aplicación web. Me enfoqué en explicar de forma clara los flujos, interfaces y funcionalidades, adaptando mi lenguaje para que tanto aspectos técnicos como visuales sean entendidos por todos.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
          Durante el proyecto, fortalecí mi comunicación oral al presentar el análisis de competidores, el diseño y resultados de entrevistas, así como el To-Be Scenario Mapping e Impact Mapping. Procuré transmitir la información de forma ordenada y clara, facilitando la comprensión de los hallazgos y su impacto en la propuesta de solución.<br><br> 
-            <b>Aarón Avila: TB2</b><br>
+            <b>Aarón Avila: TB1</b><br>
 Durante esta entrega, participé en la presentación del frontend de la aplicación ColdTrack, explicando la estructura de las vistas, la navegación entre módulos y el funcionamiento de los componentes implementados. Procuré comunicar de manera clara el propósito de cada interfaz y cómo estas mejoran la experiencia del usuario, adaptando mi explicación según el nivel técnico de la audiencia.<br><br> 
 
-<b>Eslander Celis: TB2</b><br>
+<b>Eslander Celis: TB1</b><br>
 Durante el desarrollo del frontend de ColdTrack, fortalecí mi comunicación oral al exponer la implementación de las principales funcionalidades de la aplicación, incluyendo las vistas de autenticación, dashboard y gestión de productos. Expliqué de manera ordenada el flujo de navegación y la interacción entre componentes, procurando que tanto aspectos técnicos como funcionales sean comprendidos por todos los integrantes y docentes.<br><br> 
 
-<b>Rodrigo Oblitas: TB2</b><br>
+<b>Rodrigo Oblitas: TB1</b><br>
 Durante esta entrega, participé en la explicación del diseño visual y la estructura del frontend, detallando la implementación de componentes reutilizables y estilos responsivos. Me enfoqué en comunicar las decisiones de diseño de manera clara y estructurada, facilitando la comprensión de la propuesta desarrollada.<br><br> 
 
-<b>Mathias Arechaga: TB2</b><br>
+<b>Mathias Arechaga: TB1</b><br>
 Durante el desarrollo del frontend, participé en la presentación de los prototipos implementados y las funcionalidades visuales de la aplicación. Expliqué el comportamiento de las interfaces y la distribución de los elementos gráficos, utilizando un lenguaje claro para facilitar la comprensión de la experiencia de usuario planteada.<br><br> 
 
-<b>Mariano Vilela: TB2</b><br>
+<b>Mariano Vilela: TB1</b><br>
 Durante esta entrega, fortalecí mi comunicación oral al presentar las mejoras visuales y la organización de las vistas del frontend de ColdTrack. Expliqué cómo las interfaces fueron diseñadas para facilitar la interacción del usuario con el sistema, transmitiendo las ideas de manera ordenada y comprensible.<br><br>
 <b>Aarón Avila: AV2</b><br>
 Durante esta entrega, participé en la presentación del backend de ColdTrack, explicando la arquitectura general de la API REST, la configuración de autenticación con JWT y el funcionamiento de los servicios implementados. Me enfoqué en comunicar de forma clara cómo interactúan los distintos módulos del sistema, facilitando la comprensión de la lógica backend tanto para una audiencia técnica como académica.<br><br>

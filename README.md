@@ -3020,6 +3020,19 @@ Como resultado, el Sprint 4 deja una versión final demostrable del sistema. Col
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
 
+En el presente Sprint, el equipo se enfocará en completar la integración de la plataforma **ColdTrack**, realizando la conexión entre el frontend y backend, ejecutando pruebas funcionales y de integración, optimizando la experiencia del usuario, completando la documentación técnica y preparando el despliegue de la versión final del sistema.
+
+Cada uno de estos aspectos contará con un líder responsable de coordinar las actividades correspondientes y con colaboradores que brindarán apoyo durante el desarrollo de las tareas asignadas. Esta distribución de responsabilidades permitirá mantener una comunicación efectiva, una adecuada organización del trabajo y el cumplimiento de los objetivos establecidos para el Sprint.
+
+A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend-Backend Integration | Functional & Integration Testing | UX Optimization | Technical Documentation | Deployment Preparation | Final Validation |
+| :---------------------------------- | :-------------: | :--------------------------: | :------------------------------: | :-------------: | :---------------------: | :--------------------: | :--------------: |
+| Avila, Aaron                        | AaronAvilap   | **L** | C | C | C | C | **L** |
+| Vilela, Mariano                     | vilelamenendez  | C | **L** | C | C | C | C |
+| Celis Berrospi, Eslander            | Eslander-Celis  | C | C | **L** | C | C | C |
+| Arechaga, Mathias                   | MathZell        | C | C | C | **L** | C | C |
+| Oblitas, Rodrigo                    | Darkdren        | C | C | C | C | **L** | C |
 
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.

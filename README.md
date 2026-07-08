@@ -55,8 +55,8 @@
 | 3.2     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización del Sprint Backlog 3 y documentación de servicios del backend.                                      |
 | 3.3     | 18/06/2026 | Mariano Vilela Menendez   | Actualización de imágenes, distribución de commits y Team Collaboration Insights.                                 |
 | 3.4     | 18/06/2026 | Aarón Avila Palacios      | Desarrollo de evidencias de ejecución y despliegue del Sprint 3.                                                  |
-| 3.5     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización y desarrollo del Sprint Backlog 4 y documentación de servicios del backend.                         |
-| 3.6     | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de entrevistas de validación, actualización del video y ajustes finales de AV2.               |
+| 3.5     | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de entrevistas de validación, actualización del video y ajustes finales de AV2.               |
+| 3.6     | 18/06/2026 | Mathias Arechaga Saavedra | Actualización y desarrollo del Sprint Backlog 4 y documentación de servicios del backend.                         |
 | 3.7     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones.                            |
 | 3.8     | 05/07/2026 | Rodrigo Oblitas Alcalde   | Corrección de carátula, Lean UX Process, registro de versiones, evidencias TB2/AV2 y Lean UX Canvas.              |
 | 3.9     | 08/07/2026 | Aarón Avila Palacios      | Corrección final según rúbrica TB2: índice, evidencias de colaboración, Sprint 4, servicios, despliegue y videos. |
@@ -1112,10 +1112,10 @@ Por otro lado, los entrevistados resaltaron la necesidad de contar con herramien
 ### 2.3.1. User Personas
 
 <h5 id="SegUser">Segmento #1: Personal de Logística y Operaciones </h5>
-<img src="./images/User_Persona1_Vf.png" alt="userpersona1" width="100%">
+<img src="./images/user_persona_F1.png" alt="userpersona1" width="100%">
 
 <h5 id="SegUser">Segmento #2: Personal de transporte </h5>
-<img src="./images/User_Persona2_Vf.png" alt="userpersona2" width="100%">
+<img src="./images/user_persona_F2.png" alt="userpersona2" width="100%">
 
 
 ### 2.3.2. User Task Matrix

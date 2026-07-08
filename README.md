@@ -255,8 +255,9 @@ En esta etapa se documentó la ejecución productiva de la solución, el desplie
     * [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 
 * [5.4. Video About-the-Product](#54-video-about-the-product)
-* [5.5. Video About-the-Team](#55-video-about-the-team)
 * [Conclusiones](#conclusiones)
+  * [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  * [Video About-the-Team](#video-about-the-team)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
 
@@ -3325,38 +3326,6 @@ https://www.youtube.com/watch?v=CDCBfXDJFjQ
 Timing / Duración:
 3:07 minutos 
 
-# 5.5. Video About-the-Team.
-
-En esta sección se presenta el Video About-the-Team, cuyo objetivo es evidenciar el proceso colaborativo del equipo durante el desarrollo de ColdTrack. El video resume la organización de trabajo, la planificación de sprints, la implementación del Landing Page, la Web Application, los Web Services, la integración final, el despliegue y los aprendizajes obtenidos por cada integrante.
-
-El contenido complementa la sección Student Outcome, ya que cada participante presenta ante cámara sus actividades realizadas, los resultados alcanzados y la forma en que el proyecto fortaleció sus competencias de comunicación oral y escrita frente a diferentes audiencias.
-
-| Sección | Descripción | Inicio |
-|---------|-------------|--------|
-| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
-| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 01:52 |
-| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 02:50 |
-| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 04:03 |
-| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:00 |
-| Presentación de Mariano | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:58 |
-
-### Evidencia del video
-
-Screenshot del video:
-
-![About-the-Team](images/about-the-team.png)
-
-Microsoft Stream URL:  
-
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBLyZI2bKctQYWAI6Wr6mRMAVhYhbuppTcY6C9_XdAFqbE?e=dZzXdY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
-
-YouTube URL:  
-https://youtu.be/Mt3vnaf3Q1o
-
-Timing / Duración:  
-7:32 minutos
-
-
 ## Conclusiones
 
 ### Conclusiones y recomendaciones
@@ -3380,6 +3349,37 @@ Timing / Duración:
 **9.** El módulo de alertas debe evolucionar para no solo mostrar incidencias, sino también permitir registrar acciones correctivas, marcar alertas como atendidas, notificar al conductor o supervisor y generar evidencia del incidente. Esto fortalecerá la trazabilidad y permitirá medir mejor la reducción de pérdidas, tiempos de respuesta y calidad de la operación logística.
 
 **10.** Finalmente, recomendamos que el roadmap de ColdTrack priorice la integración con sensores reales, notificaciones en tiempo real, reportes exportables más completos, control de roles por tipo de usuario, métricas comparativas por ruta, auditoría de acciones y mejoras de accesibilidad responsive. Estas funcionalidades permitirán pasar de una versión académica funcional hacia una solución más robusta, alineada con el modelo de negocio digital y con los criterios de éxito definidos en el proceso Lean UX.
+
+### Video About-the-Team
+
+En esta sección se presenta el Video About-the-Team, cuyo objetivo es evidenciar el proceso colaborativo del equipo durante el desarrollo de ColdTrack. El video resume la organización de trabajo, la planificación de sprints, la implementación del Landing Page, la Web Application, los Web Services, la integración final, el despliegue y los aprendizajes obtenidos por cada integrante.
+
+El contenido complementa la sección Student Outcome, ya que cada participante presenta ante cámara sus actividades realizadas, los resultados alcanzados y la forma en que el proyecto fortaleció sus competencias de comunicación oral y escrita frente a diferentes audiencias.
+
+| Sección | Descripción | Inicio |
+|---------|-------------|--------|
+| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
+| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 01:52 |
+| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 02:50 |
+| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 04:03 |
+| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:00 |
+| Presentación de Mariano | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:58 |
+
+#### Evidencia del video
+
+Screenshot del video:
+
+![About-the-Team](images/about-the-team.png)
+
+Microsoft Stream URL:  
+
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBLyZI2bKctQYWAI6Wr6mRMAVhYhbuppTcY6C9_XdAFqbE?e=dZzXdY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+YouTube URL:  
+https://youtu.be/Mt3vnaf3Q1o
+
+Timing / Duración:  
+7:32 minutos
 
 ## Bibliografía
 

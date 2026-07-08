@@ -58,6 +58,7 @@
 | 3.5     | 19/06/2026 | Rodrigo Oblitas Alcalde   | Desarrollo y cierre de entrevistas de validación, actualización del video y ajustes finales de AV2. |
 | 3.6     | 04/07/2026 | Aarón Avila Palacios      | Actualización final TB2: evidencias de ejecución, despliegue, releases y conclusiones. |
 | 3.7     | 05/07/2026 | Rodrigo Oblitas Alcalde   | Corrección de carátula, Lean UX Process, registro de versiones, evidencias TB2/AV2 y Lean UX Canvas. |
+| 3.8     | 08/07/2026 | Aarón Avila Palacios      | Corrección final según rúbrica TB2: índice, evidencias de colaboración, Sprint 4, servicios, despliegue y videos. |
 
 
 # Project Report Collaboration Insights
@@ -77,8 +78,8 @@ También se avanzó con el Lean UX Process, la identificación de necesidades de
 
 ![reporteTB1.png](./images/reporteTB1.png)
 
-## TB2
-Para la entrega TB2 se desarrolló el avance correspondiente al Sprint 2, enfocado principalmente en la implementación de la Web Application de ColdTrack. El equipo trabajó en la construcción del frontend, la navegación entre vistas, el registro e inicio de sesión, la gestión de envíos, el dashboard operativo, el módulo de sensores, las alertas, el historial y el soporte de los principales flujos de interacción.
+## TB1
+Para la entrega TB1 se desarrolló el avance correspondiente al Sprint 2, enfocado principalmente en la implementación de la Web Application de ColdTrack. El equipo trabajó en la construcción del frontend, la navegación entre vistas, el registro e inicio de sesión, la gestión de envíos, el dashboard operativo, el módulo de sensores, las alertas, el historial y el soporte de los principales flujos de interacción.
 
 Asimismo, se documentaron las evidencias de desarrollo, ejecución y despliegue, incluyendo capturas de la aplicación, configuración de entorno, conexión con datos simulados y publicación del producto para su revisión. Esta etapa permitió transformar los artefactos de diseño y requerimientos en una aplicación funcional inicial, preparada para integrarse posteriormente con los Web Services del Sprint 3.
 
@@ -90,6 +91,13 @@ Para la segunda entrega (AV2) se completó la integración del producto ColdTrac
 Además, se actualizaron las secciones de Student Outcome, conclusiones, recomendaciones, Video About-the-Product, Video About-the-Team y entrevistas de validación. La participación del equipo quedó reflejada en el historial de Git, donde se registraron contribuciones mediante commits, documentación, capturas, evidencias de despliegue y ajustes finales del informe.
 
 ![Participación de Git en AV2](./images/commitback.png)
+
+## TB2
+Para la entrega final TB2 se consolidó el Release Review de ColdTrack, integrando las correcciones de los artefactos previos, la versión final del Landing Page, la Web Application, los Web Services, la base de datos MySQL, la documentación OpenAPI, las releases finales y las evidencias de colaboración del equipo.
+
+En esta etapa se documentó la ejecución productiva de la solución, el despliegue final en Firebase Hosting y Render, la persistencia en Filess.io, la actualización de los videos About-the-Product y About-the-Team, las entrevistas de validación, las conclusiones finales y la participación del equipo en el repositorio del informe.
+
+![Evidencia de colaboración del informe para TB2](./images/tb2-report-collaboration.png)
 
 
 ## Contenido
@@ -138,7 +146,8 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
     * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     * [2.3.4. Empathy Mapping](#234-empathy-mapping)
     * [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  * [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  * [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  * [2.5. Ubiquitous Language](#25-ubiquitous-language)
 
 * [Capitulo III: Requirements specification](#capitulo-iii-requirements-specification)
 
@@ -168,14 +177,15 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
 
     * [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
     * [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    * [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-    * [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+    * [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    * [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   * [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   * [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
 
     * [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
     * [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    * [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+    * [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    * [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
   * [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
 
     * [4.7.1. Class Diagrams](#471-class-diagrams)
@@ -244,6 +254,7 @@ Además, se actualizaron las secciones de Student Outcome, conclusiones, recomen
     * [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 
 * [5.4. Video About-the-Product](#54-video-about-the-product)
+* [5.5. Video About-the-Team](#55-video-about-the-team)
 * [Conclusiones](#conclusiones)
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
@@ -328,7 +339,7 @@ Durante la entrega final TB2, el equipo evidenció una comunicación oral efecti
           <b>Eslander Celis: AV1</b><br>
          Por otro lado, desarrollé mi comunicación escrita al redactar secciones como la descripción de la startup, el análisis de la problemática, los segmentos objetivos y la elaboración de los User Stories, Product Backlog e Impact Map. Mantuve un estilo claro, coherente y bien estructurado, lo que permitió que la información sea comprensible para distintos lectores. Esto contribuyó a una documentación consistente y alineada con los objetivos del proyecto.<br><br> 
          <b>Rodrigo Oblitas: AV1</b><br>
-         Fortalecí mi comunicación escrita al redactar apartados del Lean UX Process, como Problem Statement, Assumptions e Hypothesis, además del contenido relacionado a la Landing Page. Me enfoqué en estructurar la información de manera clara y precisa, asegurando que sea entendida por distintos tipos de audiencia.<br><br> 
+         Fortalecí mi comunicación escrita al redactar secciones del Lean UX Process, como Problem Statement, Assumptions e Hypothesis, además del contenido relacionado a la Landing Page. Me enfoqué en estructurar la información de manera clara y precisa, asegurando que sea entendida por distintos tipos de audiencia.<br><br> 
          <b>Mathias Arechaga: AV1</b><br>
          Desarrollé mi comunicación escrita al documentar herramientas de diseño como User Personas, User Journey Mapping y los prototipos de la aplicación web. Mantuve un enfoque claro y organizado, permitiendo que la información visual y funcional sea fácilmente comprendida por el lector.<br><br> 
          <b>Mariano Vilela: AV1</b><br>
@@ -634,7 +645,7 @@ Las soluciones u outputs son los elementos que el equipo construye para intentar
 
 ##### MVP de ColdTrack
 
-El MVP actual de ColdTrack consiste en una Web Application conectada a Web Services que permite autenticar usuarios, registrar envíos, asociar sensores, registrar lecturas de temperatura y humedad, generar alertas, consultar historial y exportar reportes PDF. Esta versión permite validar el flujo principal del producto sin depender todavía de una integración completa con sensores físicos reales.
+El MVP actual de ColdTrack consiste en una Web Application conectada a Web Services que permite autenticar usuarios, registrar envíos, asociar sensores, registrar lecturas de temperatura y humedad, generar alertas, consultar historial y exportar información operativa. Esta versión permite validar el flujo principal del producto sin depender todavía de una integración completa con sensores físicos reales.
 
 La conexión con sensores reales, notificaciones en tiempo real avanzadas, roles más detallados y analítica predictiva se consideran parte de una evolución futura del producto. Para esta etapa, el aprendizaje principal se centra en comprobar si los usuarios comprenden el estado del envío, interpretan alertas y consideran útil la evidencia histórica para tomar decisiones.
 
@@ -648,7 +659,7 @@ La conexión con sensores reales, notificaciones en tiempo real avanzadas, roles
 | Prueba del flujo de registro de envío | Si el usuario puede registrar un envío con datos suficientes para monitoreo. | Registro completado sin errores críticos o campos omitidos. |
 | Prueba de interpretación de alertas | Si el usuario entiende qué ocurrió y qué acción debe tomar ante una alerta. | Explicación correcta de la alerta por parte del usuario. |
 | Prueba de consulta de historial | Si el historial ayuda a justificar decisiones de calidad o revisar incidencias. | Usuario identifica eventos relevantes en un envío finalizado. |
-| Prueba de generación de reporte PDF | Si el reporte exportable resulta útil como evidencia posterior. | Usuario descarga el reporte y reconoce su utilidad para revisión o auditoría. |
+| Prueba de exportación de información operativa | Si el reporte exportable resulta útil como evidencia posterior. | Usuario descarga la información operativa y reconoce su utilidad para revisión o auditoría. |
 | Prueba del flujo frontend-backend | Si la integración técnica permite completar el flujo operativo sin depender de datos simulados. | Autenticación, registro, consulta, alerta, historial y reporte funcionando con servicios desplegados. |
 
 ##### User Assumptions
@@ -728,7 +739,7 @@ Sabremos que estamos en lo correcto cuando 4 de 5 usuarios puedan registrar un e
 
 Nosotros creemos que la confianza sobre la calidad del servicio aumentará si ColdTrack genera reportes o evidencias consultables después de cada envío.
 
-Sabremos que estamos en lo correcto cuando 3 de 4 usuarios de logística o calidad indiquen que el reporte PDF sería útil para auditorías internas, reclamos, revisiones de desempeño o comunicación con clientes.
+Sabremos que estamos en lo correcto cuando 3 de 4 usuarios de logística o calidad indiquen que la información exportable sería útil para auditorías internas, reclamos, revisiones de desempeño o comunicación con clientes.
 
 ##### Business Hypothesis Statement 07
 
@@ -1140,7 +1151,23 @@ Por otro lado, los entrevistados resaltaron la necesidad de contar con herramien
 **USER PERSONA: Andre Montes**
 ![Scenario Mapping 2](./images/Scenario-Mapping2.jpg)
 
-## 2.4. Ubiquitous Language
+## 2.4. Big Picture Event Storming
+
+El Big Picture Event Storming permitió explorar el dominio de ColdTrack desde una perspectiva de negocio antes de profundizar en decisiones técnicas. En esta sesión el equipo identificó los eventos principales del proceso de transporte refrigerado, los actores involucrados, las acciones que desencadenan cambios de estado y los puntos donde la falta de información puede generar riesgos para la cadena de frío.
+
+Los eventos más relevantes detectados fueron el registro del envío, la asignación de sensores, el inicio de ruta, la recepción de lecturas de temperatura y humedad, la generación de alertas, la atención de incidencias, la finalización del envío y la consulta de historial. Esta visión ayudó a conectar los hallazgos de entrevistas con las historias de usuario, los servicios REST y los límites de contexto usados posteriormente en el diseño de arquitectura.
+
+Como resultado, el equipo pudo reconocer que ColdTrack no solo debía registrar envíos, sino también conservar evidencia de condiciones ambientales y facilitar decisiones rápidas durante la operación logística.
+
+<p align="center">
+  <img src="images/event_storming_1.png" alt="Big Picture Event Storming 1" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="images/event_storming_2.png" alt="Big Picture Event Storming 2" width="100%"/>
+</p>
+
+## 2.5. Ubiquitous Language
 
 ### Core Domain
 
@@ -1268,7 +1295,7 @@ Esta sección organiza las épicas, User Stories y Technical Stories que guían 
 | EP-003 | Gestión de envíos refrigerados | Como personal de logística<br>Quiero registrar, consultar, detallar y actualizar envíos refrigerados<br>Para controlar el ciclo operativo de productos sensibles. | N/A | N/A |
 | EP-004 | Sensores y telemetría | Como personal de logística o transporte<br>Quiero registrar sensores, asignarlos a envíos y registrar lecturas ambientales<br>Para monitorear la temperatura y humedad durante la ruta. | N/A | N/A |
 | EP-005 | Alertas e incidencias | Como usuario responsable del envío<br>Quiero visualizar, filtrar, reconocer y resolver alertas<br>Para actuar frente a variaciones críticas de la cadena de frío. | N/A | N/A |
-| EP-006 | Analítica, historial y reportes | Como personal de logística<br>Quiero revisar indicadores, historial y reportes PDF<br>Para evaluar el desempeño de las operaciones completadas. | N/A | N/A |
+| EP-006 | Analítica, historial y reportes | Como personal de logística<br>Quiero revisar indicadores, historial y reportes operativos<br>Para evaluar el desempeño de las operaciones completadas. | N/A | N/A |
 | EP-007 | Plataforma, servicios y despliegue | Como equipo técnico<br>Quiero documentar, desplegar y operar la solución en entornos públicos<br>Para permitir validaciones reales de frontend, backend y base de datos. | N/A | N/A |
 | US-001 | Visualizar propuesta de valor | Como visitante<br>Quiero entender el problema que resuelve ColdTrack y sus beneficios<br>Para evaluar si la solución se ajusta a mi operación. | Escenario 1: Dado que ingreso a la Landing Page, cuando reviso la sección principal, entonces visualizo propuesta de valor, beneficios y CTA.<br><br>Escenario 2: Dado que selecciono un CTA, cuando se ejecuta la acción, entonces soy redirigido a la Web Application desplegada. | EP-001 |
 | US-002 | Navegar secciones informativas | Como visitante<br>Quiero recorrer características, funcionamiento, beneficios y documentación<br>Para comprender el alcance funcional de ColdTrack. | Escenario 1: Dado que uso la barra de navegación, cuando selecciono una sección, entonces el sitio desplaza hacia el contenido correspondiente.<br><br>Escenario 2: Dado que consulto documentación, cuando selecciono el enlace, entonces se abre el repositorio público asociado. | EP-001 |
@@ -1291,7 +1318,7 @@ Esta sección organiza las épicas, User Stories y Technical Stories que guían 
 | US-019 | Reconocer alerta | Como usuario responsable<br>Quiero marcar una alerta como revisada<br>Para indicar que el incidente ya fue atendido inicialmente. | Escenario 1: Dado que una alerta está activa, cuando ejecuto acknowledgment, entonces su estado cambia a reconocido.<br><br>Escenario 2: Dado que la alerta ya fue resuelta, cuando intento reconocerla, entonces el backend rechaza la operación inválida. | EP-005 |
 | US-020 | Resolver alerta | Como usuario responsable<br>Quiero resolver una alerta<br>Para cerrar el incidente luego de tomar acción. | Escenario 1: Dado que una alerta está activa o reconocida, cuando ejecuto resolution, entonces queda resuelta.<br><br>Escenario 2: Dado que la alerta no existe, cuando solicito resolverla, entonces se retorna un error controlado. | EP-005 |
 | US-021 | Consultar analítica del dashboard | Como personal de logística<br>Quiero ver indicadores consolidados<br>Para evaluar el estado general de operaciones, alertas y entregas. | Escenario 1: Dado que la API responde, cuando abro el dashboard, entonces se muestran totales de envíos, activos, completados y alertas.<br><br>Escenario 2: Dado que ocurre un error, cuando se consulta la analítica, entonces se muestra un mensaje de recuperación. | EP-006 |
-| US-022 | Generar reporte PDF | Como personal de logística<br>Quiero generar y descargar un reporte PDF<br>Para compartir resultados de la cadena de frío. | Escenario 1: Dado que existe información del período, cuando presiono Export report, entonces se genera y descarga un PDF.<br><br>Escenario 2: Dado que no hay datos, cuando solicito el reporte, entonces se informa la falta de registros. | EP-006 |
+| US-022 | Exportar información operativa | Como personal de logística<br>Quiero exportar información de envíos y alertas<br>Para compartir resultados de la cadena de frío. | Escenario 1: Dado que existe información del período, cuando presiono Export report, entonces se genera un archivo descargable con los datos disponibles.<br><br>Escenario 2: Dado que no hay datos, cuando solicito el reporte, entonces se informa la falta de registros. | EP-006 |
 | TS-001 | Implementar API REST versionada | Como equipo técnico<br>Quiero exponer recursos bajo `/api/v1`<br>Para mantener contratos claros entre frontend y backend. | La API expone endpoints versionados, responde JSON y documenta contratos con Swagger/OpenAPI. | EP-007 |
 | TS-002 | Configurar persistencia MySQL | Como equipo técnico<br>Quiero almacenar entidades en MySQL<br>Para conservar datos entre sesiones y despliegues. | EF Core aplica migraciones, usa TLS y conserva usuarios, envíos, sensores, telemetría, alertas y reportes. | EP-007 |
 | TS-003 | Integrar frontend con backend productivo | Como equipo técnico<br>Quiero reemplazar MockAPI por la API de Render<br>Para ejecutar el flujo completo con persistencia real. | Las variables de entorno de producción apuntan a Render y los servicios axios usan JWT. | EP-007 |
@@ -1325,7 +1352,7 @@ Esta sección organiza las épicas, User Stories y Technical Stories que guían 
 | 19 | US-019 | Reconocer alerta | 5 |
 | 20 | US-020 | Resolver alerta | 5 |
 | 21 | US-021 | Consultar analítica del dashboard | 8 |
-| 22 | US-022 | Generar reporte PDF | 8 |
+| 22 | US-022 | Exportar información operativa | 8 |
 | 23 | TS-001 | Implementar API REST versionada | 8 |
 | 24 | TS-002 | Configurar persistencia MySQL | 8 |
 | 25 | TS-003 | Integrar frontend con backend productivo | 8 |
@@ -1527,7 +1554,7 @@ En esta sección, el equipo profundiza en la arquitectura de software para la so
 El objetivo es realizar una transición desde el entendimiento del negocio hacia un modelo técnico riguroso bajo la perspectiva de Domain-Driven Design (DDD).
 
 Este enfoque permite delimitar los Bounded Contexts necesarios para separar responsabilidades críticas, como el monitoreo IoT en tiempo real, la gestión logística de los envíos y el motor automatizado de alertas tempranas. 
-A través de esta metodología, se han identificado los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
+A través de esta técnica de modelado colaborativo, se identificaron los Aggregates, Events, Commands y Queries que garantizan la integridad de la lógica de negocio en cada etapa del transporte de carga refrigerada y la conservación de la cadena de frío.
 
 Finalmente, se presenta y explica la representación visual de la arquitectura utilizando el C4 Model. 
 Esta estructura jerárquica nos permite comunicar de manera efectiva la solución a través de tres niveles de detalle: el Software Architecture Context Level Diagram, los Software Architecture Container Level Diagrams y los Software Architecture Component Diagrams.
@@ -1573,7 +1600,7 @@ La sesión se llevó a cabo de manera colaborativa utilizando la herramienta Luc
   <img src="images/container_diagram.png" alt="Container Diagram" width="100%"/>
 </p>
 
-### 4.6.3. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 
 <p align="center">
   <img src="images/components_diagram.png" alt="Container Diagram" width="100%"/>
@@ -1629,7 +1656,7 @@ Este contexto está enfocado exclusivamente en la ingesta, validación e hidrata
 
 | Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
 | :--- | :--- | :--- |
-| **TelemetryAppService** | Application Service | Expone los puertos de entrada para recibir la data en tiempo real desde los sensores vía WebSockets o API REST, y facilita la consulta del historial de un sensor. |
+| **TelemetryAppService** | Application Service | Expone los puertos de entrada para recibir lecturas ambientales desde sensores o formularios operativos mediante API REST, y facilita la consulta del historial de un sensor. |
 | **TelemetryStream** | Aggregate Root | Actúa como un contenedor lógico de todas las lecturas de un sensor específico. Garantiza el orden cronológico y la agrupación de los datos durante un viaje. |
 | **TelemetryLog** | Entity | Representa una captura de telemetría individual en un momento exacto del tiempo. |
 | **Temperature** | Value Object | Encapsula el valor numérico de la temperatura y su unidad (Celsius). Contiene lógica intrínseca para validar si el valor se encuentra dentro de un rango seguro establecido. |
@@ -1654,11 +1681,11 @@ Módulo encargado de consolidar la información histórica para facilitar la tom
 
 | Clase / Interfaz | Estereotipo (DDD) | Descripción y Responsabilidad |
 | :--- | :--- | :--- |
-| **AnalyticsAppService** | Application Service | Coordina la solicitud de reportes. Filtra el historial de un envío y delega la construcción del archivo físico al motor generador de PDF. |
+| **AnalyticsAppService** | Application Service | Coordina la solicitud de reportes operativos. Filtra el historial de un envío y prepara información consolidada para revisión posterior. |
 | **Report** | Aggregate Root | Un consolidado del rendimiento de un envío finalizado. Almacena métricas pre-calculadas (como el total de alertas disparadas) para consultas eficientes. |
 | **HistoricalLog** | Entity | Un registro plano, desnormalizado y optimizado para la lectura, diseñado para conformar las filas de datos en los reportes exportables. |
 | **DateRange** | Value Object | Encapsula una fecha de inicio y una de fin, garantizando que el inicio no sea posterior al fin del rango temporal. |
-| **PdfGeneratorService** | Domain Service | Motor interno que se encarga de formatear la data de dominio y compilarla en un documento PDF descargable. |
+| **ReportGeneratorService** | Domain Service | Motor interno que se encarga de formatear datos de dominio y preparar información exportable para revisión operativa. |
 
 #### 5. Identity & Access (Gestión de Identidad y Accesos)
 Maneja la seguridad, controlando quién puede interactuar con el sistema según su rol.
@@ -1670,10 +1697,6 @@ Maneja la seguridad, controlando quién puede interactuar con el sistema según 
 | **EmailAddress** | Value Object | Asegura que toda cadena de texto utilizada como correo electrónico pase una validación de formato (Regex) antes de interactuar con el sistema. |
 | **UserRole** | Enum | Define los niveles de acceso del sistema. Principalmente `LOGISTICS_ADMIN` (para el dashboard web) y `DRIVER` (para recibir alertas). |
 | **TokenProvider** | Domain Service | Servicio responsable de emitir los JWT (JSON Web Tokens) que las aplicaciones web y móviles usarán para mantener la sesión abierta de manera segura. |
-
-## 4.8. Database Design
-
-En esta sección se presenta el modelo relacional de la base de datos de ColdTrack. El esquema detalla las entidades principales del sistema, sus atributos y las relaciones entre ellas. Este diseño asegura la integridad referencial y soporta los módulos clave definidos en la arquitectura, como la gestión de usuarios, el registro de vehículos, la asignación de sensores y el historial de telemetría y alertas.
 
 ### 4.8.1. Database Diagram
 
@@ -2764,29 +2787,29 @@ A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX):**
 | US-004 | Crear envío | FE-003 | Validar y refinar el formulario de creación de envíos en el frontend | Frontend | Done |
 | US-005 | Ver envíos activos | FE-004 | Optimizar la visualización de la tabla de envíos y agregar filtros avanzados | Frontend | Done |
 | US-006 | Ver detalle del envío | FE-005 | Mejorar la vista de detalle del envío con información consolidada de monitoreo | Frontend | Done |
-| US-009 | Ver temperatura en tiempo real | FE-006 | Implementar actualización en tiempo real de temperatura mediante WebSocket | Frontend | Done |
-| US-010 | Ver humedad en tiempo real | FE-007 | Implementar actualización en tiempo real de humedad mediante WebSocket | Frontend | Done |
+| US-009 | Ver temperatura actualizada | FE-006 | Mostrar temperatura obtenida desde las lecturas de telemetría registradas en el backend | Frontend | Done |
+| US-010 | Ver humedad actualizada | FE-007 | Mostrar humedad obtenida desde las lecturas de telemetría registradas en el backend | Frontend | Done |
 | US-013 | Alertas de temperatura | FE-008 | Mejorar visualización de alertas con indicadores visuales y sonoros | Frontend | Done |
 | US-015 | Historial de alertas | FE-009 | Optimizar la tabla de historial de alertas con filtros y exportación | Frontend | Done |
 | US-016 | Ver historial de envíos | FE-010 | Refinar la visualización del historial de envíos completados | Frontend | Done |
-| US-017 | Descargar reporte | FE-011 | Implementar exportación de reportes en formatos CSV y PDF desde el frontend | Frontend | Done |
+| US-017 | Descargar información operativa | FE-011 | Implementar exportación de información operativa desde el frontend | Frontend | Done |
 | US-019 | Ver información de la app (Landing) | FE-012 | Validar responsividad y SEO del Landing Page en todos los dispositivos | Frontend | Done |
 | TS-001 | Crear usuario | BE-001 | Optimizar el servicio de persistencia de usuarios en MySQL | Backend | Done |
 | TS-002 | Autenticación | BE-002 | Validar y refinar la generación de tokens JWT con expiración correcta | Backend | Done |
 | TS-003 | CRUD envíos | BE-003 | Optimizar las operaciones de lectura y escritura de envíos en la base de datos | Backend | Done |
 | TS-004 | Asignación sensor | BE-004 | Refinar la lógica de asignación de sensores a envíos con validaciones de negocio | Backend | Done |
 | TS-005 | Integración IoT | BE-005 | Validar la recepción de datos IoT desde sensores y almacenamiento en telemetría | Backend | Done |
-| TS-006 | Tiempo real | BE-006 | Implementar WebSocket para actualización de datos en tiempo real en frontend | Backend | Done |
+| TS-006 | Telemetría | BE-006 | Validar endpoints REST para registrar y consultar lecturas ambientales | Backend | Done |
 | TS-007 | Motor alertas | BE-007 | Refinar la lógica de detección de anomalías y generación automática de alertas | Backend | Done |
-| TS-008 | Notificaciones | BE-008 | Implementar notificaciones automáticas mediante Firebase Cloud Messaging | Backend | Done |
+| TS-008 | Alertas operativas | BE-008 | Validar generación y consulta de alertas operativas desde la API | Backend | Done |
 | TS-009 | Guardar historial | BE-009 | Validar persistencia correcta del historial de envíos y alertas en MySQL | Backend | Done |
-| TS-010 | Exportar PDF | BE-010 | Implementar generación dinámica de reportes en PDF desde el backend | Backend | Done |
+| TS-010 | Reportes operativos | BE-010 | Exponer información consolidada del envío para reportes y revisión operativa | Backend | Done |
 | US-002 | Inicio de sesión | BE-011 | Implementar endpoint de validación y renovación de tokens JWT | Backend | Done |
 | US-007 | Asignar sensor a envío | FE-013 | Implementar interfaz gráfica para vincular sensores disponibles a envíos | Frontend | Done |
 | US-008 | Finalizar envío | BE-013 | Implementar endpoint para finalizar envío y generar reporte automático | Backend | Done |
 | US-011 | Estado del envío | FE-014 | Visualizar estado consolidado del envío con indicadores de color | Frontend | Done |
 | US-012 | Visualizar gráficos históricos | FE-015 | Implementar gráficos interactivos de temperatura y humedad en tiempo histórico | Frontend | Done |
-| US-014 | Notificación al conductor | FE-016 | Integrar notificaciones push en el navegador para alertas críticas | Frontend | Done |
+| US-014 | Visualización de alertas | FE-016 | Mostrar alertas críticas en la Web Application para apoyar la toma de decisiones | Frontend | Done |
 | US-018 | Filtrar historial | FE-017 | Implementar filtros avanzados para búsqueda en historial de envíos y alertas | Frontend | Done |
 | Integration-001 | CORS Configuration | BE-014 | Configurar CORS para permitir solicitudes desde Firebase Hosting | Backend | Done |
 | Documentation-001 | OpenAPI/Swagger Documentation | BE-015 | Actualizar documentación OpenAPI a versión 1.0.0 y validar todos los endpoints | Backend | Done |
@@ -2828,9 +2851,9 @@ Durante el **Sprint 4**, el equipo se enfocó en la preparación de la versión 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|---------------------|--------------------|
 | Report | `main` | `fa42442f` | `docs: add sprint 4 planning section` | Se añadió la planificación correspondiente al Sprint 4 dentro del informe del proyecto. | 04/07/2026 |
-| Report | `codex/update-sprint3-report` | `dd145267` | `docs: update sprint 3 deployment evidence` | Se actualizó la evidencia de desarrollo y despliegue correspondiente al Sprint 3. | 04/07/2026 |
-| Report | `codex/final-report-sprint4` | `d585a871` | `docs: complete final sprint report evidence` | Se incorporó la evidencia final del Sprint 4 dentro del informe académico. | 04/07/2026 |
-| Report | `codex/final-report-cover-outcome` | `0b04affe` | `docs: update final cover outcome and references` | Se actualizaron la portada, los Student Outcomes y las referencias finales del informe. | 04/07/2026 |
+| Report | `feature/update-sprint3-report` | `dd145267` | `docs: update sprint 3 deployment evidence` | Se actualizó la evidencia de desarrollo y despliegue correspondiente al Sprint 3. | 04/07/2026 |
+| Report | `feature/final-report-sprint4` | `d585a871` | `docs: complete final sprint report evidence` | Se incorporó la evidencia final del Sprint 4 dentro del informe académico. | 04/07/2026 |
+| Report | `hotfix/final-report-cover-outcome` | `0b04affe` | `docs: update final cover outcome and references` | Se actualizaron la portada, los Student Outcomes y las referencias finales del informe. | 04/07/2026 |
 | Report | `main` | `ce4c3580` | `docs: Update Student Outcome` | Se actualizaron las evidencias correspondientes a los Student Outcomes alcanzados por el equipo. | 04/07/2026 |
 | Report | `main` | `75b9410f` | `docs: add sprint backlog 4` | Se agregó el Sprint Backlog correspondiente al Sprint 4. | 04/07/2026 |
 | Report | `main` | `7ba3ca76` | `docs: Add Trello Link and Update User Personas` | Se añadieron los enlaces del tablero Trello y se actualizaron las User Personas del proyecto. | 04/07/2026 |
@@ -2857,6 +2880,18 @@ La evidencia de ejecución se organizó alrededor de los flujos principales espe
 La Web Application final se encuentra publicada en Firebase Hosting y consume directamente la API productiva de Render. La siguiente evidencia muestra el frontend en producción, disponible desde el dominio público del proyecto:
 
 ![Frontend final de ColdTrack desplegado en Firebase](./images/sprint4-frontend-final.png)
+
+Como parte de la corrección final del producto, también se actualizó el Landing Page público para mejorar su presentación institucional y alinearlo con la versión final de ColdTrack. Se retiraron credenciales demo visibles, se amplió la información de FreshGuard Technologies, se suavizó el lenguaje visual de encabezados y badges, y se incorporó una sección **About the team** con las fotografías de los integrantes del equipo.
+
+![Landing Page final con sección About the team](./images/landing-final-team-section.png)
+
+| Criterio revisado | Resultado |
+|-------------------|-----------|
+| Landing Page final desplegado | Disponible en GitHub Pages |
+| Consistencia con Web Application | CTA principal redirige a la aplicación web desplegada |
+| About the team | Incluye integrantes, códigos, roles y fotografías |
+| i18n | Soporte de idioma inglés y español en la landing |
+| a11y | Navegación semántica, textos alternativos y controles accesibles |
 
 Desde esta interfaz se validaron los siguientes flujos de usuario:
 
@@ -2917,15 +2952,18 @@ Durante el Sprint Review, se recopiló y organizó toda la evidencia relacionada
 
 | Módulo | Endpoint base | Acciones disponibles | Métodos HTTP | Descripción |
 |---|---|---|---|---|
-| Plataforma | `/health` | Verificar estado del servidor | `GET` | Estado de salud de la plataforma |
-| Autenticación | `/api/v1/authentication` | Registrar cuenta, iniciar sesión | `POST /sign-up`<br>`POST /sign-in` | Registro y autenticación de usuarios ColdTrack |
-| Usuarios | `/api/v1/users` | Obtener perfil del usuario autenticado | `GET /me` | Gestión del perfil de usuario |
-| Envíos | `/api/v1/shipments` | Registrar envío, listar envíos, obtener por ID, actualizar estado | `POST`<br>`GET`<br>`GET /{shipmentId}`<br>`PATCH /{shipmentId}/status` | Gestión del ciclo de vida de envíos refrigerados |
-| Sensores | `/api/v1/sensors` | Registrar sensor, listar sensores, asignar a envío | `POST`<br>`GET`<br>`PATCH /{sensorId}/assignment` | Registro y asignación de sensores de monitoreo |
-| Telemetría | `/api/v1/telemetry` | Registrar lectura de sensor, consultar telemetría por envío | `POST`<br>`GET /shipments/{shipmentId}/telemetry` | Ingesta y consulta de datos de temperatura y humedad en tiempo real |
-| Alertas | `/api/v1/alerts` | Listar alertas, reconocer alerta, resolver alerta | `GET`<br>`PATCH /{alertId}/acknowledgment`<br>`PATCH /{alertId}/resolution` | Gestión de alertas por desvíos de temperatura o humedad |
-| Analítica | `/api/v1/analytics` | Obtener indicadores del dashboard, consultar historial de envíos | `GET /dashboard`<br>`GET /shipment-history` | Indicadores operativos consolidados y análisis histórico de envíos |
-| Reportes | `/api/v1/reports` | Generar reporte, listar reportes, descargar reporte como PDF | `POST`<br>`GET`<br>`GET /{reportId}/file` | Generación y descarga de reportes de desempeño de la cadena de frío |
+| Plataforma | `/health` | Verificar estado del servidor | `GET` | Estado de salud de la plataforma backend |
+| Autenticación | `/api/v1/authentication` | Registrar cuenta, iniciar sesión | `POST /sign-up`<br>`POST /sign-in` | Registro y autenticación de usuarios ColdTrack mediante JWT |
+| Usuarios | `/api/v1/users` | Obtener perfil del usuario autenticado | `GET /me` | Gestión del perfil del usuario autenticado |
+| Envíos | `/api/v1/shipments` | Registrar envío, listar envíos, consultar un envío | `POST`<br>`GET`<br>`GET /{shipmentCode}` | Gestión principal de envíos refrigerados |
+| Ciclo de vida de envíos | `/api/v1/shipments/{shipmentCode}` | Iniciar, completar o cancelar un envío | `POST /departures`<br>`POST /completions`<br>`POST /cancellations` | Control de transiciones operativas del envío |
+| Sensores | `/api/v1/sensors` | Registrar sensores y listar sensores disponibles/asignados | `POST`<br>`GET` | Gestión de sensores de monitoreo |
+| Asignación de sensores | `/api/v1/shipments/{shipmentCode}/sensor-assignments` | Vincular un sensor disponible a un envío | `POST` | Asociación entre sensor y envío para monitoreo |
+| Telemetría | `/api/v1/telemetry-readings` | Registrar lecturas de temperatura y humedad | `POST` | Ingesta de lecturas ambientales del sensor |
+| Telemetría por envío | `/api/v1/shipments/{shipmentCode}/telemetry-readings` | Consultar lecturas de un envío | `GET` | Consulta del historial ambiental asociado al envío |
+| Alertas | `/api/v1/alerts` | Listar alertas generadas | `GET` | Consulta de alertas por desvíos de temperatura o humedad |
+| Analítica | `/api/v1/analytics` | Obtener indicadores del dashboard | `GET /dashboard` | Indicadores operativos consolidados para la Web Application |
+| Reportes | `/api/v1/reports/shipments/{shipmentCode}` | Consultar información consolidada del envío | `GET` | Datos de soporte para revisión operativa y generación de reportes |
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
@@ -3068,7 +3106,7 @@ Repositorios:
 # 5.3. Validation Interviews.
 ## 5.3.1. Diseño de Entrevistas.
 
-En esta sección se describe el diseño de las entrevistas de validación realizadas para ColdTrack durante el Sprint 3. El objetivo de estas sesiones fue comprobar si los usuarios de los segmentos objetivo comprenden la propuesta de valor presentada en el Landing Page y si pueden interactuar con las principales funcionalidades de la Web Application de manera clara, rápida y sin asistencia constante.
+En esta sección se describe el diseño de las entrevistas de validación realizadas para ColdTrack durante la etapa final del proyecto. El objetivo de estas sesiones fue comprobar si los usuarios de los segmentos objetivo comprenden la propuesta de valor presentada en el Landing Page actualizado y si pueden interactuar con las principales funcionalidades de la Web Application integrada con el backend desplegado de manera clara, rápida y sin asistencia constante.
 
 Las entrevistas fueron planteadas como sesiones guiadas, donde cada participante primero revisó el Landing Page de ColdTrack y luego ejecutó tareas específicas dentro de la aplicación. Durante la validación se observaron sus comentarios, dudas, tiempos de navegación, facilidad para completar los flujos y apreciaciones sobre la utilidad de la solución.
 
@@ -3286,6 +3324,37 @@ https://www.youtube.com/watch?v=CDCBfXDJFjQ
 Timing / Duración:
 3:07 minutos 
 
+# 5.5. Video About-the-Team.
+
+En esta sección se presenta el Video About-the-Team, cuyo objetivo es evidenciar el proceso colaborativo del equipo durante el desarrollo de ColdTrack. El video resume la organización de trabajo, la planificación de sprints, la implementación del Landing Page, la Web Application, los Web Services, la integración final, el despliegue y los aprendizajes obtenidos por cada integrante.
+
+El contenido complementa la sección Student Outcome, ya que cada participante presenta ante cámara sus actividades realizadas, los resultados alcanzados y la forma en que el proyecto fortaleció sus competencias de comunicación oral y escrita frente a diferentes audiencias.
+
+| Sección | Descripción | Inicio |
+|---------|-------------|--------|
+| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
+| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 01:52 |
+| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 02:50 |
+| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 04:03 |
+| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:00 |
+| Presentación de Mariano | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:58 |
+
+### Evidencia del video
+
+Screenshot del video:
+
+![About-the-Team](images/about-the-team.png)
+
+Microsoft Stream URL:  
+
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBLyZI2bKctQYWAI6Wr6mRMAVhYhbuppTcY6C9_XdAFqbE?e=dZzXdY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+YouTube URL:  
+https://youtu.be/Mt3vnaf3Q1o
+
+Timing / Duración:  
+7:32 minutos
+
 
 ## Conclusiones
 
@@ -3310,38 +3379,6 @@ Timing / Duración:
 **9.** El módulo de alertas debe evolucionar para no solo mostrar incidencias, sino también permitir registrar acciones correctivas, marcar alertas como atendidas, notificar al conductor o supervisor y generar evidencia del incidente. Esto fortalecerá la trazabilidad y permitirá medir mejor la reducción de pérdidas, tiempos de respuesta y calidad de la operación logística.
 
 **10.** Finalmente, recomendamos que el roadmap de ColdTrack priorice la integración con sensores reales, notificaciones en tiempo real, reportes exportables más completos, control de roles por tipo de usuario, métricas comparativas por ruta, auditoría de acciones y mejoras de accesibilidad responsive. Estas funcionalidades permitirán pasar de una versión académica funcional hacia una solución más robusta, alineada con el modelo de negocio digital y con los criterios de éxito definidos en el proceso Lean UX.
-
-### Video About-the-Team
-
-
-| Sección | Descripción | Inicio |
-|---------|-------------|--------|
-| Proceso colaborativo y desarrollo del proyecto | Se resume el proceso de trabajo del equipo durante el desarrollo de ColdTrack, mostrando reuniones, planificación de sprints, coordinación entre integrantes, desarrollo del frontend y backend, integración del sistema y despliegue final. | 00:00 |
-| Presentación de Eslander | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 01:52 |
-| Presentación de Rodrigo | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 02:50 |
-| Presentación de Mathias | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 04:03 |
-| Presentación de Aaron | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:00 |
-| Presentación de Mariano | Explica sus actividades realizadas, contribuciones al proyecto, outcomes logrados y competencias desarrolladas. | 05:58 |
-
-
-#### Evidencia del video
-
-Screenshot del video:
-
-![About-the-Team](images/about-the-team.png)
-
-Microsoft Stream URL:  
-
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u201911249_upc_edu_pe/IQBLyZI2bKctQYWAI6Wr6mRMAVhYhbuppTcY6C9_XdAFqbE?e=dZzXdY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
-
-
-
-YouTube URL:  
-https://youtu.be/Mt3vnaf3Q1o
-
-
-Timing / Duración:  
-7:32 minutos
 
 ## Bibliografía
 
